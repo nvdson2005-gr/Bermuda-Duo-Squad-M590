@@ -13,6 +13,106 @@ import "MiniMap.fcc" as MiniMap
 enum EResUI {
     RoundResult
 }
+[element string]
+enum EResScene {
+    Bermuda
+}
+[element ScriptID]
+enum EResFCG {
+    GlobalRandomEvent
+    PlayerEvents
+    GlobalGunCombo
+}
+[element SpriteID]
+enum EResSprite {
+    M10143
+    M1887
+    M82B
+    SCAR3
+    GROZAX
+    MP53
+    SVDY
+    M603
+    MP40
+    WOODPECKER
+    VSS
+    MAC10
+    SKS
+    KATANA
+    JUMPINGSHOES
+    AWMY
+    M590
+    KAR98K
+    AC80
+    AK47
+    M249
+    FAMAS3
+    ZOMBIE
+    DOUBLEJUMPSHOE
+    GRENADESPLIT
+    NUTTYMOVEMENT
+    PLAYER
+    SANTINO1
+    JETSHOE
+    ACTIVENOON
+    KENTA
+}
+[element ItemID]
+enum EResItem {
+    M10143
+    M1887
+    M82B
+    SCAR3
+    GROZAX
+    MP53
+    SVDY
+    M603
+    MP40
+    WOODPECKER
+    VSS
+    MAC10
+    SKS
+    KATANA
+    JUMPINGSHOES
+    AWMY
+    M590
+    KAR98K
+    AC80
+    AK47
+    M249
+    FAMAS3
+    JETPACKSHOES
+    SUPERMED
+    SCOPE2
+    HORIZALINE
+}
+[element entity]
+enum EResSceneBermuda {
+    Team3Spawn_Map1
+    Team2Spawn_Map1
+    Team1Spawn_Map1
+    Team4Spawn_Map1
+    Spawn_T1_M2
+    Spawn_T2_M2
+    Spawn_T3_M2
+    Spawn_T4_M2
+    Spawn_T1_Map3
+    Spawn_T2_Map3
+    Spawn_T3_Map3
+    Spawn_T4_Map3
+    Spawn_T1_Map4
+    Spawn_T2_Map4
+    Spawn_T3_Map4
+    Spawn_T4_Map4
+    Spawn_T1_Map5
+    Spawn_T2_Map5
+    Spawn_T3_Map5
+    Spawn_T4_Map5
+    Spawn_T1_Map6
+    Spawn_T2_Map6
+    Spawn_T3_Map6
+    Spawn_T4_Map6
+}
 [element CustomUIWidgetID]
 enum EResUIRoundResult {
     resultHolder
@@ -20,6 +120,101 @@ enum EResUIRoundResult {
 }
 enum EResKeyUI {
     RoundResult = "RoundResult"
+}
+enum EResKeyScene {
+    Bermuda = "Bermuda"
+}
+enum EResKeyFCG {
+    GlobalRandomEvent = "GlobalRandomEvent"
+    PlayerEvents = "PlayerEvents"
+    GlobalGunCombo = "GlobalGunCombo"
+}
+enum EResKeySprite {
+    M10143 = "M10143"
+    M1887 = "M1887"
+    M82B = "M82B"
+    SCAR3 = "SCAR3"
+    GROZAX = "GROZAX"
+    MP53 = "MP53"
+    SVDY = "SVDY"
+    M603 = "M603"
+    MP40 = "MP40"
+    WOODPECKER = "WOODPECKER"
+    VSS = "VSS"
+    MAC10 = "MAC10"
+    SKS = "SKS"
+    KATANA = "KATANA"
+    JUMPINGSHOES = "JUMPINGSHOES"
+    AWMY = "AWMY"
+    M590 = "M590"
+    KAR98K = "KAR98K"
+    AC80 = "AC80"
+    AK47 = "AK47"
+    M249 = "M249"
+    FAMAS3 = "FAMAS3"
+    ZOMBIE = "ZOMBIE"
+    DOUBLEJUMPSHOE = "DOUBLEJUMPSHOE"
+    GRENADESPLIT = "GRENADESPLIT"
+    NUTTYMOVEMENT = "NUTTYMOVEMENT"
+    PLAYER = "PLAYER"
+    SANTINO1 = "SANTINO1"
+    JETSHOE = "JETSHOE"
+    ACTIVENOON = "ACTIVENOON"
+    KENTA = "KENTA"
+}
+enum EResKeyItem {
+    M10143 = "M10143"
+    M1887 = "M1887"
+    M82B = "M82B"
+    SCAR3 = "SCAR3"
+    GROZAX = "GROZAX"
+    MP53 = "MP53"
+    SVDY = "SVDY"
+    M603 = "M603"
+    MP40 = "MP40"
+    WOODPECKER = "WOODPECKER"
+    VSS = "VSS"
+    MAC10 = "MAC10"
+    SKS = "SKS"
+    KATANA = "KATANA"
+    JUMPINGSHOES = "JUMPINGSHOES"
+    AWMY = "AWMY"
+    M590 = "M590"
+    KAR98K = "KAR98K"
+    AC80 = "AC80"
+    AK47 = "AK47"
+    M249 = "M249"
+    FAMAS3 = "FAMAS3"
+    JETPACKSHOES = "JETPACKSHOES"
+    SUPERMED = "SUPERMED"
+    SCOPE2 = "SCOPE2"
+    HORIZALINE = "HORIZALINE"
+}
+enum EResKeyBermuda {
+    Team3Spawn_Map1 = "Team3Spawn_Map1"
+    Team2Spawn_Map1 = "Team2Spawn_Map1"
+    Team1Spawn_Map1 = "Team1Spawn_Map1"
+    Team4Spawn_Map1 = "Team4Spawn_Map1"
+    Spawn_T1_M2 = "Spawn_T1_M2"
+    Spawn_T2_M2 = "Spawn_T2_M2"
+    Spawn_T3_M2 = "Spawn_T3_M2"
+    Spawn_T4_M2 = "Spawn_T4_M2"
+    Spawn_T1_Map3 = "Spawn_T1_Map3"
+    Spawn_T2_Map3 = "Spawn_T2_Map3"
+    Spawn_T3_Map3 = "Spawn_T3_Map3"
+    Spawn_T4_Map3 = "Spawn_T4_Map3"
+    Spawn_T1_Map4 = "Spawn_T1_Map4"
+    Spawn_T2_Map4 = "Spawn_T2_Map4"
+    Spawn_T3_Map4 = "Spawn_T3_Map4"
+    Spawn_T4_Map4 = "Spawn_T4_Map4"
+    Spawn_T1_Map5 = "Spawn_T1_Map5"
+    Spawn_T2_Map5 = "Spawn_T2_Map5"
+    Spawn_T3_Map5 = "Spawn_T3_Map5"
+    Spawn_T4_Map5 = "Spawn_T4_Map5"
+    Spawn_T1_Map6 = "Spawn_T1_Map6"
+    Spawn_T2_Map6 = "Spawn_T2_Map6"
+    Spawn_T3_Map6 = "Spawn_T3_Map6"
+    Spawn_T4_Map6 = "Spawn_T4_Map6"
 }
 enum EResKeyRoundResult {
     resultHolder = "resultHolder"
@@ -989,6 +1184,11 @@ declare graph __AssetsA3ECAA3Waterneca__ {
 [platform_client]
 declare static graph Res {
     UI Map<EResKeyUI, CustomUIAssetID>
+    Scene Map<EResKeyScene, string>
+    FCG Map<EResKeyFCG, ScriptID>
+    Sprite Map<EResKeySprite, SpriteID>
+    Item Map<EResKeyItem, ItemID>
+    Bermuda Map<EResKeyBermuda, entity>
     RoundResult Map<EResKeyRoundResult, CustomUIWidgetID>
 }
 

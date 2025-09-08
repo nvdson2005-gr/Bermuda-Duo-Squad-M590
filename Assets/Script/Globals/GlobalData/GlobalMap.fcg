@@ -1,0 +1,23 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "List.fcc" as List
+import "Math.fcc" as Math
+graph GlobalMap {
+    chosenMap List<int> = List<int>{}
+    availableMap int = 6 // Total number of available maps
+    currentMapIndex int = -1 // Current map index
+
+    func RandomMapIndex(){
+        if List.Length(chosenMap) >= availableMap {
+            List.Clear(chosenMap)
+        }
+        while true {
+            var randIndex = RandomInt(0, availableMap)
+            if List.Contain(chosenMap, randIndex) == false {
+                Append(chosenMap, randIndex)
+                currentMapIndex = randIndex
+                break
+            }
+        }
+    }
+}

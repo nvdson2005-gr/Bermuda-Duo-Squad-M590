@@ -1,0 +1,45 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "LevelObject.fcc" as LevelObject
+import "../GlobalData/GlobalMap.fcg" as GlobalMap
+import "Math.fcc" as Math
+import "List.fcc" as List
+import "Player.fcc" as Player
+import "Playable.fcc" as Playable
+graph GlobalSpawnPoints {
+    spawnDict Map<int, List<entity<SpawnPosition>>> = Map<int, List<entity<SpawnPosition>>>{}
+    event OnAwake() {
+        spawnDict[0] = List<entity<SpawnPosition>>{EResSceneBermuda.Team1Spawn_Map1 as entity<SpawnPosition>, EResSceneBermuda.Team2Spawn_Map1 as entity<SpawnPosition>, EResSceneBermuda.Team3Spawn_Map1 as entity<SpawnPosition>, EResSceneBermuda.Team4Spawn_Map1 as entity<SpawnPosition>}
+        spawnDict[1] = List<entity<SpawnPosition>>{EResSceneBermuda.Spawn_T1_M2 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T2_M2 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T3_M2 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T4_M2 as entity<SpawnPosition>}
+        spawnDict[2] = List<entity<SpawnPosition>>{EResSceneBermuda.Spawn_T1_Map3 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T2_Map3 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T3_Map3 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T4_Map3 as entity<SpawnPosition>}
+        spawnDict[3] = List<entity<SpawnPosition>>{EResSceneBermuda.Spawn_T1_Map4 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T2_Map4 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T3_Map4 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T4_Map4 as entity<SpawnPosition>}
+        spawnDict[4] = List<entity<SpawnPosition>>{EResSceneBermuda.Spawn_T1_Map5 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T2_Map5 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T3_Map5 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T4_Map5 as entity<SpawnPosition>}
+        spawnDict[5] = List<entity<SpawnPosition>>{EResSceneBermuda.Spawn_T1_Map6 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T2_Map6 as entity<SpawnPosition>, EResSceneBermuda.Spawn_T3_Map6 as entity as entity<SpawnPosition>, EResSceneBermuda.Spawn_T4_Map6 as entity<SpawnPosition>}
+    }
+
+    func getSpawnPostitions() List<entity<SpawnPosition>> {
+        var mapIndex = globalEntity<GlobalMap>.currentMapIndex
+        if spawnDict.ContainsKey(mapIndex) {
+            return spawnDict[mapIndex]
+        } else {
+            LogError("No spawn positions found for map index: " + mapIndex)
+            return List<entity<SpawnPosition>>{}
+        }
+    }
+
+    async func TeleportToSpawnPositions(){
+        var mapIndex = globalEntity<GlobalMap>.currentMapIndex
+        var currentMapSpawnPoints = List<entity<SpawnPosition>>{}
+        for key, value in spawnDict[mapIndex] {
+            Append(currentMapSpawnPoints, value as entity<SpawnPosition>)
+        }
+        for index, team in GetAllTeams() {
+            var randSpawnPoint = RandomInt(0, List.Length(currentMapSpawnPoints))
+            for idx, player in team<Team>.AllTeammates {
+                Teleport(player, currentMapSpawnPoints[randSpawnPoint]<SpawnPosition>.AvailablePoint, Vector3{0,0,0})
+            }
+            List.RemoveAt(currentMapSpawnPoints, randSpawnPoint)
+        }
+        // There is also a part of creating visual effect here, but we discard it for now.
+    }
+}
