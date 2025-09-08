@@ -1,0 +1,6 @@
+Name:stdlibrary
+UUID:a38dceabc1514d44b93a42f24feffea5
+PackageType:UnityBundle
+UseableType:ClientOnly
+Version:30
+Platform:Any

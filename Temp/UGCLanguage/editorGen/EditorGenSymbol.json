@@ -1,0 +1,1765 @@
+{
+  "NameSpace": {
+    "Name": "bH7wBDEh",
+    "ID": 0,
+    "UIDSeed": 100001
+  },
+  "FileSpaces": [
+    {
+      "Path": "EditorGenLib.fcc",
+      "Symbol": {
+        "Components": [],
+        "Events": [],
+        "Graphs": [
+          {
+            "ID": "bH7wBDEh.avg0m1jvb7l-lpuu6wfz-7zhx3gi1lb",
+            "Name": "__AssetsA3ECAA3Globalneca__",
+            "Props": [
+              {
+                "ID": "vrB16owLh",
+                "Name": "hasConfig"
+              },
+              {
+                "ID": "vPBQOQjw6",
+                "Name": "storeNumber"
+              },
+              {
+                "ID": "vW9pBg28j",
+                "Name": "winTeam"
+              },
+              {
+                "ID": "vkdBS7gcN",
+                "Name": "loseTeam"
+              },
+              {
+                "ID": "vSMg5i3Pr",
+                "Name": "teamMap"
+              },
+              {
+                "ID": "v0v9yyMnH",
+                "Name": "keyList"
+              },
+              {
+                "ID": "vWqsmtiof",
+                "Name": "canUpdate"
+              },
+              {
+                "ID": "vksW4DhiG",
+                "Name": "checked"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "setGlobalPlayerConfig",
+                "Name": "setGlobalPlayerConfig"
+              },
+              {
+                "ID": "checkEndRound",
+                "Name": "checkEndRound"
+              },
+              {
+                "ID": "endRound",
+                "Name": "endRound"
+              },
+              {
+                "ID": "endGame",
+                "Name": "endGame"
+              },
+              {
+                "ID": "addItemForAll",
+                "Name": "addItemForAll"
+              },
+              {
+                "ID": "removeMedKitForAll",
+                "Name": "removeMedKitForAll"
+              },
+              {
+                "ID": "updateTeamMap",
+                "Name": "updateTeamMap"
+              },
+              {
+                "ID": "MyFunction4513",
+                "Name": "MyFunction4513"
+              },
+              {
+                "ID": "checkEndRound2",
+                "Name": "checkEndRound2"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.fkj798oo1y-lryefmr7-uprow45yhzr",
+            "Name": "__AssetsA3ECAA3GlobalAirdropneca__",
+            "Props": [
+              {
+                "ID": "vbMJQowdh",
+                "Name": "airdrop"
+              },
+              {
+                "ID": "vp0PyxP1j",
+                "Name": "airdropLocation"
+              },
+              {
+                "ID": "vYCTa5Ilt",
+                "Name": "airdropChoice"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "createAirdrop",
+                "Name": "createAirdrop"
+              },
+              {
+                "ID": "deleteAirdrop",
+                "Name": "deleteAirdrop"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.h7ziy5anuwf-lq0ceq34-fn8wiowy0gk",
+            "Name": "__AssetsA3ECAA3GlobalBorderneca__",
+            "Props": [
+              {
+                "ID": "vbXaP9THt",
+                "Name": "Borders"
+              },
+              {
+                "ID": "vHgSEW8V5",
+                "Name": "borderChoice"
+              },
+              {
+                "ID": "v6jQeSBgQ",
+                "Name": "center"
+              },
+              {
+                "ID": "v81n98YHI",
+                "Name": "bordersNew"
+              },
+              {
+                "ID": "vGLNYweQD",
+                "Name": "secondBorderChoice"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "turnOnFirstBorder",
+                "Name": "turnOnFirstBorder"
+              },
+              {
+                "ID": "turnOnSecondBorder",
+                "Name": "turnOnSecondBorder"
+              },
+              {
+                "ID": "getBorderLocation",
+                "Name": "getBorderLocation"
+              },
+              {
+                "ID": "turnOnSecondBorder2",
+                "Name": "turnOnSecondBorder2"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.cwstknb38ku-lpwb9x2j-skduka710zm",
+            "Name": "__AssetsA3ECAA3GlobalConfigneca__",
+            "Props": [
+              {
+                "ID": "v415H7Dfe",
+                "Name": "Obj"
+              },
+              {
+                "ID": "vFcAKvQ8W",
+                "Name": "winMoney"
+              },
+              {
+                "ID": "v3vZzhdzH",
+                "Name": "loseMoney"
+              },
+              {
+                "ID": "vQwsvU5QR",
+                "Name": "isMatchPoint"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "bH7wBDEh.cjmdgndjlva-lpw1qpj8-gpvovb7kpcu",
+            "Name": "__AssetsA3ECAA3GlobalGunComboneca__",
+            "Props": [
+              {
+                "ID": "verWq5N7H",
+                "Name": "combo1"
+              },
+              {
+                "ID": "v4u0Gzai1",
+                "Name": "combo2"
+              },
+              {
+                "ID": "vAMsHq4Hn",
+                "Name": "combo3"
+              },
+              {
+                "ID": "vZjw6OwFG",
+                "Name": "combo4"
+              },
+              {
+                "ID": "v28R4YgxN",
+                "Name": "combo5"
+              },
+              {
+                "ID": "vycGYu6jY",
+                "Name": "combo6"
+              },
+              {
+                "ID": "vSNaHHsFB",
+                "Name": "combo7"
+              },
+              {
+                "ID": "vMNlIM0as",
+                "Name": "combo8"
+              },
+              {
+                "ID": "vmPFwqilN",
+                "Name": "combo9"
+              },
+              {
+                "ID": "vfLGi1jc4",
+                "Name": "combo10"
+              },
+              {
+                "ID": "vOAjuWCpT",
+                "Name": "gunCombos"
+              },
+              {
+                "ID": "vkrfP0jyk",
+                "Name": "chosenGunCombos"
+              },
+              {
+                "ID": "viZxafZ1l",
+                "Name": "__1stComboCount__"
+              },
+              {
+                "ID": "vBOc3F0s5",
+                "Name": "__2ndComboCount__"
+              },
+              {
+                "ID": "vzG7UxyYO",
+                "Name": "__3rdComboCount__"
+              },
+              {
+                "ID": "vTLcohqeN",
+                "Name": "chosenCombo"
+              },
+              {
+                "ID": "v8EDd8lfT",
+                "Name": "gunsMap"
+              },
+              {
+                "ID": "v6NeUBnBs",
+                "Name": "bannedCombo"
+              },
+              {
+                "ID": "vlY9vyPHi",
+                "Name": "calculated"
+              },
+              {
+                "ID": "vr7vFdfDK",
+                "Name": "combo11"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "initGunCombo",
+                "Name": "initGunCombo"
+              },
+              {
+                "ID": "initRoundGunCombo",
+                "Name": "initRoundGunCombo"
+              },
+              {
+                "ID": "vote1st",
+                "Name": "vote1st"
+              },
+              {
+                "ID": "vote2nd",
+                "Name": "vote2nd"
+              },
+              {
+                "ID": "vote3rd",
+                "Name": "vote3rd"
+              },
+              {
+                "ID": "calculateVote",
+                "Name": "calculateVote"
+              },
+              {
+                "ID": "decreaseCombo1",
+                "Name": "decreaseCombo1"
+              },
+              {
+                "ID": "decreaseCombo2",
+                "Name": "decreaseCombo2"
+              },
+              {
+                "ID": "decreaseCombo3",
+                "Name": "decreaseCombo3"
+              },
+              {
+                "ID": "SetRandomCombo",
+                "Name": "SetRandomCombo"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.x9i68a1u5g-lq0kxeiv-4v12clzs2hh",
+            "Name": "__AssetsA3ECAA3GlobalMapneca__",
+            "Props": [
+              {
+                "ID": "vgcbWIgsr",
+                "Name": "mapChoice"
+              },
+              {
+                "ID": "v0vjXRpLF",
+                "Name": "chosenMaps"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "chooseMap",
+                "Name": "chooseMap"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.ri76rmou10o-lqp0fa43-2ozl0qwwv3h",
+            "Name": "__AssetsA3ECAA3GlobalRandomEventneca__",
+            "Props": [
+              {
+                "ID": "vhqc059jZ",
+                "Name": "randomEventList"
+              },
+              {
+                "ID": "vcG9OofRt",
+                "Name": "chosenEvent"
+              },
+              {
+                "ID": "v7MZNa1CU",
+                "Name": "chosenEventList"
+              },
+              {
+                "ID": "vmyfndA6Z",
+                "Name": "priorityEvent"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "setRandomEventRound",
+                "Name": "setRandomEventRound"
+              },
+              {
+                "ID": "gloowallEvent",
+                "Name": "gloowallEvent"
+              },
+              {
+                "ID": "grenadeEvent",
+                "Name": "grenadeEvent"
+              },
+              {
+                "ID": "initRandomEvent",
+                "Name": "initRandomEvent"
+              },
+              {
+                "ID": "getEvent",
+                "Name": "getEvent"
+              },
+              {
+                "ID": "randomizeEvent",
+                "Name": "randomizeEvent"
+              },
+              {
+                "ID": "setRandomEventRound2",
+                "Name": "setRandomEventRound2"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.ooedosfbgx-lq39ixan-mxkdeyhojx",
+            "Name": "__AssetsA3ECAA3GlobalScoreneca__",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "setScoreType",
+                "Name": "setScoreType"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.e2pgaps0ne-lpuqgeu3-tn1zkicgsq",
+            "Name": "__AssetsA3ECAA3GlobalSpawnPointsneca__",
+            "Props": [
+              {
+                "ID": "vF8L1qqxZ",
+                "Name": "spawnPointDict"
+              },
+              {
+                "ID": "vwcnbNt11",
+                "Name": "spawnPointList"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "disableSpawnPoint",
+                "Name": "disableSpawnPoint"
+              },
+              {
+                "ID": "enableSpawnPoint",
+                "Name": "enableSpawnPoint"
+              },
+              {
+                "ID": "getSpawnPointList",
+                "Name": "getSpawnPointList"
+              },
+              {
+                "ID": "turnOffTeamCylinder",
+                "Name": "turnOffTeamCylinder"
+              },
+              {
+                "ID": "getPlayerOrientation",
+                "Name": "getPlayerOrientation"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.kxkge010pf9-lr0b2str-x553zs4hq2f",
+            "Name": "__AssetsA3ECAA3GlobalTeamneca__",
+            "Props": [
+              {
+                "ID": "vrwnFAFu6",
+                "Name": "teams"
+              },
+              {
+                "ID": "vmHhCSO3f",
+                "Name": "firstBlood"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "addTeam",
+                "Name": "addTeam"
+              },
+              {
+                "ID": "setFirstBloodTeam",
+                "Name": "setFirstBloodTeam"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.ffqxvhk4isi-lqnl32ym-key1h6oh12",
+            "Name": "__AssetsA3ECAA3HUDGunVoteneca__",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "bH7wBDEh.96tffegrrna-lr8oh4gh-9yxn6jwk99d",
+            "Name": "__AssetsA3ECAA3HUDSkillneca__",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "bH7wBDEh.rbkf5g8n4va-lq4nomqk-83yvpoytgzs",
+            "Name": "__AssetsA3ECAA3HUDstatneca__",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "bH7wBDEh.cql89ar1r3n-lpuxc2dm-t2htgmhmbrd",
+            "Name": "__AssetsA3ECAA3Playerneca__",
+            "Props": [
+              {
+                "ID": "vHXOxSaxj",
+                "Name": "scale"
+              },
+              {
+                "ID": "vFYYQkZxc",
+                "Name": "isSmallerEvent"
+              },
+              {
+                "ID": "vn72drqeH",
+                "Name": "isBiggerEvent"
+              },
+              {
+                "ID": "vgIwmS16a",
+                "Name": "coolDownFlag"
+              },
+              {
+                "ID": "voGOqYaR0",
+                "Name": "phaseIndexGlobal"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "setBigHead",
+                "Name": "setBigHead"
+              },
+              {
+                "ID": "setSpeed",
+                "Name": "setSpeed"
+              },
+              {
+                "ID": "restoreDefault",
+                "Name": "restoreDefault"
+              },
+              {
+                "ID": "setGravity",
+                "Name": "setGravity"
+              },
+              {
+                "ID": "reduceScale",
+                "Name": "reduceScale"
+              },
+              {
+                "ID": "resetScale",
+                "Name": "resetScale"
+              },
+              {
+                "ID": "setSmaller",
+                "Name": "setSmaller"
+              },
+              {
+                "ID": "setBigger",
+                "Name": "setBigger"
+              },
+              {
+                "ID": "increaseScale",
+                "Name": "increaseScale"
+              },
+              {
+                "ID": "setJetShoes",
+                "Name": "setJetShoes"
+              },
+              {
+                "ID": "setFPP",
+                "Name": "setFPP"
+              },
+              {
+                "ID": "setVisibility",
+                "Name": "setVisibility"
+              },
+              {
+                "ID": "setFPP2",
+                "Name": "setFPP2"
+              },
+              {
+                "ID": "addItemForAll",
+                "Name": "addItemForAll"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.pypnorzyv8-lq50qizo-pn72bw06ne",
+            "Name": "__AssetsA3ECAA3PlayerCustomHUDneca__",
+            "Props": [
+              {
+                "ID": "v25Ngy2Hv",
+                "Name": "teamScoreHUD"
+              },
+              {
+                "ID": "vQRiAfp7R",
+                "Name": "waterReminder"
+              },
+              {
+                "ID": "vuTslGIhR",
+                "Name": "updated"
+              },
+              {
+                "ID": "vJRvPkP4a",
+                "Name": "topTeam"
+              },
+              {
+                "ID": "vMgFDGUkO",
+                "Name": "circle"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "initScoreHUD",
+                "Name": "initScoreHUD"
+              },
+              {
+                "ID": "updateScoreHUD",
+                "Name": "updateScoreHUD"
+              },
+              {
+                "ID": "diasbleScoreHUD",
+                "Name": "diasbleScoreHUD"
+              },
+              {
+                "ID": "showWaterReminder",
+                "Name": "showWaterReminder"
+              },
+              {
+                "ID": "closeWaterReminder",
+                "Name": "closeWaterReminder"
+              },
+              {
+                "ID": "setFirstBloodHUD",
+                "Name": "setFirstBloodHUD"
+              },
+              {
+                "ID": "setTopTeamIcon",
+                "Name": "setTopTeamIcon"
+              },
+              {
+                "ID": "disableTopTeam",
+                "Name": "disableTopTeam"
+              },
+              {
+                "ID": "setColorCircle",
+                "Name": "setColorCircle"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.ymnzd3323on-lq0rbw3s-ud5usbxhkp9",
+            "Name": "__AssetsA3ECAA3PlayerDefaultHUDneca__",
+            "Props": [
+              {
+                "ID": "viE6WDETG",
+                "Name": "scoreBoard"
+              },
+              {
+                "ID": "v2ZsdvZKj",
+                "Name": "countDownHUD"
+              },
+              {
+                "ID": "vWbfcBos3",
+                "Name": "roundStartHUD"
+              },
+              {
+                "ID": "vyBmfXthd",
+                "Name": "roundInfo"
+              },
+              {
+                "ID": "v2mR5iR0t",
+                "Name": "roundResult"
+              },
+              {
+                "ID": "v6UBMWekV",
+                "Name": "borderReminder"
+              },
+              {
+                "ID": "vj6m0wxc2",
+                "Name": "walletHUD"
+              },
+              {
+                "ID": "vgJIF5KPw",
+                "Name": "statHUD"
+              },
+              {
+                "ID": "v8kgN8mmh",
+                "Name": "statHUDentity"
+              },
+              {
+                "ID": "vcQRncHOV",
+                "Name": "statHUDNew"
+              },
+              {
+                "ID": "vnYrg2gUT",
+                "Name": "objectiveHUD"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "updateScoreBoard",
+                "Name": "updateScoreBoard"
+              },
+              {
+                "ID": "setScoreBoard",
+                "Name": "setScoreBoard"
+              },
+              {
+                "ID": "setDefaultHUD",
+                "Name": "setDefaultHUD"
+              },
+              {
+                "ID": "setCountDownHUD",
+                "Name": "setCountDownHUD"
+              },
+              {
+                "ID": "setTeamBattleBanner",
+                "Name": "setTeamBattleBanner"
+              },
+              {
+                "ID": "setRoundStartHUD",
+                "Name": "setRoundStartHUD"
+              },
+              {
+                "ID": "setRoundInfo",
+                "Name": "setRoundInfo"
+              },
+              {
+                "ID": "showRoundResult",
+                "Name": "showRoundResult"
+              },
+              {
+                "ID": "showMatchStart",
+                "Name": "showMatchStart"
+              },
+              {
+                "ID": "showBorderReminder",
+                "Name": "showBorderReminder"
+              },
+              {
+                "ID": "initWalletHUD",
+                "Name": "initWalletHUD"
+              },
+              {
+                "ID": "updateWalletHUD",
+                "Name": "updateWalletHUD"
+              },
+              {
+                "ID": "showStatHUD",
+                "Name": "showStatHUD"
+              },
+              {
+                "ID": "setStatHUD",
+                "Name": "setStatHUD"
+              },
+              {
+                "ID": "updateStatHUD",
+                "Name": "updateStatHUD"
+              },
+              {
+                "ID": "setStatHUDEntity",
+                "Name": "setStatHUDEntity"
+              },
+              {
+                "ID": "closeStatHUD",
+                "Name": "closeStatHUD"
+              },
+              {
+                "ID": "setFinalScore",
+                "Name": "setFinalScore"
+              },
+              {
+                "ID": "setObjectiveHUD",
+                "Name": "setObjectiveHUD"
+              },
+              {
+                "ID": "showBorderReminder2",
+                "Name": "showBorderReminder2"
+              },
+              {
+                "ID": "deleteHUD",
+                "Name": "deleteHUD"
+              },
+              {
+                "ID": "getRankingStat",
+                "Name": "getRankingStat"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.oil5vrteh8l-lq250ypv-zofzy67nhyq",
+            "Name": "__AssetsA3ECAA3PlayerMatchResultneca__",
+            "Props": [
+              {
+                "ID": "vXAJnzb0d",
+                "Name": "killScoreList"
+              },
+              {
+                "ID": "vvoOqltem",
+                "Name": "damageScoreList"
+              },
+              {
+                "ID": "vdTnrq7H3",
+                "Name": "assistScoreList"
+              },
+              {
+                "ID": "viA7PCnXu",
+                "Name": "assistedPlayers"
+              },
+              {
+                "ID": "vCUZGmVvY",
+                "Name": "hasResultList"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "initMatchResult",
+                "Name": "initMatchResult"
+              },
+              {
+                "ID": "add1Kill",
+                "Name": "add1Kill"
+              },
+              {
+                "ID": "addDamage",
+                "Name": "addDamage"
+              },
+              {
+                "ID": "add1Assist",
+                "Name": "add1Assist"
+              },
+              {
+                "ID": "addAssistedPlayer",
+                "Name": "addAssistedPlayer"
+              },
+              {
+                "ID": "removeAssistedPlayer",
+                "Name": "removeAssistedPlayer"
+              },
+              {
+                "ID": "updateRoundResult",
+                "Name": "updateRoundResult"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.cekwn4d9v1-lqx8hufh-h1xnefjq2br",
+            "Name": "PlayerScoreBoardECA",
+            "Props": [
+              {
+                "ID": "vA2ZaeaKW",
+                "Name": "scoreBoardHUD"
+              },
+              {
+                "ID": "viy1Fsx56",
+                "Name": "locationMotion"
+              },
+              {
+                "ID": "vlxzFwZyU",
+                "Name": "opacityMotion"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "setScoreBoard",
+                "Name": "setScoreBoard"
+              },
+              {
+                "ID": "updateScoreBoard",
+                "Name": "updateScoreBoard"
+              },
+              {
+                "ID": "setText",
+                "Name": "setText"
+              },
+              {
+                "ID": "setPoint",
+                "Name": "setPoint"
+              },
+              {
+                "ID": "setScoreBoard2",
+                "Name": "setScoreBoard2"
+              },
+              {
+                "ID": "updateScoreBoard2",
+                "Name": "updateScoreBoard2"
+              },
+              {
+                "ID": "setText2",
+                "Name": "setText2"
+              },
+              {
+                "ID": "setPoint2",
+                "Name": "setPoint2"
+              },
+              {
+                "ID": "increasePointAnimation",
+                "Name": "increasePointAnimation"
+              },
+              {
+                "ID": "plusAnimation",
+                "Name": "plusAnimation"
+              },
+              {
+                "ID": "setTopTeamUI",
+                "Name": "setTopTeamUI"
+              },
+              {
+                "ID": "sortTeamScore",
+                "Name": "sortTeamScore"
+              },
+              {
+                "ID": "resetCurrentTeam",
+                "Name": "resetCurrentTeam"
+              },
+              {
+                "ID": "setTopTeam",
+                "Name": "setTopTeam"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.rzbo7icxn4n-lr8oo24s-5tieruo5a99",
+            "Name": "__AssetsA3ECAA3PlayerSkillHUDneca__",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "bH7wBDEh.cei2kqtsxxg-lpuzmwql-w7udg0v4vnt",
+            "Name": "__AssetsA3ECAA3PlayerStoreneca__",
+            "Props": [
+              {
+                "ID": "vRwUzF9l9",
+                "Name": "merchandiseList"
+              },
+              {
+                "ID": "v0UCeTm39",
+                "Name": "storeEntity"
+              },
+              {
+                "ID": "vsY60NWww",
+                "Name": "hasShop"
+              },
+              {
+                "ID": "vRa1coppk",
+                "Name": "stores"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "createStore",
+                "Name": "createStore"
+              },
+              {
+                "ID": "setWeapon",
+                "Name": "setWeapon"
+              },
+              {
+                "ID": "setArmory",
+                "Name": "setArmory"
+              },
+              {
+                "ID": "getMerchandiseList",
+                "Name": "getMerchandiseList"
+              },
+              {
+                "ID": "setGrenade",
+                "Name": "setGrenade"
+              },
+              {
+                "ID": "enableStore",
+                "Name": "enableStore"
+              },
+              {
+                "ID": "disableStore",
+                "Name": "disableStore"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.jksjjjtrs7n-lpuxbwyq-b02gf7p1he7",
+            "Name": "__AssetsA3ECAA3PlayerStoreConfigneca__",
+            "Props": [
+              {
+                "ID": "vt2bAUmbg",
+                "Name": "store1"
+              },
+              {
+                "ID": "vWfLfXRDR",
+                "Name": "store2"
+              },
+              {
+                "ID": "vahNznZvV",
+                "Name": "armory"
+              },
+              {
+                "ID": "vup57AVkM",
+                "Name": "grenade"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "initPlayerStoreConfig",
+                "Name": "initPlayerStoreConfig"
+              },
+              {
+                "ID": "setStore1",
+                "Name": "setStore1"
+              },
+              {
+                "ID": "setStore2",
+                "Name": "setStore2"
+              },
+              {
+                "ID": "setArmory",
+                "Name": "setArmory"
+              },
+              {
+                "ID": "setGrenade",
+                "Name": "setGrenade"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.gp6s5c4k33w-lqnoql7z-idyx9465r7s",
+            "Name": "__AssetsA3ECAA3PlayerVoteGunneca__",
+            "Props": [
+              {
+                "ID": "vdyhIT8p3",
+                "Name": "chooseCombo1"
+              },
+              {
+                "ID": "vySinkV0N",
+                "Name": "chooseCombo2"
+              },
+              {
+                "ID": "vlhkaYLpx",
+                "Name": "chooseCombo3"
+              },
+              {
+                "ID": "v1P9uQA8w",
+                "Name": "gunVote"
+              },
+              {
+                "ID": "vNWy8zqDB",
+                "Name": "calculated"
+              },
+              {
+                "ID": "vXa69MIY3",
+                "Name": "gunVoteResult"
+              },
+              {
+                "ID": "vkUCpOcTp",
+                "Name": "hasInit"
+              },
+              {
+                "ID": "v8C9JN2Vl",
+                "Name": "eventHUD"
+              },
+              {
+                "ID": "vUsbhfg62",
+                "Name": "gunCombos"
+              },
+              {
+                "ID": "vRMhLOtBS",
+                "Name": "voted"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "chooseCombo1",
+                "Name": "chooseCombo1"
+              },
+              {
+                "ID": "resetVote",
+                "Name": "resetVote"
+              },
+              {
+                "ID": "setGunVote",
+                "Name": "setGunVote"
+              },
+              {
+                "ID": "updateVote",
+                "Name": "updateVote"
+              },
+              {
+                "ID": "disableVote",
+                "Name": "disableVote"
+              },
+              {
+                "ID": "updateTimer",
+                "Name": "updateTimer"
+              },
+              {
+                "ID": "setGun",
+                "Name": "setGun"
+              },
+              {
+                "ID": "setGunResult",
+                "Name": "setGunResult"
+              },
+              {
+                "ID": "addGunForPlayer",
+                "Name": "addGunForPlayer"
+              },
+              {
+                "ID": "turnOffChecks",
+                "Name": "turnOffChecks"
+              },
+              {
+                "ID": "chooseCombo2",
+                "Name": "chooseCombo2"
+              },
+              {
+                "ID": "chooseCombo3",
+                "Name": "chooseCombo3"
+              },
+              {
+                "ID": "setEventHUD",
+                "Name": "setEventHUD"
+              },
+              {
+                "ID": "deleteEventHUD",
+                "Name": "deleteEventHUD"
+              },
+              {
+                "ID": "getGunComboByIndex",
+                "Name": "getGunComboByIndex"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.2vj1chrewvt-lq3i1s0x-nb3hzx7jp2e",
+            "Name": "__AssetsA3ECAA3PlayerWalletneca__",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "initWallet",
+                "Name": "initWallet"
+              },
+              {
+                "ID": "getCurrencyEntity",
+                "Name": "getCurrencyEntity"
+              },
+              {
+                "ID": "getCurrencyAmount",
+                "Name": "getCurrencyAmount"
+              },
+              {
+                "ID": "addMoneyAmount",
+                "Name": "addMoneyAmount"
+              },
+              {
+                "ID": "addMoneyEndRound",
+                "Name": "addMoneyEndRound"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.3562c4ae-eb99-4e63-b184-cc97897ebac8",
+            "Name": "__AssetsA3ECAA3Player_Minimapneca__",
+            "Props": [
+              {
+                "ID": "vlOR7r7hA",
+                "Name": "map"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "bH7wBDEh.k754bhlj5n-lpw1qhn0-9kc6pj0ik0k",
+            "Name": "__AssetsA3ECAA3Teamneca__",
+            "Props": [
+              {
+                "ID": "vTsRMBgMA",
+                "Name": "numberAlive"
+              },
+              {
+                "ID": "v6uYNX04B",
+                "Name": "numberKnocked"
+              },
+              {
+                "ID": "vdJ74Fo4i",
+                "Name": "numberEliminated"
+              },
+              {
+                "ID": "vzeBwcIqx",
+                "Name": "opposingTeam"
+              },
+              {
+                "ID": "vLVsvnYC4",
+                "Name": "opposingTeamIndex"
+              },
+              {
+                "ID": "v0o2ZUGpU",
+                "Name": "currentTeamIndex"
+              },
+              {
+                "ID": "vGwpHtyWs",
+                "Name": "opposingTeamList"
+              },
+              {
+                "ID": "vxEc1tQB0",
+                "Name": "opposingTeamIndexList"
+              },
+              {
+                "ID": "vW4Xapy5l",
+                "Name": "teamMembers"
+              },
+              {
+                "ID": "vzg2yNlWU",
+                "Name": "Kills"
+              },
+              {
+                "ID": "viBBvuY5F",
+                "Name": "teamName"
+              },
+              {
+                "ID": "vSjiFylJ0",
+                "Name": "teamColor"
+              },
+              {
+                "ID": "vJQb65EnF",
+                "Name": "fisrtBlood"
+              },
+              {
+                "ID": "vcIWEVNDU",
+                "Name": "topTeam"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "updateTeamStatus",
+                "Name": "updateTeamStatus"
+              },
+              {
+                "ID": "getOpposingTeam",
+                "Name": "getOpposingTeam"
+              },
+              {
+                "ID": "updateAllTeamStatus",
+                "Name": "updateAllTeamStatus"
+              },
+              {
+                "ID": "getOpposingTeamList",
+                "Name": "getOpposingTeamList"
+              },
+              {
+                "ID": "initTeamConfig",
+                "Name": "initTeamConfig"
+              },
+              {
+                "ID": "updateAllTeamStatus2",
+                "Name": "updateAllTeamStatus2"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.dvpwij1f3j-lpw1qq8k-ogveqotjmco",
+            "Name": "TeamMatchResultECA",
+            "Props": [
+              {
+                "ID": "vtC7cKMDW",
+                "Name": "resultList"
+              },
+              {
+                "ID": "vbsKe3oYI",
+                "Name": "kills"
+              },
+              {
+                "ID": "vQA8qZO9N",
+                "Name": "totalKills"
+              },
+              {
+                "ID": "vzoTpVp8K",
+                "Name": "prevScore"
+              },
+              {
+                "ID": "vOHGBQduu",
+                "Name": "booyah"
+              },
+              {
+                "ID": "v2425DBgP",
+                "Name": "firstBlood"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "initRoundResult",
+                "Name": "initRoundResult"
+              },
+              {
+                "ID": "getTeamScore",
+                "Name": "getTeamScore"
+              },
+              {
+                "ID": "setRoundResult",
+                "Name": "setRoundResult"
+              },
+              {
+                "ID": "setTargetScore",
+                "Name": "setTargetScore"
+              },
+              {
+                "ID": "resetKills",
+                "Name": "resetKills"
+              },
+              {
+                "ID": "getTeamScore2",
+                "Name": "getTeamScore2"
+              }
+            ]
+          },
+          {
+            "ID": "bH7wBDEh.3zrtnaf85gi-lqaeeu9f-7klrbip0t6t",
+            "Name": "__AssetsA3ECAA3Vendingneca__",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "bH7wBDEh.45s8q11cij8-lqanzhkp-ey2o0o2960u",
+            "Name": "__AssetsA3ECAA3Waterneca__",
+            "Props": [
+              {
+                "ID": "v1XuDKNSF",
+                "Name": "playersInWater"
+              },
+              {
+                "ID": "v2g1UlQcy",
+                "Name": "water"
+              },
+              {
+                "ID": "vMn1DTSjA",
+                "Name": "waterHeightPerMap"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "dealWaterDamage",
+                "Name": "dealWaterDamage"
+              }
+            ]
+          },
+          {
+            "ID": "EDITOR_GEN_RESOURCE_REGISTERATION_ID0l551ujq3",
+            "Name": "Res",
+            "Props": [
+              {
+                "ID": "EDITOR_GEN_Resourceui",
+                "Name": "UI"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcescene",
+                "Name": "Scene"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceprefab",
+                "Name": "Prefab"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcefcg",
+                "Name": "FCG"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceeca",
+                "Name": "ECA"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcesprite",
+                "Name": "Sprite"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceeffect",
+                "Name": "Effect"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcesound",
+                "Name": "Sound"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceitem",
+                "Name": "Item"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcelevelobject",
+                "Name": "LevelObject"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcecloth",
+                "Name": "Cloth"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceweaponskin",
+                "Name": "WeaponSkin"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcevehicleskin",
+                "Name": "VehicleSkin"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceemote",
+                "Name": "Emote"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcecsv",
+                "Name": "CSV"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceinternalhud",
+                "Name": "InternalHud"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcetexture",
+                "Name": "Texture"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcemesh",
+                "Name": "Mesh"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcematerial",
+                "Name": "Material"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceanimationcontroller",
+                "Name": "AnimationController"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceparticles",
+                "Name": "Particles"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceplayerdata",
+                "Name": "PlayerData"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourcebehaviortree",
+                "Name": "BehaviorTree"
+              },
+              {
+                "ID": "EDITOR_GEN_Resourceperformance",
+                "Name": "Performance"
+              },
+              {
+                "ID": "Editor_Gen_Resource_UI_RoundResult",
+                "Name": "RoundResult"
+              }
+            ],
+            "Funcs": []
+          }
+        ],
+        "Enums": [
+          {
+            "ID": 464470,
+            "Name": "EResFCG",
+            "Items": []
+          },
+          {
+            "ID": 476048,
+            "Name": "EResECA",
+            "Items": []
+          },
+          {
+            "ID": 492285,
+            "Name": "EResPrefab",
+            "Items": []
+          },
+          {
+            "ID": 62272,
+            "Name": "EResSprite",
+            "Items": []
+          },
+          {
+            "ID": 365213,
+            "Name": "EResTexture",
+            "Items": []
+          },
+          {
+            "ID": 171054,
+            "Name": "EResEffect",
+            "Items": []
+          },
+          {
+            "ID": 221218,
+            "Name": "EResSound",
+            "Items": []
+          },
+          {
+            "ID": 746918,
+            "Name": "EResItem",
+            "Items": []
+          },
+          {
+            "ID": 142236,
+            "Name": "EResLevelObject",
+            "Items": []
+          },
+          {
+            "ID": 940977,
+            "Name": "EResCloth",
+            "Items": []
+          },
+          {
+            "ID": 985778,
+            "Name": "EResWeaponSkin",
+            "Items": []
+          },
+          {
+            "ID": 170070,
+            "Name": "EResVehicleSkin",
+            "Items": []
+          },
+          {
+            "ID": 884111,
+            "Name": "EResEmote",
+            "Items": []
+          },
+          {
+            "ID": 345435,
+            "Name": "EResCSV",
+            "Items": []
+          },
+          {
+            "ID": 956742,
+            "Name": "EResInternalHud",
+            "Items": []
+          },
+          {
+            "ID": 806170,
+            "Name": "EResMesh",
+            "Items": []
+          },
+          {
+            "ID": 817887,
+            "Name": "EResMaterial",
+            "Items": []
+          },
+          {
+            "ID": 517353,
+            "Name": "EResAnimationController",
+            "Items": []
+          },
+          {
+            "ID": 82749,
+            "Name": "EResParticles",
+            "Items": []
+          },
+          {
+            "ID": 626807,
+            "Name": "EResPlayerData",
+            "Items": []
+          },
+          {
+            "ID": 931277,
+            "Name": "EResBehaviorTree",
+            "Items": []
+          },
+          {
+            "ID": 943625,
+            "Name": "EResPerformance",
+            "Items": []
+          },
+          {
+            "ID": 109863,
+            "Name": "EResScene",
+            "Items": []
+          },
+          {
+            "ID": 548100,
+            "Name": "EResUI",
+            "Items": [
+              {
+                "Name": "RoundResult",
+                "Value": "/1/nySc8XRO"
+              }
+            ]
+          },
+          {
+            "ID": 835511,
+            "Name": "EResUIRoundResult",
+            "Items": [
+              {
+                "Name": "resultHolder",
+                "Value": 1
+              },
+              {
+                "Name": "rowTemplate",
+                "Value": 2
+              }
+            ]
+          },
+          {
+            "Name": "EResKeyUI",
+            "ID": 556225,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyScene",
+            "ID": 253609,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyPrefab",
+            "ID": 987175,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyFCG",
+            "ID": 449511,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyECA",
+            "ID": 112306,
+            "Items": []
+          },
+          {
+            "Name": "EResKeySprite",
+            "ID": 928455,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyEffect",
+            "ID": 935464,
+            "Items": []
+          },
+          {
+            "Name": "EResKeySound",
+            "ID": 538878,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyItem",
+            "ID": 813711,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyLevelObject",
+            "ID": 221191,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyCloth",
+            "ID": 164994,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyWeaponSkin",
+            "ID": 155469,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyVehicleSkin",
+            "ID": 345418,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyEmote",
+            "ID": 441307,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyCSV",
+            "ID": 456583,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyInternalHud",
+            "ID": 294737,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyTexture",
+            "ID": 474551,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyMesh",
+            "ID": 141242,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyMaterial",
+            "ID": 125113,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyAnimationController",
+            "ID": 801146,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyParticles",
+            "ID": 189717,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyPlayerData",
+            "ID": 915081,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyBehaviorTree",
+            "ID": 93268,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyPerformance",
+            "ID": 192212,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyRoundResult",
+            "ID": 958781,
+            "Items": []
+          },
+          {
+            "Name": "EPhase",
+            "ID": 200001,
+            "Items": []
+          },
+          {
+            "Name": "ECustomShop",
+            "ID": 200002,
+            "Items": [
+              {
+                "Name": "Shop",
+                "Value": "shopType51581261"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Path": "wehss29x.fcc",
+      "Symbol": {
+        "Components": [],
+        "Events": [],
+        "Graphs": [],
+        "Enums": [
+          {
+            "Name": "EPhase",
+            "ID": 200001,
+            "Items": []
+          },
+          {
+            "Name": "ECustomShop",
+            "ID": 200002,
+            "Items": [
+              {
+                "Name": "Shop",
+                "Value": "shopType51581261"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Path": "BA9iBjOL.fcc",
+      "Symbol": {
+        "Components": [],
+        "Events": [],
+        "Graphs": [
+          {
+            "ID": "BA9iBjOL.whgog58btr-lx1724pg-3h0scyd2o43",
+            "Name": "__BA9iBjOLzooSpawn6Point6Auto6Closerneca__",
+            "Props": [],
+            "Funcs": []
+          }
+        ],
+        "Enums": [
+          {
+            "Name": "EPhase",
+            "ID": 200001,
+            "Items": []
+          },
+          {
+            "Name": "ECustomShop",
+            "ID": 200002,
+            "Items": [
+              {
+                "Name": "Shop",
+                "Value": "shopType51581261"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_tag": {
+    "type": "ff.DataStorage",
+    "resourceId": "DataStorage"
+  },
+  "_entityId": "ONZLcGno",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "storageOpen": false,
+  "rankSheets": [],
+  "dataSheets": [],
+  "statisticalSheets": [],
+  "_entityName": "T_43_YU_WS_MODULE_DATABASE",
+  "modId": 31,
+  "multicolumnSheets": [],
+  "showSwitch": true
+}
+//"{FE:{"v":"1.14.3838421","c":{"FF":5001},"s":100}

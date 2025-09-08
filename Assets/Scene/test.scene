@@ -1,0 +1,577 @@
+{
+  "_tag": {
+    "type": "Scene",
+    "resourceId": ""
+  },
+  "_entityId": "4bu5pji6",
+  "children": [
+    {
+      "_tag": {
+        "type": "EnvWeatherEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "w4Y35Gde",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "position": {
+        "x": 0,
+        "y": 100,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 42,
+        "y": 166,
+        "z": 117
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "attributes": [
+        2
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "componentList": [],
+      "curWeatherPresetID": 1,
+      "_entityName": "FE_0_ZZ_SKYENV_SKY",
+      "currentWeather": {
+        "lightColor": {
+          "r": 248,
+          "g": 248,
+          "b": 248,
+          "a": 1
+        },
+        "lightIntensity": 1.06,
+        "darkness": 0.03,
+        "shadowStrength": 0.6,
+        "terrainWetness": 0,
+        "lensFlare": 0.65,
+        "fogColor": {
+          "r": 123,
+          "g": 158,
+          "b": 192,
+          "a": 1
+        },
+        "ambientColor": {
+          "r": 149,
+          "g": 149,
+          "b": 149,
+          "a": 1
+        },
+        "nightMode": false,
+        "resId": "UGC_SKYENV_DAY",
+        "enableFog": true,
+        "fogType": 1,
+        "startDistance": 50,
+        "endDistance": 1000,
+        "density": 0.01,
+        "lightRotation": {
+          "x": 45,
+          "y": -204,
+          "z": -9
+        }
+      },
+      "streamingLayer": "",
+      "aoiSetting": 0
+    },
+    {
+      "_tag": {
+        "type": "SceneEditEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "ulcgizlg",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "position": {
+        "x": 3.1599197387695312,
+        "y": -0.3000003695487976,
+        "z": 9.435054779052734
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "componentList": [
+        "AimableEntity",
+        "BehaviourTreeAttachable"
+      ],
+      "tempIndex": 38,
+      "itemID": 143,
+      "seParent": null,
+      "ecaScripts": [
+        null
+      ],
+      "ecaProps": {
+        "SpawnBox": {},
+        "SpawnPos": {},
+        "LevelObject": {},
+        "AimableEntity": {},
+        "Entity": {},
+        "Component": {},
+        "Transform": {},
+        "Visibility": {},
+        "Collider": {},
+        "BehaviourTreeAttachable": {}
+      },
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "_entityName": "testSpawn1",
+      "propsData": {
+        "spawnPointCount": 6,
+        "teamID": 0,
+        "_levelObjectID": 1,
+        "teamIDStr": "All teams"
+      },
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "aoiSetting": 0
+    },
+    {
+      "_tag": {
+        "type": "SceneEditEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "kzlDGfw0",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": 5.90423583984375,
+        "y": -0.3000001311302185,
+        "z": 4.255424499511719
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "componentList": [
+        "AimableEntity",
+        "BehaviourTreeAttachable"
+      ],
+      "tempIndex": 39,
+      "itemID": 143,
+      "seParent": null,
+      "ecaScripts": [
+        null
+      ],
+      "ecaProps": {
+        "SpawnBox": {},
+        "SpawnPos": {},
+        "LevelObject": {},
+        "AimableEntity": {},
+        "Entity": {},
+        "Component": {},
+        "Transform": {},
+        "Visibility": {},
+        "Collider": {},
+        "BehaviourTreeAttachable": {}
+      },
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "_entityName": "testSpawn2",
+      "propsData": {
+        "spawnPointCount": 6,
+        "teamID": 0,
+        "_levelObjectID": 2,
+        "teamIDStr": "All teams"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "aoiSetting": 0
+    },
+    {
+      "_tag": {
+        "type": "SceneEditEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "fXnOUim3",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -3.07,
+        "y": 0,
+        "z": 5.9
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "componentList": [
+        "AimableEntity",
+        "BehaviourTreeAttachable"
+      ],
+      "tempIndex": 40,
+      "itemID": 143,
+      "seParent": null,
+      "ecaScripts": [
+        null
+      ],
+      "ecaProps": {
+        "SpawnBox": {},
+        "SpawnPos": {},
+        "LevelObject": {},
+        "AimableEntity": {},
+        "Entity": {},
+        "Component": {},
+        "Transform": {},
+        "Visibility": {},
+        "Collider": {},
+        "BehaviourTreeAttachable": {}
+      },
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "_entityName": "testSpawn3",
+      "propsData": {
+        "spawnPointCount": 6,
+        "teamID": 0,
+        "_levelObjectID": 3,
+        "teamIDStr": "All teams"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "aoiSetting": 0
+    },
+    {
+      "_tag": {
+        "type": "SceneEditEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "73o91Ern",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "position": {
+        "x": 1.7072124481201172,
+        "y": -0.3000001013278961,
+        "z": 3.6211395263671875
+      },
+      "scale": {
+        "x": 7,
+        "y": 4,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "componentList": [
+        "AimableEntity",
+        "BehaviourTreeAttachable"
+      ],
+      "tempIndex": 41,
+      "itemID": 1,
+      "seParent": null,
+      "ecaScripts": [
+        null
+      ],
+      "ecaProps": {
+        "DummyLevelObject": {},
+        "LevelObject": {},
+        "AimableEntity": {},
+        "Entity": {},
+        "Component": {},
+        "Transform": {},
+        "Visibility": {},
+        "Collider": {},
+        "BehaviourTreeAttachable": {}
+      },
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "_entityName": "Square Box",
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "aoiSetting": 0
+    },
+    {
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "X26NADbG",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "componentList": [
+        "AimableEntity",
+        "BehaviourTreeAttachable",
+        "Rigidbody",
+        "ColliderShape",
+        "Collider",
+        "MeshRender",
+        "AnimationControllerAble"
+      ],
+      "materials": [
+        null
+      ],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "Sphere",
+          "meshUUID": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "isTrigger": false,
+          "radius": 0.5,
+          "height": 1,
+          "physicalMaterialUUID": null,
+          "isConvexIfMesh": false
+        }
+      ],
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": false,
+        "Drag": 0.05,
+        "AngularDrag": 0.05
+      },
+      "isCreateAsEmpty": false,
+      "ecaScripts": [],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "AimableEntity": {},
+        "Entity": {},
+        "Component": {},
+        "Transform": {},
+        "Visibility": {},
+        "Collider": {},
+        "BehaviourTreeAttachable": {},
+        "Rigidbody": {},
+        "MeshRender": {},
+        "AnimationControllerAble": {},
+        "ColliderShape": {}
+      },
+      "mesh": {
+        "fileId": "wehss29x://772ab186-6b5b-4775-b674-92e3e730f58d-Sphere001.~@FFFUB",
+        "filePath": "wehss29x://Meshes/sphere.fbx/Sphere001",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "mesh"
+      },
+      "_entityName": "Sphere001",
+      "propsData": {},
+      "modelOptimization": 0,
+      "entityVersion": 3,
+      "streamingLayer": "",
+      "aoiSetting": 0,
+      "entityTagData": {
+        "tagPointers": []
+      }
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "discriminator": "ISceneLike",
+  "_entityName": "test",
+  "mapID": 25,
+  "terrainInfo": {
+    "texture": [
+      {
+        "fileId": "e4c65232d3be1e92230bbcfdfd075038",
+        "filePath": "lib://fftextures/WorkshopItemTexture/SceneEdit_Cube_Texture_Grassland_01.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      }
+    ]
+  }
+}
+//"{FE:{"v":"1.12.3513000","c":{"FF":4701},"s":100}

@@ -1,0 +1,100 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Hud.fcc" as Hud
+import "List.fcc" as List
+import "Playable.fcc" as Playable
+
+graph ResultRow {
+    //Executed when entity is created
+    bgWidget entity<UIWidget>
+    rankWidget entity<UIWidget>
+    nameWidget entity<UIWidget>
+    avaWidgetList entity<UIWidget>
+    booyahWidget entity<UIWidget>
+    killWidget entity<UIWidget>
+    scoreWidget entity<UIWidget>
+    addPointWidget entity<UIWidget>
+    
+    _prevScore int = 0
+    _addPoint int = 0
+
+    event OnAwake() {
+        Init()
+    }
+
+    func Init() {
+        bgWidget = GetChildByIndex(thisEntity, 0) as entity<UIWidget>
+        rankWidget = GetChildByIndex(thisEntity, 1) as entity<UIWidget>
+        nameWidget = GetChildByIndex(thisEntity, 2) as entity<UIWidget>
+        booyahWidget = GetChildByIndex(thisEntity, 3) as entity<UIWidget>
+        killWidget = GetChildByIndex(thisEntity, 4) as entity<UIWidget>
+        scoreWidget = GetChildByIndex(thisEntity, 5) as entity<UIWidget>
+        addPointWidget = GetChildByIndex(thisEntity, 6) as entity<UIWidget>
+        // addPointWidget = GetChildByIndex(thisEntity, 7) as entity<UIWidget>
+
+    }
+
+    func Update(rank int, playerList List<entity<Player>>, booyahCount int, killCount int, prevScore int, addPoint int) {
+        Init() 
+        LogInfo("[RESULT ROW] + Rank " + rank )
+        rankWidget<UIWidgetLabel>.Content = "#" + rank
+        nameWidget<UIWidgetLabel>.Content = GetPlayersName(playerList)
+        booyahWidget<UIWidgetLabel>.Content = booyahCount
+        killWidget<UIWidgetLabel>.Content = killCount
+        scoreWidget<UIWidgetLabel>.Content = prevScore
+        
+        addPointWidget<UIWidgetLabel>.Content = "+" + addPoint
+        addPointWidget<UIWidgetLabel>.Alpha = 1.0
+        _prevScore = prevScore
+        _addPoint = addPoint
+
+        if List.Contain(playerList, GetOwner(thisEntity)) {
+            bgWidget<UIWidgetImage>.Color = #FFBA00
+        } else {
+            bgWidget<UIWidgetImage>.Color = #FFFFFF
+        }
+    }
+    
+    func GetPlayersName(playerList List<entity<Player>>) string {
+        Init()
+        var playerName = ""
+        for key, player in playerList {
+            playerName = playerName + player<Player>.NickName + " "
+        }
+        return playerName
+    }
+
+    async func IncreasePointAnim(src int, des int, widget entity<UIWidget>) {
+        widget<UIWidgetLabel>.Content = src
+        var score = src
+        while score < des {
+            score = score + 1
+            widget<UIWidgetLabel>.Content = score
+            WaitForMillisecond(70)
+        }
+    }
+
+    async func PlusAnim(point int, widget entity<UIWidget>, duration int) {
+        widget<UIWidgetLabel>.Alpha = 1.0
+        widget<UIWidgetLabel>.Content = "+" + point
+        var defaultPos = widget<UIWidget>.AnchorPosition
+        var curve = CreateCurve(List<float>{0,0,1,1})
+        CreateTween(widget, UIWidget.AnchorPosition, defaultPos, defaultPos + Vector3{-100, 0, 0}, TweenStyle.Once, curve, duration, out var tween, true)
+        CreateTween(widget, UIWidgetLabel.Alpha, 1.0, 0.0, TweenStyle.Once, curve, duration, out var tweenAlpha, true)
+
+        WaitForMillisecond(duration)
+        Destroy(tweenAlpha)
+        Destroy(tween)
+        widget<UIWidget>.AnchorPosition = defaultPos
+        
+    }
+
+    async func PlayAnim() {
+        PlusAnim(_addPoint, addPointWidget, 1500)
+        IncreasePointAnim(_prevScore, _prevScore + _addPoint, scoreWidget)
+    }
+
+    
+
+   
+}

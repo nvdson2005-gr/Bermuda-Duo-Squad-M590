@@ -1,0 +1,1031 @@
+import "StdLibrary.fcc" as StdLibrary
+import "AirDrop.fcc" as AirDrop
+import "Hud.fcc" as Hud
+import "Economy.fcc" as Economy
+import "Workflow.fcc" as Workflow
+import "Playable.fcc" as Playable
+import "MiniMap.fcc" as MiniMap
+
+
+
+
+[element CustomUIAssetID]
+enum EResUI {
+    RoundResult
+}
+[element CustomUIWidgetID]
+enum EResUIRoundResult {
+    resultHolder
+    rowTemplate
+}
+enum EResKeyUI {
+    RoundResult = "RoundResult"
+}
+enum EResKeyRoundResult {
+    resultHolder = "resultHolder"
+    rowTemplate = "rowTemplate"
+}
+
+// Assets\ECA\Global.eca
+[platform_server]
+declare graph __AssetsA3ECAA3Globalneca__ {
+    // hasConfig
+    hasConfig bool
+
+    // storeNumber
+    storeNumber int
+
+    // winTeam
+    winTeam entity<Team>
+
+    // loseTeam
+    loseTeam entity<Team>
+
+    // teamMap
+    teamMap Map<object, object>
+
+    // keyList
+    keyList object
+
+    // canUpdate
+    canUpdate bool
+
+    // checked
+    checked bool
+
+    // setGlobalPlayerConfig()
+    func setGlobalPlayerConfig() 
+
+    // checkEndRound()
+    func checkEndRound() 
+
+    // endRound(winTeam Team)
+    func endRound( winTeam entity<Team>) 
+
+    // endGame(winTeam Team)
+    func endGame( winTeam entity<Team>) 
+
+    // addItemForAll()
+    func addItemForAll() 
+
+    // removeMedKitForAll()
+    func removeMedKitForAll() 
+
+    // updateTeamMap()
+    func updateTeamMap() 
+
+    // MyFunction4513()
+    func MyFunction4513() 
+
+    // checkEndRound2()
+    func checkEndRound2() 
+
+}
+
+// Assets\ECA\GlobalAirdrop.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalAirdropneca__ {
+    // airdrop
+    airdrop entity<Airdrop>
+
+    // airdropLocation
+    airdropLocation object
+
+    // airdropChoice
+    airdropChoice object
+
+    // createAirdrop(mapChoice Int)
+    func createAirdrop( mapChoice int) 
+
+    // deleteAirdrop()
+    func deleteAirdrop() 
+
+}
+
+// Assets\ECA\GlobalBorder.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalBorderneca__ {
+    // Borders
+    Borders List<object>
+
+    // borderChoice
+    borderChoice int
+
+    // center
+    center object
+
+    // bordersNew
+    bordersNew object
+
+    // secondBorderChoice
+    secondBorderChoice object
+
+    // turnOnFirstBorder(mapChoice Int)
+    func turnOnFirstBorder( mapChoice int) 
+
+    // turnOnSecondBorder(mapChoice Int)
+    func turnOnSecondBorder( mapChoice int) 
+
+    // getBorderLocation(mapChoice any)
+    func getBorderLocation( mapChoice object) Vector3
+
+    // turnOnSecondBorder2(mapChoice Int)
+    func turnOnSecondBorder2( mapChoice int) 
+
+}
+
+// Assets\ECA\GlobalConfig.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalConfigneca__ {
+    // Obj
+    Obj object
+
+    // winMoney
+    winMoney object
+
+    // loseMoney
+    loseMoney object
+
+    // isMatchPoint
+    isMatchPoint object
+
+}
+
+// Assets\ECA\GlobalGunCombo.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalGunComboneca__ {
+    // combo1
+    combo1 List<object>
+
+    // combo2
+    combo2 List<object>
+
+    // combo3
+    combo3 List<object>
+
+    // combo4
+    combo4 List<object>
+
+    // combo5
+    combo5 List<object>
+
+    // combo6
+    combo6 List<object>
+
+    // combo7
+    combo7 List<object>
+
+    // combo8
+    combo8 List<object>
+
+    // combo9
+    combo9 List<object>
+
+    // combo10
+    combo10 List<object>
+
+    // gunCombos
+    gunCombos List<object>
+
+    // chosenGunCombos
+    chosenGunCombos object
+
+    // 1stComboCount
+    __1stComboCount__ int
+
+    // 2ndComboCount
+    __2ndComboCount__ int
+
+    // 3rdComboCount
+    __3rdComboCount__ int
+
+    // chosenCombo
+    chosenCombo object
+
+    // gunsMap
+    gunsMap object
+
+    // bannedCombo
+    bannedCombo List<object>
+
+    // calculated
+    calculated bool
+
+    // combo11
+    combo11 object
+
+    // initGunCombo()
+    func initGunCombo() 
+
+    // initRoundGunCombo()
+    func initRoundGunCombo() 
+
+    // vote1st()
+    func vote1st() 
+
+    // vote2nd()
+    func vote2nd() 
+
+    // vote3rd()
+    func vote3rd() 
+
+    // calculateVote()
+    func calculateVote() 
+
+    // decreaseCombo1()
+    func decreaseCombo1() 
+
+    // decreaseCombo2()
+    func decreaseCombo2() 
+
+    // decreaseCombo3()
+    func decreaseCombo3() 
+
+    // SetRandomCombo()
+    func SetRandomCombo() object
+
+}
+
+// Assets\ECA\GlobalMap.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalMapneca__ {
+    // mapChoice
+    mapChoice int
+
+    // chosenMaps
+    chosenMaps List<object>
+
+    // chooseMap()
+    func chooseMap() 
+
+}
+
+// Assets\ECA\GlobalRandomEvent.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalRandomEventneca__ {
+    // randomEventList
+    randomEventList object
+
+    // chosenEvent
+    chosenEvent int
+
+    // chosenEventList
+    chosenEventList List<object>
+
+    // priorityEvent
+    priorityEvent object
+
+    // setRandomEventRound()
+    func setRandomEventRound() 
+
+    // gloowallEvent()
+    func gloowallEvent() 
+
+    // grenadeEvent()
+    func grenadeEvent() 
+
+    // initRandomEvent()
+    func initRandomEvent() 
+
+    // getEvent(random any)
+    func getEvent( random object) int
+
+    // randomizeEvent()
+    func randomizeEvent() int
+
+    // setRandomEventRound2()
+    func setRandomEventRound2() 
+
+}
+
+// Assets\ECA\GlobalScore.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalScoreneca__ {
+    // setScoreType()
+    func setScoreType() 
+
+}
+
+// Assets\ECA\GlobalSpawnPoints.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalSpawnPointsneca__ {
+    // spawnPointDict
+    spawnPointDict Map<object, object>
+
+    // spawnPointList
+    spawnPointList List<object>
+
+    // disableSpawnPoint()
+    func disableSpawnPoint() 
+
+    // enableSpawnPoint()
+    func enableSpawnPoint() 
+
+    // getSpawnPointList(mapChoice Int)
+    func getSpawnPointList( mapChoice int) List<object>
+
+    // turnOffTeamCylinder(visualEffect any)
+    func turnOffTeamCylinder( visualEffect object) 
+
+    // getPlayerOrientation(spawn Vector3, center Vector3)
+    func getPlayerOrientation( spawn Vector3,  center Vector3) Vector3
+
+}
+
+// Assets\ECA\GlobalTeam.eca
+[platform_server]
+declare graph __AssetsA3ECAA3GlobalTeamneca__ {
+    // teams
+    teams List<entity<Team>>
+
+    // firstBlood
+    firstBlood bool
+
+    // addTeam(team any)
+    func addTeam( team object) 
+
+    // setFirstBloodTeam(player Player)
+    func setFirstBloodTeam( player entity<Player>) 
+
+}
+
+// Assets\ECA\HUDGunVote.eca
+[platform_server]
+declare graph __AssetsA3ECAA3HUDGunVoteneca__ {
+}
+
+// Assets\ECA\HUDSkill.eca
+[platform_server]
+declare graph __AssetsA3ECAA3HUDSkillneca__ {
+}
+
+// Assets\ECA\HUDstat.eca
+[platform_server]
+declare graph __AssetsA3ECAA3HUDstatneca__ {
+}
+
+// Assets\ECA\Player.eca
+[platform_server]
+declare graph __AssetsA3ECAA3Playerneca__ {
+    // scale
+    scale float
+
+    // isSmallerEvent
+    isSmallerEvent bool
+
+    // isBiggerEvent
+    isBiggerEvent object
+
+    // coolDownFlag
+    coolDownFlag bool
+
+    // phaseIndexGlobal
+    phaseIndexGlobal int
+
+    // setBigHead()
+    func setBigHead() 
+
+    // setSpeed()
+    func setSpeed() 
+
+    // restoreDefault()
+    func restoreDefault() 
+
+    // setGravity()
+    func setGravity() 
+
+    // reduceScale()
+    func reduceScale() 
+
+    // resetScale()
+    func resetScale() 
+
+    // setSmaller()
+    func setSmaller() 
+
+    // setBigger()
+    func setBigger() 
+
+    // increaseScale()
+    func increaseScale() 
+
+    // setJetShoes()
+    func setJetShoes() 
+
+    // setFPP()
+    func setFPP() 
+
+    // setVisibility()
+    func setVisibility() 
+
+    // setFPP2()
+    func setFPP2() 
+
+    // addItemForAll()
+    func addItemForAll() 
+
+}
+
+// Assets\ECA\PlayerCustomHUD.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerCustomHUDneca__ {
+    // teamScoreHUD
+    teamScoreHUD entity<CustomUI>
+
+    // waterReminder
+    waterReminder entity<CustomUI>
+
+    // updated
+    updated bool
+
+    // topTeam
+    topTeam entity<Icon>
+
+    // circle
+    circle entity<Effect>
+
+    // initScoreHUD()
+    func initScoreHUD() 
+
+    // updateScoreHUD()
+    func updateScoreHUD() 
+
+    // diasbleScoreHUD()
+    func diasbleScoreHUD() 
+
+    // showWaterReminder()
+    func showWaterReminder() 
+
+    // closeWaterReminder()
+    func closeWaterReminder() 
+
+    // setFirstBloodHUD()
+    func setFirstBloodHUD() 
+
+    // setTopTeamIcon()
+    func setTopTeamIcon() 
+
+    // disableTopTeam()
+    func disableTopTeam() 
+
+    // setColorCircle()
+    func setColorCircle() 
+
+}
+
+// Assets\ECA\PlayerDefaultHUD.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerDefaultHUDneca__ {
+    // scoreBoard
+    scoreBoard entity<UITwoTeamInfo>
+
+    // countDownHUD
+    countDownHUD entity<UIPhaseTimer>
+
+    // roundStartHUD
+    roundStartHUD entity<UITwoTeamRoundScoreBanner>
+
+    // roundInfo
+    roundInfo entity<UIOpeningBanner>
+
+    // roundResult
+    roundResult entity<UIWinOrLoseBanner>
+
+    // borderReminder
+    borderReminder entity<UICountdownReminder>
+
+    // walletHUD
+    walletHUD entity<WalletHud>
+
+    // statHUD
+    statHUD entity<UITwoTeamLeaderboard>
+
+    // statHUDentity
+    statHUDentity entity<CustomUI>
+
+    // statHUDNew
+    statHUDNew entity<UIMultipleTeamLeaderboardV2>
+
+    // objectiveHUD
+    objectiveHUD entity<UIMatchSubtitle>
+
+    // updateScoreBoard()
+    func updateScoreBoard() 
+
+    // setScoreBoard()
+    func setScoreBoard() 
+
+    // setDefaultHUD()
+    func setDefaultHUD() 
+
+    // setCountDownHUD(phaseEntity Phase)
+    func setCountDownHUD( phaseEntity entity<Phase>) 
+
+    // setTeamBattleBanner()
+    func setTeamBattleBanner() 
+
+    // setRoundStartHUD()
+    func setRoundStartHUD() 
+
+    // setRoundInfo()
+    func setRoundInfo() 
+
+    // showRoundResult()
+    func showRoundResult() 
+
+    // showMatchStart()
+    func showMatchStart() 
+
+    // showBorderReminder()
+    func showBorderReminder() 
+
+    // initWalletHUD()
+    func initWalletHUD() 
+
+    // updateWalletHUD()
+    func updateWalletHUD() 
+
+    // showStatHUD()
+    func showStatHUD() 
+
+    // setStatHUD()
+    func setStatHUD() 
+
+    // updateStatHUD()
+    func updateStatHUD() 
+
+    // setStatHUDEntity()
+    func setStatHUDEntity() 
+
+    // closeStatHUD()
+    func closeStatHUD() 
+
+    // setFinalScore()
+    func setFinalScore() 
+
+    // setObjectiveHUD()
+    func setObjectiveHUD() 
+
+    // showBorderReminder2()
+    func showBorderReminder2() 
+
+    // deleteHUD()
+    func deleteHUD() 
+
+    // getRankingStat(out varrankList any, out varscoreList any, out varplayerList any)
+    func getRankingStat( out var rankList object,  out var scoreList object,  out var playerList object) 
+
+}
+
+// Assets\ECA\PlayerMatchResult.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerMatchResultneca__ {
+    // killScoreList
+    killScoreList object
+
+    // damageScoreList
+    damageScoreList object
+
+    // assistScoreList
+    assistScoreList object
+
+    // assistedPlayers
+    assistedPlayers List<entity<Player>>
+
+    // hasResultList
+    hasResultList object
+
+    // initMatchResult()
+    func initMatchResult() 
+
+    // add1Kill()
+    func add1Kill() 
+
+    // addDamage(damage Int)
+    func addDamage( damage int) 
+
+    // add1Assist()
+    func add1Assist() 
+
+    // addAssistedPlayer(player Player)
+    func addAssistedPlayer( player entity<Player>) 
+
+    // removeAssistedPlayer(player Player)
+    func removeAssistedPlayer( player entity<Player>) 
+
+    // updateRoundResult()
+    func updateRoundResult() 
+
+}
+
+// Assets\ECA\PlayerScoreBoard.eca
+[platform_server]
+declare graph PlayerScoreBoardECA {
+    // scoreBoardHUD
+    scoreBoardHUD entity<CustomUI>
+
+    // locationMotion
+    locationMotion entity<Tween>
+
+    // opacityMotion
+    opacityMotion entity<Tween>
+
+    // setScoreBoard()
+    func setScoreBoard() 
+
+    // updateScoreBoard()
+    func updateScoreBoard() 
+
+    // setText(winTeam Team)
+    func setText( winTeam entity<Team>) 
+
+    // setPoint(winTeam Team)
+    func setPoint( winTeam entity<Team>) 
+
+    // setScoreBoard2()
+    func setScoreBoard2() 
+
+    // updateScoreBoard2()
+    func updateScoreBoard2() 
+
+    // setText2(winTeam Team)
+    func setText2( winTeam entity<Team>) 
+
+    // setPoint2(winTeam Team)
+    func setPoint2( winTeam entity<Team>) 
+
+    // increasePointAnimation(start Int, end Int, UIControl HudWidget)
+    func increasePointAnimation( __start__ int,  end int,  UIControl entity<UIWidget>) 
+
+    // plusAnimation(point Int, UIControl HudWidget)
+    func plusAnimation( point int,  UIControl entity<UIWidget>) 
+
+    // setTopTeamUI(topTeamIndex Int)
+    func setTopTeamUI( topTeamIndex int) 
+
+    // sortTeamScore()
+    func sortTeamScore() List<entity<Team>>
+
+    // resetCurrentTeam()
+    func resetCurrentTeam() 
+
+    // setTopTeam(teamList ListT_Team)
+    func setTopTeam( teamList List<entity<Team>>) 
+
+}
+
+// Assets\ECA\PlayerSkillHUD.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerSkillHUDneca__ {
+}
+
+// Assets\ECA\PlayerStore.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerStoreneca__ {
+    // merchandiseList
+    merchandiseList object
+
+    // storeEntity
+    storeEntity entity<Shop>
+
+    // hasShop
+    hasShop object
+
+    // stores
+    stores List<entity<LevelObject>>
+
+    // createStore()
+    func createStore() 
+
+    // setWeapon()
+    func setWeapon() 
+
+    // setArmory()
+    func setArmory() 
+
+    // getMerchandiseList(storeList any, merchandiseName any)
+    func getMerchandiseList( storeList object,  merchandiseName object) object
+
+    // setGrenade()
+    func setGrenade() 
+
+    // enableStore()
+    func enableStore() 
+
+    // disableStore()
+    func disableStore() 
+
+}
+
+// Assets\ECA\PlayerStoreConfig.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerStoreConfigneca__ {
+    // store1
+    store1 object
+
+    // store2
+    store2 object
+
+    // armory
+    armory object
+
+    // grenade
+    grenade object
+
+    // initPlayerStoreConfig()
+    func initPlayerStoreConfig() 
+
+    // setStore1()
+    func setStore1() 
+
+    // setStore2()
+    func setStore2() 
+
+    // setArmory()
+    func setArmory() 
+
+    // setGrenade()
+    func setGrenade() 
+
+}
+
+// Assets\ECA\PlayerVoteGun.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerVoteGunneca__ {
+    // chooseCombo1
+    chooseCombo1 bool
+
+    // chooseCombo2
+    chooseCombo2 bool
+
+    // chooseCombo3
+    chooseCombo3 bool
+
+    // gunVote
+    gunVote entity<CustomUI>
+
+    // calculated
+    calculated bool
+
+    // gunVoteResult
+    gunVoteResult entity<CustomUI>
+
+    // hasInit
+    hasInit bool
+
+    // eventHUD
+    eventHUD entity<CustomUI>
+
+    // gunCombos
+    gunCombos object
+
+    // voted
+    voted bool
+
+    // chooseCombo1()
+    func chooseCombo1() 
+
+    // resetVote()
+    func resetVote() 
+
+    // setGunVote()
+    func setGunVote() 
+
+    // updateVote()
+    func updateVote() 
+
+    // disableVote()
+    func disableVote() 
+
+    // updateTimer(time any)
+    func updateTimer( time object) 
+
+    // setGun()
+    func setGun() 
+
+    // setGunResult()
+    func setGunResult() 
+
+    // addGunForPlayer()
+    func addGunForPlayer() 
+
+    // turnOffChecks()
+    func turnOffChecks() 
+
+    // chooseCombo2()
+    func chooseCombo2() 
+
+    // chooseCombo3()
+    func chooseCombo3() 
+
+    // setEventHUD()
+    func setEventHUD() 
+
+    // deleteEventHUD()
+    func deleteEventHUD() 
+
+    // getGunComboByIndex(gunMap any, index any)
+    func getGunComboByIndex( gunMap object,  index object) object
+
+}
+
+// Assets\ECA\PlayerWallet.eca
+[platform_server]
+declare graph __AssetsA3ECAA3PlayerWalletneca__ {
+    // initWallet()
+    func initWallet() 
+
+    // getCurrencyEntity()
+    func getCurrencyEntity() entity<Money>
+
+    // getCurrencyAmount()
+    func getCurrencyAmount() int
+
+    // addMoneyAmount(amount Int)
+    func addMoneyAmount( amount int) 
+
+    // addMoneyEndRound()
+    func addMoneyEndRound() 
+
+}
+
+// Assets\ECA\Player_Minimap.eca
+[platform_server]
+declare graph __AssetsA3ECAA3Player_Minimapneca__ {
+    // map
+    map entity<MiniMapIcon>
+
+}
+
+// Assets\ECA\Team.eca
+[platform_server]
+declare graph __AssetsA3ECAA3Teamneca__ {
+    // numberAlive
+    numberAlive int
+
+    // numberKnocked
+    numberKnocked int
+
+    // numberEliminated
+    numberEliminated int
+
+    // opposingTeam
+    opposingTeam entity<Team>
+
+    // opposingTeamIndex
+    opposingTeamIndex object
+
+    // currentTeamIndex
+    currentTeamIndex object
+
+    // opposingTeamList
+    opposingTeamList List<entity<Team>>
+
+    // opposingTeamIndexList
+    opposingTeamIndexList object
+
+    // teamMembers
+    teamMembers List<entity<Player>>
+
+    // Kills
+    Kills int
+
+    // teamName
+    teamName object
+
+    // teamColor
+    teamColor object
+
+    // fisrtBlood
+    fisrtBlood bool
+
+    // topTeam
+    topTeam bool
+
+    // updateTeamStatus()
+    func updateTeamStatus() 
+
+    // getOpposingTeam()
+    func getOpposingTeam() entity<Team>
+
+    // updateAllTeamStatus()
+    func updateAllTeamStatus() 
+
+    // getOpposingTeamList()
+    func getOpposingTeamList() List<entity<Team>>
+
+    // initTeamConfig()
+    func initTeamConfig() 
+
+    // updateAllTeamStatus2()
+    func updateAllTeamStatus2() 
+
+}
+
+// Assets\ECA\TeamMatchResult.eca
+[platform_server]
+declare graph TeamMatchResultECA {
+    // resultList
+    resultList object
+
+    // kills
+    kills int
+
+    // totalKills
+    totalKills int
+
+    // prevScore
+    prevScore int
+
+    // booyah
+    booyah int
+
+    // firstBlood
+    firstBlood bool
+
+    // initRoundResult()
+    func initRoundResult() 
+
+    // getTeamScore()
+    func getTeamScore() int
+
+    // setRoundResult(result MatchResultType)
+    func setRoundResult( result GameResultType) 
+
+    // setTargetScore(score Int)
+    func setTargetScore( score int) 
+
+    // resetKills()
+    func resetKills() 
+
+    // getTeamScore2()
+    func getTeamScore2() int
+
+}
+
+// Assets\ECA\Vending.eca
+[platform_server]
+declare graph __AssetsA3ECAA3Vendingneca__ {
+}
+
+// Assets\ECA\Water.eca
+[platform_server]
+declare graph __AssetsA3ECAA3Waterneca__ {
+    // playersInWater
+    playersInWater object
+
+    // water
+    water entity<Playable>
+
+    // waterHeightPerMap
+    waterHeightPerMap object
+
+    // dealWaterDamage()
+    func dealWaterDamage() 
+
+}
+
+[platform_server]
+[platform_client]
+declare static graph Res {
+    UI Map<EResKeyUI, CustomUIAssetID>
+    RoundResult Map<EResKeyRoundResult, CustomUIWidgetID>
+}
+
+[element entity]
+enum ECustomShop {
+    // Shop
+    Shop
+
+}
+
+
+
+enum EPhase {
+    // Start
+    Start = 512
+
+    // Preparation
+    Preparation = 1506
+
+    // Rounds
+    Rounds = 1575
+
+    // Rounds / Vote
+    Vote = 1836
+
+    // Rounds / Border
+    Border = 3964
+
+    // Rounds / Border 2
+    __Border62__ = 1722
+
+    // Rounds / End Round
+    __End6Round__ = 4427
+
+    // End
+    End = 4057
+
+}
+
+

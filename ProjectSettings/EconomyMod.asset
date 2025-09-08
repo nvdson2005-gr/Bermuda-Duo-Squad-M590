@@ -1,0 +1,145 @@
+{
+  "_tag": {
+    "type": "ff.economy",
+    "resourceId": "Economy"
+  },
+  "_entityId": "FfREqAQd",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 25,
+  "modOpen": true,
+  "_entityName": "T_43_YU_WS_MODULE_ECONOMY",
+  "customEconomyTypes": [],
+  "customEconomyShops": [
+    {
+      "_name": "Shop",
+      "id": "shopType51581261",
+      "shopShelfList": [
+        {
+          "name": "Shelf1",
+          "id": "shopShelfType95308520",
+          "locName": null,
+          "shopItemList": [
+            {
+              "id": "shopItemType13511204",
+              "itemId": 0,
+              "itemPrice": 0,
+              "moneyTypeID": null,
+              "totalPurchaseLimit": -1,
+              "curTotalPurchaseLimit": null,
+              "itemName": "TXT_ITEM_EAGLE",
+              "locName": null,
+              "itemDesc": "",
+              "itemGoodsMap": [
+                {
+                  "enumID": 9,
+                  "count": 1
+                }
+              ],
+              "iconType": {
+                "fileId": "4c0740c7b70965efd0d49a8222115bac",
+                "filePath": "lib://ffitem/item_9",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "texture"
+              },
+              "canPurchas": true
+            },
+            {
+              "id": "shopItemType98481928",
+              "itemId": 0,
+              "itemPrice": 0,
+              "moneyTypeID": null,
+              "totalPurchaseLimit": -1,
+              "curTotalPurchaseLimit": null,
+              "itemName": "TXT_ITEM_AK",
+              "locName": null,
+              "itemDesc": "",
+              "itemGoodsMap": [
+                {
+                  "enumID": 6,
+                  "count": 1
+                }
+              ],
+              "iconType": {
+                "fileId": "9cb4b297a2dc2e25384c2df19681304d",
+                "filePath": "lib://ffitem/item_6",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "texture"
+              },
+              "canPurchas": true
+            },
+            {
+              "id": "shopItemType16388966",
+              "itemId": 0,
+              "itemPrice": 0,
+              "moneyTypeID": null,
+              "totalPurchaseLimit": -1,
+              "curTotalPurchaseLimit": null,
+              "itemName": "T_24_U_M21A5",
+              "locName": null,
+              "itemDesc": "",
+              "itemGoodsMap": [
+                {
+                  "enumID": 48,
+                  "count": 1
+                }
+              ],
+              "iconType": {
+                "fileId": "3c05875974f836b6897d21aa766bb2bf",
+                "filePath": "lib://ffitem/item_48",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "texture"
+              },
+              "canPurchas": true
+            },
+            {
+              "id": "shopItemType27284918",
+              "itemId": 0,
+              "itemPrice": 0,
+              "moneyTypeID": null,
+              "totalPurchaseLimit": -1,
+              "curTotalPurchaseLimit": null,
+              "itemName": "TXT_ITEM_SVD",
+              "locName": null,
+              "itemDesc": "",
+              "itemGoodsMap": [
+                {
+                  "enumID": 26,
+                  "count": 1
+                }
+              ],
+              "iconType": {
+                "fileId": "3b4c857d7276e3db27236f5080c4d2a4",
+                "filePath": "lib://ffitem/item_26",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "texture"
+              },
+              "canPurchas": true
+            }
+          ]
+        }
+      ],
+      "locName": null
+    }
+  ],
+  "showSwitch": true
+}
+//"{FE:{"v":"1.14.3838421","c":{"FF":5001},"s":100}

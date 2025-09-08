@@ -1,0 +1,316 @@
+{
+  "_tag": {
+    "type": "UIRootEntity",
+    "resourceId": ""
+  },
+  "_entityId": "hMfGqG8D",
+  "children": [
+    {
+      "_tag": {
+        "type": "UIButtonEntity",
+        "resourceId": ""
+      },
+      "_entityId": "r0auSzPO",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": false,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "propsData": {
+        "activeSelf": false,
+        "transform": {
+          "rotate": 0,
+          "anchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "anchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "anchoredPosition": {
+            "x": 14.731380462646484,
+            "y": -48.64664840698242
+          },
+          "sizeDelta": {
+            "x": 1212,
+            "y": 546
+          }
+        },
+        "alpha": 92,
+        "button": {
+          "fillType": 1,
+          "slicedBorder": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "tiledBorder": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "centerInvisible": false,
+          "fillDir": 0,
+          "fillAmount": 0,
+          "invertFill": false,
+          "reverse": {
+            "x": false,
+            "y": false
+          },
+          "flip": 0,
+          "gradient": 1,
+          "gradientTop": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "gradientBottom": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "spriteName": {
+            "fileId": "b063b0439839b3d97a8fd2aa6a57ef8b",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_SQUARE.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "normal": "#FFBA00",
+          "highlight": "#e2a222",
+          "pressed": "#774315",
+          "disabled": "#494949",
+          "onClicks": [
+            "rbkf5g8n4va-lq4nomqk-83yvpoytgzs B~ow@:twymjh*`VoY|0W"
+          ],
+          "enableBorderImage": true,
+          "clickHandlers": [
+            {
+              "type": "eca",
+              "fileID": "rbkf5g8n4va-lq4nomqk-83yvpoytgzs",
+              "funcKey": "B~ow@:twymjh*`VoY|0W",
+              "eventName": "OnClick"
+            }
+          ],
+          "disableCollider": false
+        },
+        "priority": 0
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "HudButtonWidget": {},
+        "HudWidget": {},
+        "Entity": {},
+        "Component": {}
+      },
+      "_entityName": "close",
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "componentList": [],
+      "_filters": []
+    },
+    {
+      "_tag": {
+        "type": "UIButtonEntity",
+        "resourceId": ""
+      },
+      "_entityId": "ecFvc4Wl",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "propsData": {
+        "activeSelf": true,
+        "transform": {
+          "rotate": 0,
+          "anchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "anchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "anchoredPosition": {
+            "x": 0,
+            "y": 345.9288635253906
+          },
+          "sizeDelta": {
+            "x": 858,
+            "y": 50
+          }
+        },
+        "alpha": 0,
+        "button": {
+          "fillType": 1,
+          "slicedBorder": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "tiledBorder": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "centerInvisible": false,
+          "fillDir": 0,
+          "fillAmount": 0,
+          "invertFill": false,
+          "reverse": {
+            "x": false,
+            "y": false
+          },
+          "flip": 0,
+          "gradient": 1,
+          "gradientTop": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "gradientBottom": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "spriteName": {
+            "fileId": "b063b0439839b3d97a8fd2aa6a57ef8b",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_SQUARE.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "normal": "#FFBA00",
+          "highlight": "#e2a222",
+          "pressed": "#774315",
+          "disabled": "#494949",
+          "onClicks": [
+            "rbkf5g8n4va-lq4nomqk-83yvpoytgzs B~ow@:twymjh*`VoY|0W"
+          ],
+          "enableBorderImage": true,
+          "clickHandlers": [
+            {
+              "type": "eca",
+              "fileID": "rbkf5g8n4va-lq4nomqk-83yvpoytgzs",
+              "funcKey": "B~ow@:twymjh*`VoY|0W",
+              "eventName": "OnClick"
+            }
+          ],
+          "disableCollider": false
+        },
+        "priority": 0
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "HudButtonWidget": {},
+        "HudWidget": {},
+        "Entity": {},
+        "Component": {}
+      },
+      "_entityName": "open",
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "componentList": [],
+      "_filters": []
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "propsData": {
+    "activeSelf": true,
+    "transform": {
+      "rotate": 0,
+      "anchorMin": {
+        "x": 0,
+        "y": 0
+      },
+      "anchorMax": {
+        "x": 0,
+        "y": 0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 667,
+        "y": 375
+      },
+      "sizeDelta": {
+        "x": 1334,
+        "y": 750
+      }
+    },
+    "alpha": 100,
+    "priority": 0
+  },
+  "ecaScripts": [
+    {
+      "fileId": "rbkf5g8n4va-lq4nomqk-83yvpoytgzs",
+      "filePath": "Assets\\ECA\\HUDstat.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      }
+    }
+  ],
+  "ecaProps": {
+    "CustomHud": {},
+    "Entity": {},
+    "Component": {}
+  },
+  "_entityName": "statHUD",
+  "entityTagData": {
+    "tagPointers": []
+  },
+  "layer": 1,
+  "discriminator": "ISceneLike",
+  "version": 3,
+  "componentList": [],
+  "_filters": []
+}
+//"{FE:{"v":"1.14.3838421","c":{"FF":5001},"s":100}

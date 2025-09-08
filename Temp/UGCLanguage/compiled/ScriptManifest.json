@@ -1,0 +1,50 @@
+{
+  "ScriptDepend": {
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1BsYXllclNob3BIVUQuZmNn": {
+      "Scripts": null,
+      "ComponentItems": [
+        200001,
+        200002
+      ],
+      "PartialPropItems": {},
+      "EnumItems": [
+        200001,
+        200002
+      ],
+      "EventItems": null
+    },
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1Jlc3VsdC9QbGF5ZXJSb3VuZFJlc3VsdEhVRC5mY2c=": {
+      "Scripts": [
+        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1Jlc3VsdC9SZXN1bHRSb3cuZmNn"
+      ],
+      "ComponentItems": [
+        200001,
+        548100,
+        835511
+      ],
+      "PartialPropItems": {},
+      "EnumItems": [
+        200001,
+        548100,
+        835511
+      ],
+      "EventItems": null
+    }
+  },
+  "ModuleDepend": [
+    "StdLibrary",
+    "EditorGenLib",
+    "Economy",
+    "Hud",
+    "Items",
+    "Workflow",
+    "List",
+    "Playable"
+  ],
+  "ForceExportScripts": {},
+  "GraphID2Path": {
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1BsYXllclNob3BIVUQuZmNn": "./Assets/Script/PlayerShopHUD.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1Jlc3VsdC9QbGF5ZXJSb3VuZFJlc3VsdEhVRC5mY2c=": "./Assets/Script/Result/PlayerRoundResultHUD.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1Jlc3VsdC9SZXN1bHRSb3cuZmNn": "./Assets/Script/Result/ResultRow.fcg"
+  }
+}

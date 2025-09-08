@@ -1,0 +1,46 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Economy.fcc" as Economy
+import "Hud.fcc" as Hud
+import "Items.fcc" as Items
+import "Workflow.fcc" as Workflow
+
+graph PlayerShopHUD {
+    //Executed when entity is created
+    shopHUD entity<UIStore>
+    event OnAwake() {
+        Init()
+    }
+
+    event OnPhaseStart(phase entity<Phase>) {
+        var phaseIndex = phase<Phase>.Index
+        if phaseIndex == EPhase.Border {
+            Close()
+        }
+    }
+    
+    event OnAccessWeapon(weapon entity<Weapon>) {
+        Close()
+    }
+
+    func Init() {
+        if shopHUD != nil {
+            return
+        }
+
+        CreateBuiltInUI(out var temp, thisEntity<Player>, BuiltInUIType.UGCShopHud)
+        shopHUD = temp as entity<UIStore>
+        shopHUD<UIStore>.Store = ECustomShop.Shop as entity<Shop>
+        shopHUD<UIStore>.IsVisible = false
+    }
+
+    func Display() {
+        Init()
+        shopHUD<UIStore>.IsVisible = true
+    }
+
+    func Close() {
+        Init()
+        shopHUD<UIStore>.IsVisible = false
+    }
+}

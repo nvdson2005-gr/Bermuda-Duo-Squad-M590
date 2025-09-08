@@ -1,0 +1,14 @@
+{
+  "rbkf5g8n4va-lq4nomqk-83yvpoytgzs": [
+    {
+      "id": "aUEh-gL0f4c3%C1l$uD4",
+      "active": false,
+      "disabled": false,
+      "locKey": "FE_0_HW_GRAPH_EXTERNALCALL",
+      "spliceId": "34//aUEh-gL0f4c3%C1l$uD4",
+      "ecaId": "rbkf5g8n4va-lq4nomqk-83yvpoytgzs",
+      "ecaName": "HUDstat.eca"
+    }
+  ]
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

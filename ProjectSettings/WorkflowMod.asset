@@ -1,0 +1,293 @@
+{
+  "_tag": {
+    "type": "ff.workflow",
+    "resourceId": "Workflow"
+  },
+  "_entityId": "lYtUtZHr",
+  "children": [
+    {
+      "_tag": {
+        "type": "ff.PhaseEntity1",
+        "resourceId": "GameStart"
+      },
+      "_entityId": "hHOLaJr9",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "gameDuration": 5,
+      "ecaScripts": [],
+      "ecaProps": {
+        "Phase": {},
+        "Entity": {},
+        "Component": {}
+      },
+      "modId": 18,
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_START",
+      "phaseIndex": 512
+    },
+    {
+      "_tag": {
+        "type": "ff.PhaseEntity1",
+        "resourceId": "GamePrepare"
+      },
+      "_entityId": "NZL8mQf9",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "gameDuration": 10,
+      "ecaScripts": [],
+      "ecaProps": {
+        "Phase": {},
+        "Entity": {},
+        "Component": {}
+      },
+      "modId": 18,
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_PREPARE",
+      "phaseIndex": 1506
+    },
+    {
+      "_tag": {
+        "type": "ff.RoundEntity1",
+        "resourceId": "Round"
+      },
+      "_entityId": "7zC7UIyN",
+      "children": [
+        {
+          "_tag": {
+            "type": "ff.PhaseEntity1",
+            "resourceId": "Phase"
+          },
+          "_entityId": "nsUeQw89",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "gameDuration": 10,
+          "ecaScripts": [],
+          "ecaProps": {
+            "Phase": {},
+            "Entity": {},
+            "Component": {}
+          },
+          "modId": 18,
+          "_entityName": "Vote",
+          "phaseIndex": 1836
+        },
+        {
+          "_tag": {
+            "type": "ff.PhaseEntity1",
+            "resourceId": "Phase"
+          },
+          "_entityId": "zEirsZjN",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "gameDuration": 85,
+          "ecaScripts": [],
+          "ecaProps": {
+            "Phase": {},
+            "Entity": {},
+            "Component": {}
+          },
+          "modId": 18,
+          "_entityName": "Border",
+          "phaseIndex": 3964,
+          "waitingDuration": 5
+        },
+        {
+          "_tag": {
+            "type": "ff.PhaseEntity1",
+            "resourceId": "Phase"
+          },
+          "_entityId": "VK4yt7aH",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "gameDuration": 80,
+          "ecaScripts": [],
+          "ecaProps": {
+            "Phase": {},
+            "Entity": {},
+            "Component": {}
+          },
+          "modId": 18,
+          "_entityName": "Border 2",
+          "phaseIndex": 1722
+        },
+        {
+          "_tag": {
+            "type": "ff.PhaseEntity1",
+            "resourceId": "Phase"
+          },
+          "_entityId": "lpCYu81Y",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "gameDuration": 10,
+          "ecaScripts": [],
+          "ecaProps": {
+            "Phase": {},
+            "Entity": {},
+            "Component": {}
+          },
+          "modId": 18,
+          "_entityName": "End Round",
+          "phaseIndex": 4427,
+          "waitingDuration": 5
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "roundCount": 4,
+      "modId": 18,
+      "ecaScripts": [],
+      "ecaProps": {
+        "Round": {},
+        "Entity": {},
+        "Component": {}
+      },
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_ROUND",
+      "phaseIndex": 1575
+    },
+    {
+      "_tag": {
+        "type": "ff.PhaseEntity1",
+        "resourceId": "GameEnd"
+      },
+      "_entityId": "5XIG8qig",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "gameDuration": 5,
+      "ecaScripts": [],
+      "ecaProps": {
+        "Phase": {},
+        "Entity": {},
+        "Component": {}
+      },
+      "modId": 18,
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_END",
+      "phaseIndex": 4057
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "EnableHackCheck": false,
+  "EnableInventoryDrop": false,
+  "modId": 18,
+  "modOpen": true,
+  "curActiveEntity": {
+    "_tag": {
+      "type": "ff.PhaseEntity1",
+      "resourceId": "Phase"
+    },
+    "_entityId": "nsUeQw89",
+    "children": [],
+    "prefabVariant": null,
+    "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+    },
+    "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+    },
+    "editorLockValue": false,
+    "editorVisibleValue": true,
+    "gameDuration": 10,
+    "ecaScripts": [],
+    "ecaProps": {
+      "Phase": {},
+      "Entity": {},
+      "Component": {}
+    },
+    "modId": 18,
+    "_entityName": "Vote",
+    "phaseIndex": 1836
+  },
+  "roundCount": 4,
+  "discriminator": "ISceneLike",
+  "_entityName": "T_43_YU_WS_MODULE_WORKFLOW",
+  "showSwitch": false
+}
+//"{FE:{"v":"1.14.3838421","c":{"FF":5001},"s":100}

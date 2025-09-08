@@ -1,0 +1,91 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Hud.fcc" as Hud
+import TeamMatchResultECA from "EditorGenLib.fcc"
+import PlayerScoreBoardECA from "EditorGenLib.fcc"
+import "./ResultRow.fcg" as ResultRow
+import "Workflow.fcc" as Workflow
+
+graph PlayerRoundResultHUD {
+    //Executed when entity is created
+    roundResultHUD entity<CustomUI>
+    resultHolder entity<UIWidget>
+    rowTemplate entity<UIWidget>
+
+    event OnAwake() {
+        Init()
+    }
+
+    event OnPhaseStart(phase entity<Phase>) {
+        var phaseIndex = phase<Phase>.Index
+        if phaseIndex == EPhase.__End6Round__ {
+            Update()
+            WaitForMillisecond(4000)
+            Display()
+            WaitForMillisecond(2000)
+            PlayAnim()
+        } else {
+            Close()
+        }
+    }
+
+    func Init() {
+        if roundResultHUD != nil {
+            return
+        }
+
+        CreateCustomUI(out var temp, thisEntity<Player>, EResUI.RoundResult)
+        roundResultHUD = temp as entity<CustomUI>
+        roundResultHUD<CustomUI>.IsVisible = false
+        resultHolder = GetWidgetFromCustomUI(thisEntity<Player>, roundResultHUD, EResUIRoundResult.resultHolder) as entity<UIWidget>
+        rowTemplate = GetWidgetFromCustomUI(thisEntity<Player>, roundResultHUD, EResUIRoundResult.rowTemplate) as entity<UIWidget>
+    }
+
+    func Display() {
+        Init()
+        roundResultHUD<CustomUI>.IsVisible = true
+    }
+
+    func Close() {
+        Init() 
+        roundResultHUD<CustomUI>.IsVisible = false
+    }
+
+    async func Update() {
+        Init()
+        ClearResultHolder()
+        var teamList = thisEntity<PlayerScoreBoardECA>.sortTeamScore()
+        for key, team in teamList {
+            var rowWidget = rowTemplate as entity<UIWidget>
+            if key != 0 {
+                Clone(out var temp, rowTemplate)
+                rowWidget = temp as entity<UIWidget>
+            } 
+
+            var booyahCount = team<TeamMatchResultECA>.booyah
+            var killCount = team<TeamMatchResultECA>.totalKills
+            var prevScore = team<TeamMatchResultECA>.prevScore
+            var currentScore = team<TeamMatchResultECA>.getTeamScore()
+            var playerList = team<Team>.AllTeammates
+            rowWidget<ResultRow>.Update(key+1,playerList, booyahCount, killCount, prevScore, currentScore - prevScore)
+        }
+
+    }
+
+    func ClearResultHolder() {
+        Init()
+        for key, row in GetChildren(resultHolder) {
+            if key != 0 && key != 1 {
+                Destroy(row)
+            }
+        }
+    }
+
+    func PlayAnim() {
+        for key, row in GetChildren(resultHolder) {
+            if HasScript(row, ResultRow) {
+                start row<ResultRow>.PlayAnim()
+            }
+        }
+    }
+}

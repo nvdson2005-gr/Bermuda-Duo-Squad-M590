@@ -1,0 +1,53 @@
+import "Economy.fcc" as Economy
+
+
+
+
+
+//TODO: export resources enum in package
+
+
+// BA9iBjOL://Spawn Point Auto Closer.eca
+[platform_server]
+declare graph __BA9iBjOLzooSpawn6Point6Auto6Closerneca__ {
+}
+
+
+
+[element entity]
+enum ECustomShop {
+    // Shop
+    Shop
+
+}
+
+
+
+enum EPhase {
+    // Start
+    Start = 512
+
+    // Preparation
+    Preparation = 1506
+
+    // Rounds
+    Rounds = 1575
+
+    // Rounds / Vote
+    Vote = 1836
+
+    // Rounds / Border
+    Border = 3964
+
+    // Rounds / Border 2
+    __Border62__ = 1722
+
+    // Rounds / End Round
+    __End6Round__ = 4427
+
+    // End
+    End = 4057
+
+}
+
+

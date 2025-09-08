@@ -1,0 +1,25 @@
+{
+  "_tag": {
+    "type": "EditorGenSymbolSetting"
+  },
+  "_entityId": "fXgrBWyu",
+  "GenSymbol": {
+    "Components": {},
+    "Events": {},
+    "Graphs": {
+      "dvpwij1f3j-lpw1qq8k-ogveqotjmco": {
+        "label": "TeamMatchResultECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "cekwn4d9v1-lqx8hufh-h1xnefjq2br": {
+        "label": "PlayerScoreBoardECA",
+        "vars": {},
+        "funcs": {}
+      }
+    },
+    "Enums": {}
+  },
+  "children": []
+}
+//"{FE:{"v":"1.14.3838421","c":{"FF":5001},"s":100}

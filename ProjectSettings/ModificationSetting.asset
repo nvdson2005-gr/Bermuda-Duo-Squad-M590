@@ -1,0 +1,79 @@
+[
+  {
+    "id": 7,
+    "name": "Football"
+  },
+  {
+    "id": 8,
+    "name": "Camera"
+  },
+  {
+    "id": 10,
+    "name": "Other"
+  },
+  {
+    "id": 11,
+    "name": "Player"
+  },
+  {
+    "id": 12,
+    "name": "Buff"
+  },
+  {
+    "id": 14,
+    "name": "FF_Platform"
+  },
+  {
+    "id": 17,
+    "name": "Collection"
+  },
+  {
+    "id": 18,
+    "name": "Workflow"
+  },
+  {
+    "id": 23,
+    "name": "StatisticalReport"
+  },
+  {
+    "id": 25,
+    "name": "Economy"
+  },
+  {
+    "id": 27,
+    "name": "Morph"
+  },
+  {
+    "id": 29,
+    "name": "Hostility"
+  },
+  {
+    "id": 31,
+    "name": "Database"
+  },
+  {
+    "id": 32,
+    "name": "Dyeing"
+  },
+  {
+    "id": 33,
+    "name": "Physics"
+  },
+  {
+    "id": 34,
+    "name": "MiniMap"
+  },
+  {
+    "id": 39,
+    "name": "Global"
+  },
+  {
+    "id": 40,
+    "name": "InputSystem"
+  },
+  {
+    "id": 42,
+    "name": "Mechanism"
+  }
+]
+//"{FE:{"v":"1.14.3861343","c":{"FF":5001},"s":100}

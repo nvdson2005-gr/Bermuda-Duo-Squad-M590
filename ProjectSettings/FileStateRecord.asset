@@ -1,0 +1,148 @@
+{
+  "_tag": {
+    "type": "FileStateRecord"
+  },
+  "_entityId": "tD7bepY1",
+  "fileState": {
+    "89p60ls4wg4-lpuplinv-ot9169p3iab": {
+      "viewState": {
+        "x": 784.0147705078125,
+        "y": 214.3050994873047,
+        "z": 51.650917053222656
+      },
+      "rotationState": {
+        "x": 58.600120544433594,
+        "y": 264.7000427246094,
+        "z": -0.000003277392352174502
+      }
+    },
+    "cql89ar1r3n-lpuxc2dm-t2htgmhmbrd": {
+      "viewState": {
+        "x": 1654.1767578125,
+        "y": -2310.5
+      },
+      "scaleState": 1
+    },
+    "gp6s5c4k33w-lqnoql7z-idyx9465r7s": {
+      "viewState": {
+        "x": 394.693359375,
+        "y": -474.25
+      },
+      "scaleState": 0.5
+    },
+    "cjmdgndjlva-lpw1qpj8-gpvovb7kpcu": {
+      "viewState": {
+        "x": 1033.1917724609375,
+        "y": -1737.2666015625
+      },
+      "scaleState": 0.5
+    },
+    "avg0m1jvb7l-lpuu6wfz-7zhx3gi1lb": {
+      "viewState": {
+        "x": 318.1767578125,
+        "y": -1010.5
+      },
+      "scaleState": 1
+    },
+    "96tffegrrna-lr8oh4gh-9yxn6jwk99d": {
+      "viewState": {
+        "x": -74,
+        "y": 0
+      },
+      "scaleState": 1
+    },
+    "ri76rmou10o-lqp0fa43-2ozl0qwwv3h": {
+      "viewState": {
+        "x": -1453.742431640625,
+        "y": 276.625
+      },
+      "scaleState": 0.75
+    },
+    "ymnzd3323on-lq0rbw3s-ud5usbxhkp9": {
+      "viewState": {
+        "x": 550.653564453125,
+        "y": -674.875
+      },
+      "scaleState": 0.75
+    },
+    "45s8q11cij8-lqanzhkp-ey2o0o2960u": {
+      "viewState": {
+        "x": -638.6249847412109,
+        "y": 134.75001525878906
+      },
+      "scaleState": 0.75
+    },
+    "pypnorzyv8-lq50qizo-pn72bw06ne": {
+      "viewState": {
+        "x": -334.078125,
+        "y": -287.25
+      },
+      "scaleState": 0.5
+    },
+    "ffqxvhk4isi-lqnl32ym-key1h6oh12": {
+      "viewState": {
+        "x": 297,
+        "y": -27
+      },
+      "scaleState": 1
+    },
+    "cwstknb38ku-lpwb9x2j-skduka710zm": {
+      "viewState": {
+        "x": 182.056640625,
+        "y": 220.5
+      },
+      "scaleState": 1
+    },
+    "kxkge010pf9-lr0b2str-x553zs4hq2f": {
+      "viewState": {
+        "x": -1077.943359375,
+        "y": -465.5
+      },
+      "scaleState": 1
+    },
+    "ooedosfbgx-lq39ixan-mxkdeyhojx": {
+      "viewState": {
+        "x": 561.3789081573486,
+        "y": 320
+      },
+      "scaleState": 0.5
+    },
+    "cekwn4d9v1-lqx8hufh-h1xnefjq2br": {
+      "viewState": {
+        "x": 181.6833724975586,
+        "y": 267.5
+      },
+      "scaleState": 0.5
+    },
+    "rbkf5g8n4va-lq4nomqk-83yvpoytgzs": {
+      "viewState": {
+        "x": -717.7431488037109,
+        "y": 322.0999997854233
+      },
+      "scaleState": 1
+    },
+    "dvpwij1f3j-lpw1qq8k-ogveqotjmco": {
+      "viewState": {
+        "x": 117.69823837280273,
+        "y": -434.99999618530273
+      },
+      "scaleState": 1
+    },
+    "k754bhlj5n-lpw1qhn0-9kc6pj0ik0k": {
+      "viewState": {
+        "x": -833.8232574462891,
+        "y": 483.50000190734863
+      },
+      "scaleState": 1
+    },
+    "oil5vrteh8l-lq250ypv-zofzy67nhyq": {
+      "viewState": {
+        "x": -429.816650390625,
+        "y": -42.875
+      },
+      "scaleState": 0.75
+    }
+  },
+  "children": []
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

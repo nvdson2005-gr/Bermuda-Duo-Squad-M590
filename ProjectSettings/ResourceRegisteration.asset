@@ -1,0 +1,116 @@
+{
+  "_tag": {
+    "type": "ResourceRegisteration"
+  },
+  "_entityId": "ZOQB185u",
+  "Resource": {
+    "ui": {
+      "id": "ui",
+      "label": "UI",
+      "scriptName": "UI",
+      "children": [
+        {
+          "refer": {
+            "fileId": "5r1yonx51ii-me2ip8gk-cqsmxytp0ps",
+            "filePath": "Assets\\Script\\Result\\RoundResult.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "RoundResult",
+          "children": [
+            {
+              "id": "MJJCIRwL",
+              "scriptName": "resultHolder"
+            },
+            {
+              "id": "TvptwP8X",
+              "scriptName": "rowTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    "scene": {
+      "id": "scene",
+      "label": "Scene",
+      "scriptName": "Scene",
+      "children": []
+    },
+    "prefab": {
+      "id": "prefab",
+      "label": "Prefab",
+      "scriptName": "Prefab",
+      "children": []
+    },
+    "ugcscript": {
+      "id": "ugcscript",
+      "label": "UGCScript",
+      "scriptName": "UGCScript",
+      "children": []
+    },
+    "eca": {
+      "id": "eca",
+      "children": []
+    },
+    "texture": {
+      "id": "texture",
+      "children": []
+    },
+    "effecttype": {
+      "id": "effecttype",
+      "children": []
+    },
+    "sound": {
+      "id": "sound",
+      "children": []
+    },
+    "fitem": {
+      "id": "fitem",
+      "children": []
+    },
+    "fScenePrefab": {
+      "id": "fScenePrefab",
+      "children": []
+    },
+    "clothskin": {
+      "id": "clothskin",
+      "children": []
+    },
+    "weaponskin": {
+      "id": "weaponskin",
+      "children": []
+    },
+    "vehicleskin": {
+      "id": "vehicleskin",
+      "children": []
+    },
+    "emoteskin": {
+      "id": "emoteskin",
+      "children": []
+    },
+    "csv": {
+      "id": "csv",
+      "children": []
+    },
+    "internalhudtype": {
+      "id": "internalhudtype",
+      "children": []
+    },
+    "textureResource": {
+      "id": "textureResource",
+      "children": []
+    },
+    "mesh": {
+      "id": "mesh",
+      "children": []
+    },
+    "material": {
+      "id": "material",
+      "children": []
+    }
+  },
+  "children": []
+}
+//"{FE:{"v":"1.14.3838421","c":{"FF":5001},"s":100}
