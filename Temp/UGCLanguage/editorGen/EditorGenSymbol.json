@@ -1423,267 +1423,267 @@
         ],
         "Enums": [
           {
-            "ID": 464470,
+            "ID": 508272,
             "Name": "EResFCG",
             "Items": []
           },
           {
-            "ID": 476048,
+            "ID": 107381,
             "Name": "EResECA",
             "Items": []
           },
           {
-            "ID": 492285,
+            "ID": 326299,
             "Name": "EResPrefab",
             "Items": []
           },
           {
-            "ID": 62272,
+            "ID": 4359,
             "Name": "EResSprite",
             "Items": []
           },
           {
-            "ID": 365213,
+            "ID": 874948,
             "Name": "EResTexture",
             "Items": []
           },
           {
-            "ID": 171054,
+            "ID": 574930,
             "Name": "EResEffect",
             "Items": []
           },
           {
-            "ID": 221218,
+            "ID": 75443,
             "Name": "EResSound",
             "Items": []
           },
           {
-            "ID": 746918,
+            "ID": 201806,
             "Name": "EResItem",
             "Items": []
           },
           {
-            "ID": 142236,
+            "ID": 955090,
             "Name": "EResLevelObject",
             "Items": []
           },
           {
-            "ID": 940977,
+            "ID": 557026,
             "Name": "EResCloth",
             "Items": []
           },
           {
-            "ID": 985778,
+            "ID": 620706,
             "Name": "EResWeaponSkin",
             "Items": []
           },
           {
-            "ID": 170070,
+            "ID": 501377,
             "Name": "EResVehicleSkin",
             "Items": []
           },
           {
-            "ID": 884111,
+            "ID": 131626,
             "Name": "EResEmote",
             "Items": []
           },
           {
-            "ID": 345435,
+            "ID": 439971,
             "Name": "EResCSV",
             "Items": []
           },
           {
-            "ID": 956742,
+            "ID": 89157,
             "Name": "EResInternalHud",
             "Items": []
           },
           {
-            "ID": 806170,
+            "ID": 991379,
             "Name": "EResMesh",
             "Items": []
           },
           {
-            "ID": 817887,
+            "ID": 982711,
             "Name": "EResMaterial",
             "Items": []
           },
           {
-            "ID": 517353,
+            "ID": 192150,
             "Name": "EResAnimationController",
             "Items": []
           },
           {
-            "ID": 82749,
+            "ID": 306244,
             "Name": "EResParticles",
             "Items": []
           },
           {
-            "ID": 626807,
+            "ID": 311366,
             "Name": "EResPlayerData",
             "Items": []
           },
           {
-            "ID": 931277,
+            "ID": 324852,
             "Name": "EResBehaviorTree",
             "Items": []
           },
           {
-            "ID": 943625,
+            "ID": 379178,
             "Name": "EResPerformance",
             "Items": []
           },
           {
-            "ID": 109863,
+            "ID": 909102,
             "Name": "EResScene",
             "Items": []
           },
           {
-            "ID": 548100,
+            "ID": 218159,
             "Name": "EResUI",
             "Items": [
               {
                 "Name": "RoundResult",
-                "Value": "/1/nySc8XRO"
+                "Value": ""
               }
             ]
           },
           {
-            "ID": 835511,
+            "ID": 580046,
             "Name": "EResUIRoundResult",
             "Items": [
               {
                 "Name": "resultHolder",
-                "Value": 1
+                "Value": 0
               },
               {
                 "Name": "rowTemplate",
-                "Value": 2
+                "Value": 0
               }
             ]
           },
           {
             "Name": "EResKeyUI",
-            "ID": 556225,
+            "ID": 803239,
             "Items": []
           },
           {
             "Name": "EResKeyScene",
-            "ID": 253609,
+            "ID": 535809,
             "Items": []
           },
           {
             "Name": "EResKeyPrefab",
-            "ID": 987175,
+            "ID": 388482,
             "Items": []
           },
           {
             "Name": "EResKeyFCG",
-            "ID": 449511,
+            "ID": 476518,
             "Items": []
           },
           {
             "Name": "EResKeyECA",
-            "ID": 112306,
+            "ID": 830012,
             "Items": []
           },
           {
             "Name": "EResKeySprite",
-            "ID": 928455,
+            "ID": 11596,
             "Items": []
           },
           {
             "Name": "EResKeyEffect",
-            "ID": 935464,
+            "ID": 85151,
             "Items": []
           },
           {
             "Name": "EResKeySound",
-            "ID": 538878,
+            "ID": 385192,
             "Items": []
           },
           {
             "Name": "EResKeyItem",
-            "ID": 813711,
+            "ID": 207299,
             "Items": []
           },
           {
             "Name": "EResKeyLevelObject",
-            "ID": 221191,
+            "ID": 132437,
             "Items": []
           },
           {
             "Name": "EResKeyCloth",
-            "ID": 164994,
+            "ID": 831662,
             "Items": []
           },
           {
             "Name": "EResKeyWeaponSkin",
-            "ID": 155469,
+            "ID": 485837,
             "Items": []
           },
           {
             "Name": "EResKeyVehicleSkin",
-            "ID": 345418,
+            "ID": 960274,
             "Items": []
           },
           {
             "Name": "EResKeyEmote",
-            "ID": 441307,
+            "ID": 109720,
             "Items": []
           },
           {
             "Name": "EResKeyCSV",
-            "ID": 456583,
+            "ID": 578129,
             "Items": []
           },
           {
             "Name": "EResKeyInternalHud",
-            "ID": 294737,
+            "ID": 719766,
             "Items": []
           },
           {
             "Name": "EResKeyTexture",
-            "ID": 474551,
+            "ID": 450982,
             "Items": []
           },
           {
             "Name": "EResKeyMesh",
-            "ID": 141242,
+            "ID": 251675,
             "Items": []
           },
           {
             "Name": "EResKeyMaterial",
-            "ID": 125113,
+            "ID": 966407,
             "Items": []
           },
           {
             "Name": "EResKeyAnimationController",
-            "ID": 801146,
+            "ID": 155078,
             "Items": []
           },
           {
             "Name": "EResKeyParticles",
-            "ID": 189717,
+            "ID": 45218,
             "Items": []
           },
           {
             "Name": "EResKeyPlayerData",
-            "ID": 915081,
+            "ID": 811314,
             "Items": []
           },
           {
             "Name": "EResKeyBehaviorTree",
-            "ID": 93268,
+            "ID": 73011,
             "Items": []
           },
           {
             "Name": "EResKeyPerformance",
-            "ID": 192212,
+            "ID": 591717,
             "Items": []
           },
           {
             "Name": "EResKeyRoundResult",
-            "ID": 958781,
+            "ID": 832586,
             "Items": []
           },
           {

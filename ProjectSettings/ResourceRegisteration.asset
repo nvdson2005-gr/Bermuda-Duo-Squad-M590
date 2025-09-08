@@ -12,7 +12,7 @@
         {
           "refer": {
             "fileId": "5r1yonx51ii-me2ip8gk-cqsmxytp0ps",
-            "filePath": "Assets\\Script\\Result\\RoundResult.ui",
+            "filePath": "Assets\\UI\\RoundResult.ui",
             "_tag": {
               "type": "GFileRefer"
             },
@@ -109,8 +109,28 @@
     "material": {
       "id": "material",
       "children": []
+    },
+    "ac": {
+      "id": "ac",
+      "children": []
+    },
+    "particles": {
+      "id": "particles",
+      "children": []
+    },
+    "playerdata": {
+      "id": "playerdata",
+      "children": []
+    },
+    "xbt": {
+      "id": "xbt",
+      "children": []
+    },
+    "pfm": {
+      "id": "pfm",
+      "children": []
     }
   },
   "children": []
 }
-//"{FE:{"v":"1.14.3838421","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}
