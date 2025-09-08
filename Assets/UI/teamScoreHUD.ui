@@ -1321,7 +1321,7 @@
                 "y": 0.5
               },
               "anchoredPosition": {
-                "x": -28,
+                "x": 28,
                 "y": 0
               },
               "sizeDelta": {
@@ -1534,7 +1534,7 @@
                 "y": 0.5
               },
               "anchoredPosition": {
-                "x": 28,
+                "x": -28,
                 "y": 0
               },
               "sizeDelta": {
