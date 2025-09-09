@@ -12,6 +12,9 @@ import "MiniMap.fcc" as MiniMap
 [element CustomUIAssetID]
 enum EResUI {
     RoundResult
+    TEAM_SCORE_HUD
+    REMINDER
+    FIRST_BLOOD
 }
 [element string]
 enum EResScene {
@@ -22,6 +25,7 @@ enum EResFCG {
     GlobalRandomEvent
     PlayerEvents
     GlobalGunCombo
+    GlobalConfig
 }
 [element SpriteID]
 enum EResSprite {
@@ -56,6 +60,12 @@ enum EResSprite {
     JETSHOE
     ACTIVENOON
     KENTA
+    TOP_TEAM_ICON
+}
+[element EffectID]
+enum EResEffect {
+    CYLINDRICAL
+    RING
 }
 [element ItemID]
 enum EResItem {
@@ -85,6 +95,13 @@ enum EResItem {
     SUPERMED
     SCOPE2
     HORIZALINE
+    HOOK_GUN
+    MINI_TURRET
+    VEST4
+}
+[element LevelObjectID]
+enum EResLevelObject {
+    ICON_OBJECT
 }
 [element entity]
 enum EResSceneBermuda {
@@ -112,14 +129,58 @@ enum EResSceneBermuda {
     Spawn_T2_Map6
     Spawn_T3_Map6
     Spawn_T4_Map6
+    Border_Map1_1
+    Border_Map1_11
+    Border_Map1_12
+    Border_Map2_1
+    Border_Map2_11
+    Border_Map2_12
+    border_Map3
+    border_Map31
+    border_Map32
+    Border_Map4
+    Border_Map41
+    Border_Map42
+    Border_Map5
+    Border_Map51
+    Border_Map52
+    Border_Map6
+    Border_Map61
+    Border_Map62
+    Airdrop_Map1_1
+    Airdrop_Map1_2
+    Airdrop_Map2_1_1
+    Airdrop_Map2_1_2
+    Airdrop_Map3_1_1
+    Airdrop_Map3_1_2
+    Airdrop_Map4_1_1
+    Airdrop_Map4_1_2
+    Airdrop_Map5_1_1
+    Airdrop_Map5_1_2
+    Airdrop_Map6_1_1
+    Airdrop_Map6_1_2
 }
 [element CustomUIWidgetID]
 enum EResUIRoundResult {
     resultHolder
     rowTemplate
 }
+[element CustomUIWidgetID]
+enum EResUITEAM_SCORE_HUD {
+    CURRENT_TEAM_1
+    CURRENT_TEAM_2
+    CURRENT_TEAM_3
+    CURRENT_TEAM_4
+    TEAM1_SCORE
+    TEAM2_SCORE
+    TEAM3_SCORE
+    TEAM4_SCORE
+}
 enum EResKeyUI {
     RoundResult = "RoundResult"
+    TEAM_SCORE_HUD = "TEAM_SCORE_HUD"
+    REMINDER = "REMINDER"
+    FIRST_BLOOD = "FIRST_BLOOD"
 }
 enum EResKeyScene {
     Bermuda = "Bermuda"
@@ -128,6 +189,7 @@ enum EResKeyFCG {
     GlobalRandomEvent = "GlobalRandomEvent"
     PlayerEvents = "PlayerEvents"
     GlobalGunCombo = "GlobalGunCombo"
+    GlobalConfig = "GlobalConfig"
 }
 enum EResKeySprite {
     M10143 = "M10143"
@@ -161,6 +223,11 @@ enum EResKeySprite {
     JETSHOE = "JETSHOE"
     ACTIVENOON = "ACTIVENOON"
     KENTA = "KENTA"
+    TOP_TEAM_ICON = "TOP_TEAM_ICON"
+}
+enum EResKeyEffect {
+    CYLINDRICAL = "CYLINDRICAL"
+    RING = "RING"
 }
 enum EResKeyItem {
     M10143 = "M10143"
@@ -189,6 +256,12 @@ enum EResKeyItem {
     SUPERMED = "SUPERMED"
     SCOPE2 = "SCOPE2"
     HORIZALINE = "HORIZALINE"
+    HOOK_GUN = "HOOK_GUN"
+    MINI_TURRET = "MINI_TURRET"
+    VEST4 = "VEST4"
+}
+enum EResKeyLevelObject {
+    ICON_OBJECT = "ICON_OBJECT"
 }
 enum EResKeyBermuda {
     Team3Spawn_Map1 = "Team3Spawn_Map1"
@@ -215,10 +288,50 @@ enum EResKeyBermuda {
     Spawn_T2_Map6 = "Spawn_T2_Map6"
     Spawn_T3_Map6 = "Spawn_T3_Map6"
     Spawn_T4_Map6 = "Spawn_T4_Map6"
+    Border_Map1_1 = "Border_Map1_1"
+    Border_Map1_11 = "Border_Map1_11"
+    Border_Map1_12 = "Border_Map1_12"
+    Border_Map2_1 = "Border_Map2_1"
+    Border_Map2_11 = "Border_Map2_11"
+    Border_Map2_12 = "Border_Map2_12"
+    border_Map3 = "border_Map3"
+    border_Map31 = "border_Map31"
+    border_Map32 = "border_Map32"
+    Border_Map4 = "Border_Map4"
+    Border_Map41 = "Border_Map41"
+    Border_Map42 = "Border_Map42"
+    Border_Map5 = "Border_Map5"
+    Border_Map51 = "Border_Map51"
+    Border_Map52 = "Border_Map52"
+    Border_Map6 = "Border_Map6"
+    Border_Map61 = "Border_Map61"
+    Border_Map62 = "Border_Map62"
+    Airdrop_Map1_1 = "Airdrop_Map1_1"
+    Airdrop_Map1_2 = "Airdrop_Map1_2"
+    Airdrop_Map2_1_1 = "Airdrop_Map2_1_1"
+    Airdrop_Map2_1_2 = "Airdrop_Map2_1_2"
+    Airdrop_Map3_1_1 = "Airdrop_Map3_1_1"
+    Airdrop_Map3_1_2 = "Airdrop_Map3_1_2"
+    Airdrop_Map4_1_1 = "Airdrop_Map4_1_1"
+    Airdrop_Map4_1_2 = "Airdrop_Map4_1_2"
+    Airdrop_Map5_1_1 = "Airdrop_Map5_1_1"
+    Airdrop_Map5_1_2 = "Airdrop_Map5_1_2"
+    Airdrop_Map6_1_1 = "Airdrop_Map6_1_1"
+    Airdrop_Map6_1_2 = "Airdrop_Map6_1_2"
 }
 enum EResKeyRoundResult {
     resultHolder = "resultHolder"
     rowTemplate = "rowTemplate"
+}
+enum EResKeyTEAM_SCORE_HUD {
+    CURRENT_TEAM_1 = "CURRENT_TEAM_1"
+    CURRENT_TEAM_2 = "CURRENT_TEAM_2"
+    CURRENT_TEAM_3 = "CURRENT_TEAM_3"
+    CURRENT_TEAM_4 = "CURRENT_TEAM_4"
+    TEAM1_SCORE = "TEAM1_SCORE"
+    TEAM2_SCORE = "TEAM2_SCORE"
+    TEAM3_SCORE = "TEAM3_SCORE"
+    TEAM4_SCORE = "TEAM4_SCORE"
 }
 
 // Assets\ECA\Global.eca
@@ -1187,9 +1300,12 @@ declare static graph Res {
     Scene Map<EResKeyScene, string>
     FCG Map<EResKeyFCG, ScriptID>
     Sprite Map<EResKeySprite, SpriteID>
+    Effect Map<EResKeyEffect, EffectID>
     Item Map<EResKeyItem, ItemID>
+    LevelObject Map<EResKeyLevelObject, LevelObjectID>
     Bermuda Map<EResKeyBermuda, entity>
     RoundResult Map<EResKeyRoundResult, CustomUIWidgetID>
+    TEAM_SCORE_HUD Map<EResKeyTEAM_SCORE_HUD, CustomUIWidgetID>
 }
 
 [element entity]

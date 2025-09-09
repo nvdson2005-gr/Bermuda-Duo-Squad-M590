@@ -1,3 +1,7 @@
+/*
+    GlobalSpawnPoints.fcg
+    Description: This script manages the spawn points for players in the game. It defines spawn locations for different maps and handles player teleportation to these points at the start of the game.
+*/
 import "StdLibrary.fcc" as StdLib
 import "EditorGenLib.fcc" as EditorLib
 import "LevelObject.fcc" as LevelObject
@@ -6,6 +10,9 @@ import "Math.fcc" as Math
 import "List.fcc" as List
 import "Player.fcc" as Player
 import "Playable.fcc" as Playable
+import "Map.fcc" as Map
+import "../GlobalData/GlobalBorder.fcg" as GlobalBorder
+import "Animation.fcc" as Animation
 graph GlobalSpawnPoints {
     spawnDict Map<int, List<entity<SpawnPosition>>> = Map<int, List<entity<SpawnPosition>>>{}
     event OnAwake() {
@@ -19,7 +26,7 @@ graph GlobalSpawnPoints {
 
     func getSpawnPostitions() List<entity<SpawnPosition>> {
         var mapIndex = globalEntity<GlobalMap>.currentMapIndex
-        if spawnDict.ContainsKey(mapIndex) {
+        if Map.ContainKey(spawnDict,mapIndex) {
             return spawnDict[mapIndex]
         } else {
             LogError("No spawn positions found for map index: " + mapIndex)
@@ -33,13 +40,22 @@ graph GlobalSpawnPoints {
         for key, value in spawnDict[mapIndex] {
             Append(currentMapSpawnPoints, value as entity<SpawnPosition>)
         }
+        var centerLocation Vector3 = globalEntity<GlobalBorder>.GetFirstBorderLocation(globalEntity<GlobalMap>.currentMapIndex)
         for index, team in GetAllTeams() {
             var randSpawnPoint = RandomInt(0, List.Length(currentMapSpawnPoints))
+            var spawnPosition = currentMapSpawnPoints[randSpawnPoint]<SpawnPosition>.AvailablePoint
+            var centerPosition = globalEntity<GlobalBorder>.GetFirstBorderLocation(globalEntity<GlobalMap>.currentMapIndex)
             for idx, player in team<Team>.AllTeammates {
-                Teleport(player, currentMapSpawnPoints[randSpawnPoint]<SpawnPosition>.AvailablePoint, Vector3{0,0,0})
+                Teleport(player, spawnPosition, Normalize(centerPosition - spawnPosition))
+                start PlayCylinderEffect(player)
             }
             List.RemoveAt(currentMapSpawnPoints, randSpawnPoint)
         }
-        // There is also a part of creating visual effect here, but we discard it for now.
+    }
+
+    async func PlayCylinderEffect(player entity<Player>){
+        CreateEffect(out var createdEffect, player, EResEffect.CYLINDRICAL as VFXType, LoopType.Once, true)
+        WaitForMillisecond(15000)
+        Destroy(createdEffect)
     }
 }

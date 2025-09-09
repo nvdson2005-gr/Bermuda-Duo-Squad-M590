@@ -1,0 +1,59 @@
+/*
+    TeamMatchData.fcg (formerly TeamMatchResult.fcg and TeamMatchResult.eca)
+    This script handles the match data for a team.
+*/
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Workflow.fcc" as Workflow
+import "Combat.fcc" as Combat
+import "List.fcc" as List
+graph TeamMatchData {
+    // ------- Variables -------
+    resultList List<GameResultType> = List<GameResultType>{GameResultType.Draw, GameResultType.Draw, GameResultType.Draw, GameResultType.Draw, GameResultType.Draw, GameResultType.Draw, GameResultType.Draw, GameResultType.Draw, GameResultType.Draw}
+    booyah int = 0
+
+    totalPoint int = 0
+    currentRoundKills int = 0
+    isFirstBloodThisRound bool = false
+
+    // ------- Events -------
+    // On eliminate, add 1 to the Team holds this player
+    event OnPlayerEliminate(player entity<Player>, eliminatedPlayer entity<Player>, damageType DamageType) {
+        if List.Contain(thisEntity<entity<Team>>.AllTeammates, player) && player != eliminatedPlayer {
+            currentRoundKills = currentRoundKills + 1
+        }
+    }
+
+    // When the round starts, reset the first blood flag
+    event OnRoundStart(roundIndex int) {
+        isFirstBloodThisRound = false
+        currentRoundKills = 0
+    }
+
+    // ------- Functions -------
+    /* Point addition rules: 
+        Win: 3 points
+        First Blood: 1 point
+        Each Kill: 1 point
+    */
+    func SetRoundResult(result GameResultType){
+        var currentRound int = globalEntity<Global>.CurrentRoundIndex
+        resultList[currentRound] = result
+        var points = currentRoundKills
+        if isFirstBloodThisRound == true {
+            points = points + 1
+        }
+        if result == GameResultType.Win {
+            points = points + 3
+            booyah = booyah + 1
+        }
+        UpdatePoint(points)
+    }
+
+    // Reset the match result data
+    func UpdatePoint(pointsThisRound int){
+        totalPoint = totalPoint + pointsThisRound
+        currentRoundKills = 0
+        isFirstBloodThisRound = false
+    }
+}

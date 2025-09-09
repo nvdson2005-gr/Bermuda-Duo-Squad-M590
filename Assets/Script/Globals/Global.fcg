@@ -6,6 +6,7 @@ import "../Globals/GlobalData/GlobalRandomEvent.fcg" as GlobalRandomEvent
 import "Items.fcc" as Items
 graph Global {
     canUpdate bool
+    teamMap Map<entity<Team>, List<entity<Player>>> = Map<entity<Team>, List<entity<Player>>>{}
     // EVENTS
     event OnPhaseStart(phase entity<Phase>) {
         if phase<Phase>.Index == EPhase.Preparation {
@@ -17,6 +18,14 @@ graph Global {
         } else if phase<Phase>.Index == EPhase.__End6Round__ {
             SetSkybox(SkyboxType.Day) 
         }
+    }
+
+    event OnRoundStart(roundIndex int) {
+        var teamList = GetAllTeams()
+        teamMap[teamList[0]] = teamList[0]<Team>.AllTeammates
+        teamMap[teamList[1]] = teamList[1]<Team>.AllTeammates
+        teamMap[teamList[2]] = teamList[2]<Team>.AllTeammates
+        teamMap[teamList[3]] = teamList[3]<Team>.AllTeammates
     }
 
     // UTILS

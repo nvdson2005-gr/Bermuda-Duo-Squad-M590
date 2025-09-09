@@ -29,6 +29,75 @@
               "scriptName": "rowTemplate"
             }
           ]
+        },
+        {
+          "refer": {
+            "fileId": "6fhb3e4mtk9-lq0qglvb-gsbjhejt5y",
+            "filePath": "Assets\\UI\\teamScoreHUD.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "TEAM_SCORE_HUD",
+          "children": [
+            {
+              "id": "XULa5f6c",
+              "scriptName": "CURRENT_TEAM_1"
+            },
+            {
+              "id": "1HKkbBQY",
+              "scriptName": "CURRENT_TEAM_2"
+            },
+            {
+              "id": "zUOC3h8J",
+              "scriptName": "CURRENT_TEAM_3"
+            },
+            {
+              "id": "ZoLnnEk4",
+              "scriptName": "CURRENT_TEAM_4"
+            },
+            {
+              "id": "QZLeM2ue",
+              "scriptName": "TEAM1_SCORE"
+            },
+            {
+              "id": "gp5Gm0xn",
+              "scriptName": "TEAM2_SCORE"
+            },
+            {
+              "id": "4aapDIxN",
+              "scriptName": "TEAM3_SCORE"
+            },
+            {
+              "id": "35r1OTaU",
+              "scriptName": "TEAM4_SCORE"
+            }
+          ]
+        },
+        {
+          "refer": {
+            "fileId": "fk843kpss5j-lr7i3xy7-8mfdaj61u0a",
+            "filePath": "Assets\\UI\\reminder.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "REMINDER",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "l2o204lsb7b-lrkbmtj0-gz5rnikfzut",
+            "filePath": "Assets\\UI\\FirstBlood.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "FIRST_BLOOD",
+          "children": []
         }
       ]
     },
@@ -143,6 +212,126 @@
             {
               "id": "fVh1rKXG",
               "scriptName": "Spawn_T4_Map6"
+            },
+            {
+              "id": "UqWV7MQK",
+              "scriptName": "Border_Map1_1"
+            },
+            {
+              "id": "wTt25CJG",
+              "scriptName": "Border_Map1_11"
+            },
+            {
+              "id": "0uQXdGzA",
+              "scriptName": "Border_Map1_12"
+            },
+            {
+              "id": "6b9RaksV",
+              "scriptName": "Border_Map2_1"
+            },
+            {
+              "id": "SFd3e5rN",
+              "scriptName": "Border_Map2_11"
+            },
+            {
+              "id": "LQf4om34",
+              "scriptName": "Border_Map2_12"
+            },
+            {
+              "id": "jm8ZOEME",
+              "scriptName": "border_Map3"
+            },
+            {
+              "id": "hldOl2Jq",
+              "scriptName": "border_Map31"
+            },
+            {
+              "id": "oWlgqAW8",
+              "scriptName": "border_Map32"
+            },
+            {
+              "id": "bF9QKulo",
+              "scriptName": "Border_Map4"
+            },
+            {
+              "id": "63Dyt55p",
+              "scriptName": "Border_Map41"
+            },
+            {
+              "id": "ALdgDAjm",
+              "scriptName": "Border_Map42"
+            },
+            {
+              "id": "P0kjXdta",
+              "scriptName": "Border_Map5"
+            },
+            {
+              "id": "4HqPYYxC",
+              "scriptName": "Border_Map51"
+            },
+            {
+              "id": "urGyDAaW",
+              "scriptName": "Border_Map52"
+            },
+            {
+              "id": "nlNYq3n9",
+              "scriptName": "Border_Map6"
+            },
+            {
+              "id": "br673TwE",
+              "scriptName": "Border_Map61"
+            },
+            {
+              "id": "f2tl4tAH",
+              "scriptName": "Border_Map62"
+            },
+            {
+              "id": "ZA2EXvMf",
+              "scriptName": "Airdrop_Map1_1"
+            },
+            {
+              "id": "pwcGO0dE",
+              "scriptName": "Airdrop_Map1_2"
+            },
+            {
+              "id": "vVe8eh6s",
+              "scriptName": "Airdrop_Map2_1_1"
+            },
+            {
+              "id": "EeamuIEL",
+              "scriptName": "Airdrop_Map2_1_2"
+            },
+            {
+              "id": "b7Y9y8SG",
+              "scriptName": "Airdrop_Map3_1_1"
+            },
+            {
+              "id": "J2lP7ZyX",
+              "scriptName": "Airdrop_Map3_1_2"
+            },
+            {
+              "id": "2AEtQQyi",
+              "scriptName": "Airdrop_Map4_1_1"
+            },
+            {
+              "id": "JmgZ3Zai",
+              "scriptName": "Airdrop_Map4_1_2"
+            },
+            {
+              "id": "tVUmcx9s",
+              "scriptName": "Airdrop_Map5_1_1"
+            },
+            {
+              "id": "SodXpSQq",
+              "scriptName": "Airdrop_Map5_1_2"
+            },
+            {
+              "id": "YymQZl77",
+              "scriptName": "Airdrop_Map6_1_1"
+            },
+            {
+              "id": "RCtQ6xTx",
+              "scriptName": "Airdrop_Map6_1_2"
             }
           ]
         }
@@ -193,6 +382,18 @@
             "fileType": "ugcscript"
           },
           "scriptName": "GlobalGunCombo",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "st5omz3vtz-mfc806hh-210o5m0mcqwi",
+            "filePath": "Assets\\Script\\Globals\\GlobalData\\GlobalConfig.fcg",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ugcscript"
+          },
+          "scriptName": "GlobalConfig",
           "children": []
         }
       ]
@@ -575,12 +776,49 @@
           },
           "scriptName": "KENTA",
           "children": []
+        },
+        {
+          "refer": {
+            "fileId": "a6ba2ada27253fe95bfe35c24e0a1ec4",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/UI_WeaponPower_BR_01.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "TOP_TEAM_ICON",
+          "children": []
         }
       ]
     },
     "effecttype": {
       "id": "effecttype",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "EffectType_UGC_T_34_LY_WS_VFX2",
+            "filePath": "lib://ffEffects/T_34_LY_WS_VFX2",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "effecttype"
+          },
+          "scriptName": "CYLINDRICAL",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "EffectType_UGC_T_34_LY_WS_VFX3",
+            "filePath": "lib://ffEffects/T_34_LY_WS_VFX3",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "effecttype"
+          },
+          "scriptName": "RING",
+          "children": []
+        }
+      ]
     },
     "sound": {
       "id": "sound",
@@ -900,12 +1138,61 @@
           },
           "scriptName": "HORIZALINE",
           "children": []
+        },
+        {
+          "refer": {
+            "fileId": "5c65a6b1287e1186d3bde416c22c0639",
+            "filePath": "lib://ffitem/item_38",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "HOOK_GUN",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "95782190aee072d8ac71edb8ece4c0db",
+            "filePath": "lib://ffitem/item_2102",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "MINI_TURRET",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "2b335df95ee6d7618c96c2a63967b238",
+            "filePath": "lib://ffitem/item_309",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "VEST4",
+          "children": []
         }
       ]
     },
     "fScenePrefab": {
       "id": "fScenePrefab",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "150d8a69-8ec4-4ac6-9137-6c6298ecb4d9_223",
+            "filePath": "lib://ffmod/ffOptionID_1/option_9/se_223",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fScenePrefab"
+          },
+          "scriptName": "ICON_OBJECT",
+          "children": []
+        }
+      ]
     },
     "clothskin": {
       "id": "clothskin",

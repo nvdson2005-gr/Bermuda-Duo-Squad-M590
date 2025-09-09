@@ -1,0 +1,106 @@
+/*
+GlobalAirdrop.fcg
+Description: This script defines the behavior of global airdrops in the game.
+Airdrops are used to deliver supplies to players during the match.
+*/
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Economy.fcc" as Economy
+import "Math.fcc" as Math
+import "List.fcc" as List
+import "Workflow.fcc" as Workflow
+import "AirDrop.fcc" as AirDrop
+graph GlobalAirdrop {
+    airdropLocations List<List<Vector3>> = List<List<Vector3>>{}
+    airdropChoice int = -1 // -1 means no airdrop location is chosen yetA
+    currentAirDrop entity<AirDrop> = nil
+    airDropItems Map<int, int> = Map<int, int>{}
+    randomDropItems List<int> = List<int>{EResItem.HOOK_GUN, EResItem.MINI_TURRET, EResItem.JETPACKSHOES}
+
+    // ------------------ Events -----------------
+    // On Awake event to initialize airdrop locations, also for re-initialization at the start of Preparation phase
+    event OnAwake() {
+        InitAirdropLocations()
+    }
+    event OnPhaseStart(phase entity<Phase>) {
+        if phase<Phase>.Index == EPhase.Preparation {
+            InitAirdropLocations()
+        }
+    }
+
+    // Randomize airdrop's position at the start of each round
+    event OnRoundStart(roundIndex int) {
+        airdropChoice = RandomInt(0, 2)        
+    }
+
+    // ------------------ Utils ------------------
+    func InitAirdropLocations(){
+        // Get all level objects from Bermuda.scene
+        var airdropMap1 = List<entity<Transform>>{EResSceneBermuda.Airdrop_Map1_1 as entity<Transform>, EResSceneBermuda.Airdrop_Map1_2 as entity<Transform>}
+        var airdropMap2 = List<entity<Transform>>{EResSceneBermuda.Airdrop_Map2_1_1 as entity<Transform>, EResSceneBermuda.Airdrop_Map2_1_2 as entity<Transform>}
+        var airdropMap3 = List<entity<Transform>>{EResSceneBermuda.Airdrop_Map3_1_1 as entity<Transform>, EResSceneBermuda.Airdrop_Map3_1_2 as entity<Transform>}
+        var airdropMap4 = List<entity<Transform>>{EResSceneBermuda.Airdrop_Map4_1_1 as entity<Transform>, EResSceneBermuda.Airdrop_Map4_1_2 as entity<Transform>}
+        var airdropMap5 = List<entity<Transform>>{EResSceneBermuda.Airdrop_Map5_1_1 as entity<Transform>, EResSceneBermuda.Airdrop_Map5_1_2 as entity<Transform>}
+        var airdropMap6 = List<entity<Transform>>{EResSceneBermuda.Airdrop_Map6_1_1 as entity<Transform>, EResSceneBermuda.Airdrop_Map6_1_2 as entity<Transform>}
+
+        // Convert level objects to Vector3 positions and store them in airdropLocations
+        var map1Positions = List<Vector3>{airdropMap1[0]<Transform>.Position, airdropMap1[1]<Transform>.Position}
+        var map2Positions = List<Vector3>{airdropMap2[0]<Transform>.Position, airdropMap2[1]<Transform>.Position}
+        var map3Positions = List<Vector3>{airdropMap3[0]<Transform>.Position, airdropMap3[1]<Transform>.Position}
+        var map4Positions = List<Vector3>{airdropMap4[0]<Transform>.Position, airdropMap4[1]<Transform>.Position}
+        var map5Positions = List<Vector3>{airdropMap5[0]<Transform>.Position, airdropMap5[1]<Transform>.Position}
+        var map6Positions = List<Vector3>{airdropMap6[0]<Transform>.Position, airdropMap6[1]<Transform>.Position}
+
+        // Append all map positions to airdropLocations
+        Append(airdropLocations, map1Positions)
+        Append(airdropLocations, map2Positions)
+        Append(airdropLocations, map3Positions)
+        Append(airdropLocations, map4Positions)
+        Append(airdropLocations, map5Positions)
+        Append(airdropLocations, map6Positions)
+
+        // Init airdrop items
+        airDropItems[EResItem.HORIZALINE as int] = 1
+        airDropItems[EResItem.VEST4 as int] = 1
+    }
+
+    /*
+        Set up an airdrop after a delay of 15 seconds from the start of the phase.
+        The airdrop will be created at a random location from the predefined locations for the current map.
+        Additionally, one random special item will be added to the drop items.
+        @param mapChoice The index of the current map (0-based index)
+    */
+    async func SetUpAirDrop(mapChoice int){
+        // Check if there's an existing airdrop and destroy it before creating a new one
+        DestroyAirDrop()
+        WaitForMillisecond(15000) // Wait for 15 seconds after the phase starts to create air drop
+        CreateAirDrop(out var createdAirDrop)
+
+        // Keep the airdrop reference for future deletion
+        currentAirDrop = createdAirDrop
+
+        // Configure the airdrop properties
+        createdAirDrop<Airdrop>.DropItems = airDropItems // Set default drop items
+        // Add one random special item to the drop items
+        var randomItemIndex = RandomInt(0, List.Length(randomDropItems))
+        createdAirDrop<Airdrop>.DropItems[randomDropItems[randomItemIndex]] = 1
+
+        // Position the airdrop at the chosen location for the current map
+        if airdropChoice != -1 {
+            createdAirDrop<Transform>.Position = airdropLocations[mapChoice][airdropChoice]
+        } else {
+            LogError("Airdrop choice not set!")
+        }
+    }
+
+    /*
+        Destroy the current airdrop if it exists.
+        This function is called before creating a new airdrop to ensure only one airdrop exists at a time.
+    */
+    func DestroyAirDrop(){
+        if currentAirDrop != nil {
+            Destroy(currentAirDrop)
+            currentAirDrop = nil
+        }
+    }
+}

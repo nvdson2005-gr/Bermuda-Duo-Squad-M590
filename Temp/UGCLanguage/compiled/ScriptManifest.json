@@ -6,25 +6,49 @@
       ],
       "ComponentItems": [
         200001,
-        985146
+        504312
       ],
       "PartialPropItems": {},
       "EnumItems": [
         200001,
-        985146
+        504312
+      ],
+      "EventItems": null
+    },
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxBaXJkcm9wLmZjZw==": {
+      "Scripts": null,
+      "ComponentItems": [
+        504312,
+        200001
+      ],
+      "PartialPropItems": {},
+      "EnumItems": [
+        504312,
+        200001
+      ],
+      "EventItems": null
+    },
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxCb3JkZXIuZmNn": {
+      "Scripts": null,
+      "ComponentItems": [
+        200001
+      ],
+      "PartialPropItems": {},
+      "EnumItems": [
+        200001
       ],
       "EventItems": null
     },
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxHdW5Db21iby5mY2c=": {
       "Scripts": null,
       "ComponentItems": [
-        985146,
-        633096
+        504312,
+        419099
       ],
       "PartialPropItems": {},
       "EnumItems": [
-        985146,
-        633096
+        504312,
+        419099
       ],
       "EventItems": null
     },
@@ -33,27 +57,37 @@
         "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1BsYXllcnMvUGxheWVyRXZlbnRzLmZjZw=="
       ],
       "ComponentItems": [
-        633096,
-        985146
+        419099,
+        504312
       ],
       "PartialPropItems": {},
       "EnumItems": [
-        633096,
-        985146
+        419099,
+        504312
       ],
       "EventItems": null
     },
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxTcGF3blBvaW50cy5mY2c=": {
       "Scripts": [
-        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxNYXAuZmNn"
+        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxNYXAuZmNn",
+        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxCb3JkZXIuZmNn"
       ],
       "ComponentItems": [
-        350293
+        874284
       ],
       "PartialPropItems": {},
       "EnumItems": [
-        350293
+        874284
       ],
+      "EventItems": null
+    },
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsVGVhbS5mY2c=": {
+      "Scripts": null,
+      "ComponentItems": [
+        100034
+      ],
+      "PartialPropItems": {},
+      "EnumItems": null,
       "EventItems": null
     },
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1BsYXllclNob3BIVUQuZmNn": {
@@ -75,14 +109,47 @@
       ],
       "ComponentItems": [
         200001,
-        693281,
-        671126
+        197400
       ],
       "PartialPropItems": {},
       "EnumItems": [
         200001,
-        693281,
-        671126
+        197400
+      ],
+      "EventItems": null
+    },
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1RlYW0vVGVhbS5mY2c=": {
+      "Scripts": [
+        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsVGVhbS5mY2c="
+      ],
+      "ComponentItems": null,
+      "PartialPropItems": {},
+      "EnumItems": null,
+      "EventItems": null
+    },
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1RlYW0vVGVhbU1hdGNoRGF0YS5mY2c=": {
+      "Scripts": null,
+      "ComponentItems": [
+        100034
+      ],
+      "PartialPropItems": {},
+      "EnumItems": null,
+      "EventItems": null
+    },
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1VJL0N1c3RvbS9QbGF5ZXJDdXN0b21IVUQuZmNn": {
+      "Scripts": [
+        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1RlYW0vVGVhbS5mY2c=",
+        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsLmZjZw==",
+        "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1RlYW0vVGVhbU1hdGNoRGF0YS5mY2c="
+      ],
+      "ComponentItems": [
+        627770,
+        419099
+      ],
+      "PartialPropItems": {},
+      "EnumItems": [
+        627770,
+        419099
       ],
       "EventItems": null
     }
@@ -97,22 +164,35 @@
     "Avatar",
     "Player",
     "Math",
+    "Economy",
+    "AirDrop",
+    "SafeZone",
     "Combat",
     "LevelObject",
-    "Economy",
+    "Playable",
+    "Map",
+    "Animation",
     "Hud",
-    "Playable"
+    "Hostility",
+    "Convert"
   ],
   "ForceExportScripts": {},
   "GraphID2Path": {
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsLmZjZw==": "./Assets/Script/Globals/Global.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxBaXJkcm9wLmZjZw==": "./Assets/Script/Globals/GlobalData/GlobalAirdrop.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxCb3JkZXIuZmNn": "./Assets/Script/Globals/GlobalData/GlobalBorder.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxDb25maWcuZmNn": "./Assets/Script/Globals/GlobalData/GlobalConfig.fcg",
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxHdW5Db21iby5mY2c=": "./Assets/Script/Globals/GlobalData/GlobalGunCombo.fcg",
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxNYXAuZmNn": "./Assets/Script/Globals/GlobalData/GlobalMap.fcg",
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxSYW5kb21FdmVudC5mY2c=": "./Assets/Script/Globals/GlobalData/GlobalRandomEvent.fcg",
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxTcGF3blBvaW50cy5mY2c=": "./Assets/Script/Globals/GlobalData/GlobalSpawnPoints.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsVGVhbS5mY2c=": "./Assets/Script/Globals/GlobalTeam.fcg",
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1BsYXllclNob3BIVUQuZmNn": "./Assets/Script/PlayerShopHUD.fcg",
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1BsYXllcnMvUGxheWVyRXZlbnRzLmZjZw==": "./Assets/Script/Players/PlayerEvents.fcg",
     "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1Jlc3VsdC9QbGF5ZXJSb3VuZFJlc3VsdEhVRC5mY2c=": "./Assets/Script/Result/PlayerRoundResultHUD.fcg",
-    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1Jlc3VsdC9SZXN1bHRSb3cuZmNn": "./Assets/Script/Result/ResultRow.fcg"
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1Jlc3VsdC9SZXN1bHRSb3cuZmNn": "./Assets/Script/Result/ResultRow.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1RlYW0vVGVhbS5mY2c=": "./Assets/Script/Team/Team.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1RlYW0vVGVhbU1hdGNoRGF0YS5mY2c=": "./Assets/Script/Team/TeamMatchData.fcg",
+    "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1VJL0N1c3RvbS9QbGF5ZXJDdXN0b21IVUQuZmNn": "./Assets/Script/UI/Custom/PlayerCustomHUD.fcg"
   }
 }
