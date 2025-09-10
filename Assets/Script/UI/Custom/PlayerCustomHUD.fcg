@@ -13,6 +13,8 @@ import "../../Team/Team.fcg" as TeamFCG
 import "../../Globals/Global.fcg" as GlobalFCG
 import "../../Team/TeamMatchData.fcg" as TeamMatchData
 import "Convert.fcc" as Convert
+import "Player.fcc" as Player
+import "CheckPoint.fcc" as CheckPoint
 graph PlayerCustomHUD {
     // ------- Variables -------
     isUpdated bool = false // Flag to check if the HUD is updated
@@ -66,19 +68,132 @@ graph PlayerCustomHUD {
         if team1 != nil {
             var team1ScoreWg = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM1_SCORE)
             team1ScoreWg<UIWidgetLabel>.Content = ToString(team1<TeamMatchData>.totalPoint)
+            for index, teammate in teamMap[team1] {
+                var aliveWidget entity<UIWidget> = nil
+                var knockedWidget entity<UIWidget> = nil
+                if index == 0 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T1 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T1_knock as CustomUIWidgetID)
+                } else if index == 1 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T1 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T1_knock as CustomUIWidgetID)
+                } else {
+                    LogError("Index out of range for team 1 teammates.")
+                }
+                if teammate<Player>.PlayerStatus == 1{
+                    aliveWidget<UIWidget>.Active = true
+                    knockedWidget<UIWidget>.Active = false
+                } else if teammate<Player>.PlayerStatus == 2 {
+                    aliveWidget<UIWidget>.Active = true 
+                    knockedWidget<UIWidget>.Active = true
+                } else if teammate<Player>.PlayerStatus == 3 {
+                    aliveWidget<UIWidgetImage>.Color = #5b5b5b
+                    knockedWidget<UIWidget>.Active = false
+                } else {
+                    LogError("Invalid player status for teammate: " + ToString(teammate))
+                }
+            }
+        } else {
+            var scoreWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM1_SCORE)
+            scoreWidget<UIWidgetLabel>.Content = "0"
         }
         if team2 != nil {
             var team2ScoreWg = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM2_SCORE)
             team2ScoreWg<UIWidgetLabel>.Content = ToString(team2<TeamMatchData>.totalPoint)
+            for index, teammate in teamMap[team2] {
+                var aliveWidget entity<UIWidget> = nil
+                var knockedWidget entity<UIWidget> = nil
+                if index == 0 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T2 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T2_knock as CustomUIWidgetID)
+                } else if index == 1 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T2 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T2_knock as CustomUIWidgetID)
+                } else {
+                    LogError("Index out of range for team 1 teammates.")
+                }
+                if teammate<Player>.PlayerStatus == 1{
+                    aliveWidget<UIWidget>.Active = true
+                    knockedWidget<UIWidget>.Active = false
+                } else if teammate<Player>.PlayerStatus == 2 {
+                    aliveWidget<UIWidget>.Active = true 
+                    knockedWidget<UIWidget>.Active = true
+                } else if teammate<Player>.PlayerStatus == 3 {
+                    aliveWidget<UIWidgetImage>.Color = #5b5b5b
+                    knockedWidget<UIWidget>.Active = false
+                } else {
+                    LogError("Invalid player status for teammate: " + ToString(teammate))
+                }
+            }
+        } else {
+            var scoreWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM2_SCORE)
+            scoreWidget<UIWidgetLabel>.Content = "0"
         }
         if team3 != nil {
             var team3ScoreWg = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM3_SCORE)
             team3ScoreWg<UIWidgetLabel>.Content = ToString(team3<TeamMatchData>.totalPoint)
+            for index, teammate in teamMap[team3] {
+                var aliveWidget entity<UIWidget> = nil
+                var knockedWidget entity<UIWidget> = nil
+                if index == 0 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T3 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T3_knock as CustomUIWidgetID)
+                } else if index == 1 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T3 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T3_knock as CustomUIWidgetID)
+                } else {
+                    LogError("Index out of range for team 1 teammates.")
+                }
+                if teammate<Player>.PlayerStatus == 1{
+                    aliveWidget<UIWidget>.Active = true
+                    knockedWidget<UIWidget>.Active = false
+                } else if teammate<Player>.PlayerStatus == 2 {
+                    aliveWidget<UIWidget>.Active = true 
+                    knockedWidget<UIWidget>.Active = true
+                } else if teammate<Player>.PlayerStatus == 3 {
+                    aliveWidget<UIWidgetImage>.Color = #5b5b5b
+                    knockedWidget<UIWidget>.Active = false
+                } else {
+                    LogError("Invalid player status for teammate: " + ToString(teammate))
+                }
+            }
+        } else {
+            var scoreWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM3_SCORE)
+            scoreWidget<UIWidgetLabel>.Content = "0"
         }
         if team4 != nil {
             var team4ScoreWg = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM4_SCORE)
             team4ScoreWg<UIWidgetLabel>.Content = ToString(team4<TeamMatchData>.totalPoint)
+            for index, teammate in teamMap[team4] {
+                var aliveWidget entity<UIWidget> = nil
+                var knockedWidget entity<UIWidget> = nil
+                if index == 0 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T4 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player1_T4_knock as CustomUIWidgetID)
+                } else if index == 1 {
+                    aliveWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T4 as CustomUIWidgetID)
+                    knockedWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.player2_T4_knock as CustomUIWidgetID)
+                } else {
+                    LogError("Index out of range for team 1 teammates.")
+                }
+                if teammate<Player>.PlayerStatus == 1{
+                    aliveWidget<UIWidget>.Active = true
+                    knockedWidget<UIWidget>.Active = false
+                } else if teammate<Player>.PlayerStatus == 2 {
+                    aliveWidget<UIWidget>.Active = true 
+                    knockedWidget<UIWidget>.Active = true
+                } else if teammate<Player>.PlayerStatus == 3 {
+                    aliveWidget<UIWidgetImage>.Color = #5b5b5b
+                    knockedWidget<UIWidget>.Active = false
+                } else {
+                    LogError("Invalid player status for teammate: " + ToString(teammate))
+                }
+            }
+        } else {
+            var scoreWidget = GetWidgetFromCustomUI(thisEntity as entity<Player>, teamScoreHUD, EResUITEAM_SCORE_HUD.TEAM4_SCORE)
+            scoreWidget<UIWidgetLabel>.Content = "0"
         }
+        teamScoreHUD<CustomUI>.IsVisible = true
     }
 
     func ShowWaterReminder(){

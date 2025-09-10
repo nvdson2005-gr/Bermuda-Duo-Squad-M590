@@ -19,7 +19,7 @@ graph TeamMatchData {
     // ------- Events -------
     // On eliminate, add 1 to the Team holds this player
     event OnPlayerEliminate(player entity<Player>, eliminatedPlayer entity<Player>, damageType DamageType) {
-        if List.Contain(thisEntity<entity<Team>>.AllTeammates, player) && player != eliminatedPlayer {
+        if List.Contain(thisEntity<Team>.AllTeammates, player) && player != eliminatedPlayer {
             currentRoundKills = currentRoundKills + 1
         }
     }

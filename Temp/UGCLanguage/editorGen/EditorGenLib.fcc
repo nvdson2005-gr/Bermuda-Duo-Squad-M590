@@ -103,6 +103,10 @@ enum EResItem {
 enum EResLevelObject {
     ICON_OBJECT
 }
+[element Type]
+enum EResInternalHud {
+    ROUND_START
+}
 [element entity]
 enum EResSceneBermuda {
     Team3Spawn_Map1
@@ -175,6 +179,22 @@ enum EResUITEAM_SCORE_HUD {
     TEAM2_SCORE
     TEAM3_SCORE
     TEAM4_SCORE
+    player1_T1
+    player1_T1_knock
+    player2_T1
+    player2_T1_knock
+    player1_T3
+    player1_T3_knock
+    player2_T3
+    player2_T3_knock
+    player1_T4
+    player1_T4_knock
+    player2_T4
+    player2_T4_knock
+    player1_T2
+    player1_T2_knock
+    player2_T2
+    player2_T2_knock
 }
 enum EResKeyUI {
     RoundResult = "RoundResult"
@@ -263,6 +283,9 @@ enum EResKeyItem {
 enum EResKeyLevelObject {
     ICON_OBJECT = "ICON_OBJECT"
 }
+enum EResKeyInternalHud {
+    ROUND_START = "ROUND_START"
+}
 enum EResKeyBermuda {
     Team3Spawn_Map1 = "Team3Spawn_Map1"
     Team2Spawn_Map1 = "Team2Spawn_Map1"
@@ -332,6 +355,22 @@ enum EResKeyTEAM_SCORE_HUD {
     TEAM2_SCORE = "TEAM2_SCORE"
     TEAM3_SCORE = "TEAM3_SCORE"
     TEAM4_SCORE = "TEAM4_SCORE"
+    player1_T1 = "player1_T1"
+    player1_T1_knock = "player1_T1_knock"
+    player2_T1 = "player2_T1"
+    player2_T1_knock = "player2_T1_knock"
+    player1_T3 = "player1_T3"
+    player1_T3_knock = "player1_T3_knock"
+    player2_T3 = "player2_T3"
+    player2_T3_knock = "player2_T3_knock"
+    player1_T4 = "player1_T4"
+    player1_T4_knock = "player1_T4_knock"
+    player2_T4 = "player2_T4"
+    player2_T4_knock = "player2_T4_knock"
+    player1_T2 = "player1_T2"
+    player1_T2_knock = "player1_T2_knock"
+    player2_T2 = "player2_T2"
+    player2_T2_knock = "player2_T2_knock"
 }
 
 // Assets\ECA\Global.eca
@@ -1090,6 +1129,9 @@ declare graph __AssetsA3ECAA3PlayerVoteGunneca__ {
     // voted
     voted bool
 
+    // chooseCombo4
+    chooseCombo4 bool
+
     // chooseCombo1()
     func chooseCombo1() 
 
@@ -1134,6 +1176,9 @@ declare graph __AssetsA3ECAA3PlayerVoteGunneca__ {
 
     // getGunComboByIndex(gunMap any, index any)
     func getGunComboByIndex( gunMap object,  index object) object
+
+    // chooseCombo4()
+    func chooseCombo4() 
 
 }
 
@@ -1303,6 +1348,7 @@ declare static graph Res {
     Effect Map<EResKeyEffect, EffectID>
     Item Map<EResKeyItem, ItemID>
     LevelObject Map<EResKeyLevelObject, LevelObjectID>
+    InternalHud Map<EResKeyInternalHud, Type>
     Bermuda Map<EResKeyBermuda, entity>
     RoundResult Map<EResKeyRoundResult, CustomUIWidgetID>
     TEAM_SCORE_HUD Map<EResKeyTEAM_SCORE_HUD, CustomUIWidgetID>

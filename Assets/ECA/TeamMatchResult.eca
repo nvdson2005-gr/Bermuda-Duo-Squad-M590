@@ -24,7 +24,7 @@
                 "V": {
                   "shadow": {
                     "type": "tys",
-                    "id": "#3Xmily]?v|sZ-|w8;xC",
+                    "id": "6DY=0kP~hr/~wu$u%cuq",
                     "extraState": "any"
                   },
                   "block": {
@@ -40,7 +40,7 @@
                       "I0": {
                         "shadow": {
                           "type": "tys",
-                          "id": "%qjtA:ME0k5XD^bi6TCd",
+                          "id": "YXK:2e1n$+(JpW|);n,%",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -55,7 +55,7 @@
                       "I1": {
                         "shadow": {
                           "type": "tys",
-                          "id": "^|8mQ08Zb6nL}n!d:wV#",
+                          "id": "?p.@UlwC0r40._]5Ij$,",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -70,7 +70,7 @@
                       "I2": {
                         "shadow": {
                           "type": "tys",
-                          "id": "Of=S$B2.=cOtA2QY@jh}",
+                          "id": "/G{INk}-k})+)Ig:flMY",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -85,7 +85,7 @@
                       "I3": {
                         "shadow": {
                           "type": "tys",
-                          "id": "~RLrw;r_pEy{Q]S()?e`",
+                          "id": "fi~?ptqZty,e-v]HG)+?",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -100,7 +100,7 @@
                       "I4": {
                         "shadow": {
                           "type": "tys",
-                          "id": "|xik#*BIoJkkHq{]SCZA",
+                          "id": "IHS4%Hi6/4kR8]XWe~?!",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -115,7 +115,7 @@
                       "I5": {
                         "shadow": {
                           "type": "tys",
-                          "id": "CHoU[I1jthbazzXpEwN/",
+                          "id": "EFVU?.^OZGt7s+[_7_{.",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -130,7 +130,7 @@
                       "I6": {
                         "shadow": {
                           "type": "tys",
-                          "id": "9=OK@gDmzyBl2jKrAQ4=",
+                          "id": "jsX11LFLQ)MUYzGT}tW/",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -145,7 +145,7 @@
                       "I7": {
                         "shadow": {
                           "type": "tys",
-                          "id": "f;ou*`PQZ{:3%iuRXXDJ",
+                          "id": "MFFvyeVDj5q$YaKP|x1T",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -160,7 +160,7 @@
                       "I8": {
                         "shadow": {
                           "type": "tys",
-                          "id": "P`qgyW}rCO5${IB_-)A1",
+                          "id": "|@Jo#]T5CqY|N-I?y{#g",
                           "extraState": "MatchResultType"
                         },
                         "block": {
@@ -194,7 +194,7 @@
           "D": {
             "block": {
               "type": "fnr",
-              "id": "}La(`)|Me^XwD}n2ZPi,",
+              "id": "FW5T_Bh[+r$=?aDVEM;l",
               "extraState": {
                 "rt": "Int"
               },
@@ -202,47 +202,17 @@
                 "R": {
                   "shadow": {
                     "type": "tys",
-                    "id": "1x2ZLDI`;*iz?c,;LNSS",
+                    "id": "?z/2lXrV)J17kEzjEmIc",
                     "extraState": "Int"
                   },
                   "block": {
-                    "type": "v",
-                    "id": "I$8n-1(MPm.iyD|Htbol",
+                    "type": "fcv",
+                    "id": "nb,UK6~Vp72+l.rVT=dN",
                     "extraState": {
-                      "X": 106,
-                      "L": [
-                        1,
-                        2
-                      ],
-                      "O": [
-                        "",
-                        ""
-                      ],
-                      "T": "GetTeamScoreByType",
-                      "OT": null
-                    },
-                    "inputs": {
-                      "P1": {
-                        "shadow": {
-                          "type": "tys",
-                          "id": "oG0nmUEahwHD9p#Pbr!z",
-                          "extraState": "Team"
-                        },
-                        "block": {
-                          "type": "ent",
-                          "id": "!8_DUlxxLqw1xw$m,V+;"
-                        }
-                      },
-                      "P2": {
-                        "shadow": {
-                          "type": "ipe",
-                          "id": "q/Gss^7e@6NMncm5i^qg",
-                          "extraState": "ScoreType",
-                          "fields": {
-                            "I": "MainScore"
-                          }
-                        }
-                      }
+                      "id": "8]KM^x$`U:+CZ;[c!.Ji",
+                      "name": "getTeamScore2",
+                      "params": [],
+                      "returnType": "Int"
                     }
                   }
                 }
@@ -254,8 +224,8 @@
       {
         "type": "fna",
         "id": "+Loe4/fZ7X)c{lwvoOtY",
-        "x": 332,
-        "y": 428,
+        "x": 412,
+        "y": 437,
         "extraState": [
           {
             "id": "_arg2107",
@@ -275,7 +245,7 @@
           "D": {
             "block": {
               "type": "a",
-              "id": "z62jOaV|dDTaAl%*z)?J",
+              "id": "[c/]R#+/4SuC]OV#U!Cr",
               "extraState": {
                 "X": 46,
                 "L": [
@@ -300,7 +270,7 @@
                   },
                   "block": {
                     "type": "grg",
-                    "id": "}hxI=]^DX[|{KtQ0h2-X",
+                    "id": "l)^cLTD(v]3*]!DoVT_M",
                     "fields": {
                       "VR": "vtC7cKMDW"
                     }
@@ -316,7 +286,7 @@
                   },
                   "block": {
                     "type": "glg",
-                    "id": "gJGSXQ#T2?Sw7:OfKrt0",
+                    "id": "1%!k(=6L]c|dzyT8g+VJ",
                     "fields": {
                       "P": "CurRoundIndex:Global"
                     }
@@ -325,12 +295,12 @@
                 "P3": {
                   "shadow": {
                     "type": "tys",
-                    "id": "eoNk3Vue+]102Id=SSf;",
+                    "id": "DV0ebf[#A5|Gxl^V1JhB",
                     "extraState": ""
                   },
                   "block": {
                     "type": "lcg",
-                    "id": "Z,BD5Y]67u_%4N!]dUde",
+                    "id": "ExnD=Q=o%#!68|3uZAwX",
                     "extraState": "+Loe4/fZ7X)c{lwvoOtY_arg2107",
                     "fields": {
                       "VR": "result"
@@ -341,7 +311,7 @@
               "next": {
                 "block": {
                   "type": "lcd",
-                  "id": "}]UkIEJW50tC7A!]EhrV",
+                  "id": "rZ-rrL[usAQHdlq^/X(4",
                   "fields": {
                     "VD": {
                       "name": "points",
@@ -353,14 +323,14 @@
                     "V": {
                       "shadow": {
                         "type": "tyd",
-                        "id": "tn1[,r%#C_hacp{0~j{*",
+                        "id": "X#2g^f99c$Gv|W}velG:",
                         "extraState": "$Auto"
                       },
                       "block": {
                         "type": "grg",
-                        "id": ":X]/PPNPksZ@x7!^p;HG",
+                        "id": "t$H9dGRZyS^Zgi()sc@%",
                         "fields": {
-                          "VR": "vbsKe3oYI"
+                          "VR": "vzoTpVp8K"
                         }
                       }
                     }
@@ -368,31 +338,63 @@
                   "next": {
                     "block": {
                       "type": "ife1",
-                      "id": "AB)c_9@LfBs?v/h@VYI|",
+                      "id": ";27mU;_(`XKbdk7qT@@r",
                       "extraState": {
-                        "X": 1,
+                        "X": 2,
                         "CIDS": []
                       },
                       "inputs": {
                         "C": {
                           "shadow": {
                             "type": "tys",
-                            "id": "]%j1*(Hy]_19m;X%BJ+)",
+                            "id": "n[GA5sIG9EUy.pPVE@28",
                             "extraState": "bool"
                           },
                           "block": {
-                            "type": "grg",
-                            "id": "u6cO]CZCRxQP:f0{WnRj",
+                            "type": "opc",
+                            "id": "M4/ZR-QGN]6xe%G=kC5v",
                             "fields": {
-                              "VR": "v2425DBgP"
+                              "O": "EQ"
+                            },
+                            "inputs": {
+                              "V1": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "{PhyoUyH9#7m.gK@)(z;",
+                                  "extraState": "any"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "TtK6ynghwn`d{#QmVn/h",
+                                  "extraState": "+Loe4/fZ7X)c{lwvoOtY_arg2107",
+                                  "fields": {
+                                    "VR": "result"
+                                  }
+                                }
+                              },
+                              "V2": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "ktn?X]]Esn$z$eWscq[D",
+                                  "extraState": "any"
+                                },
+                                "block": {
+                                  "type": "ipe",
+                                  "id": "]A7)T@zJMdy];?2()!Xl",
+                                  "extraState": 450,
+                                  "fields": {
+                                    "I": "Win"
+                                  }
+                                }
+                              }
                             }
                           }
                         },
                         "D": {
                           "block": {
                             "type": "lcs",
-                            "id": "byQbeA{#S-DW0puY=w`j",
-                            "extraState": "}]UkIEJW50tC7A!]EhrVVD",
+                            "id": "YM[w!7vm.xw7EH,K1XZM",
+                            "extraState": "rZ-rrL[usAQHdlq^/X(4VD",
                             "fields": {
                               "VR": "points",
                               "O": "AD"
@@ -401,187 +403,22 @@
                               "V": {
                                 "shadow": {
                                   "type": "tys",
-                                  "id": "=QB:;X%JAyV9vog%k7KZ",
+                                  "id": ".hq~A)uaqV;k~Ws{5^kS",
                                   "extraState": "Int"
                                 },
                                 "block": {
                                   "type": "ipi",
-                                  "id": "2LBB3dqZ]Oi8dirrzC(y",
+                                  "id": "ituZ^!k%GIYZP?7cLgM3",
                                   "fields": {
                                     "V": 1
                                   }
                                 }
                               }
-                            }
-                          }
-                        }
-                      },
-                      "next": {
-                        "block": {
-                          "type": "ife1",
-                          "id": "BPlhNYSPqMTTI8v|ome8",
-                          "extraState": {
-                            "X": 2,
-                            "CIDS": []
-                          },
-                          "inputs": {
-                            "C": {
-                              "shadow": {
-                                "type": "tys",
-                                "id": "n[GA5sIG9EUy.pPVE@28",
-                                "extraState": "bool"
-                              },
-                              "block": {
-                                "type": "opc",
-                                "id": "yH8L@_9iVKHqS=DVxg#@",
-                                "fields": {
-                                  "O": "EQ"
-                                },
-                                "inputs": {
-                                  "V1": {
-                                    "shadow": {
-                                      "type": "tys",
-                                      "id": "Tw.rt~yO;zJKn}_Q.m2r",
-                                      "extraState": "any"
-                                    },
-                                    "block": {
-                                      "type": "lcg",
-                                      "id": "Z23w*aDjo#ddVs!/$t~$",
-                                      "extraState": "+Loe4/fZ7X)c{lwvoOtY_arg2107",
-                                      "fields": {
-                                        "VR": "result"
-                                      }
-                                    }
-                                  },
-                                  "V2": {
-                                    "shadow": {
-                                      "type": "tys",
-                                      "id": "Q#S9OiN(2/KdDZ}-TNEQ",
-                                      "extraState": "any"
-                                    },
-                                    "block": {
-                                      "type": "ipe",
-                                      "id": "b.LTEKHSTiVYNB@ANgb,",
-                                      "extraState": 450,
-                                      "fields": {
-                                        "I": "Win"
-                                      }
-                                    }
-                                  }
-                                }
-                              }
                             },
-                            "D": {
-                              "block": {
-                                "type": "lcs",
-                                "id": "f.(D}pT=8(d1%2-Rv:r-",
-                                "extraState": "}]UkIEJW50tC7A!]EhrVVD",
-                                "fields": {
-                                  "VR": "points",
-                                  "O": "AD"
-                                },
-                                "inputs": {
-                                  "V": {
-                                    "shadow": {
-                                      "type": "tys",
-                                      "id": "]/38,$uj7-GI;OA,BD`v",
-                                      "extraState": "Int"
-                                    },
-                                    "block": {
-                                      "type": "ipi",
-                                      "id": "6kgQ3rtCG|%EeY;HHo1{",
-                                      "fields": {
-                                        "V": 3
-                                      }
-                                    }
-                                  }
-                                },
-                                "next": {
-                                  "block": {
-                                    "type": "fca",
-                                    "id": "mc8!;ccC0zUe=[oU{;@]",
-                                    "extraState": {
-                                      "id": "hrr-YtmS*A^Vbl2@MM~5",
-                                      "name": "setTargetScore",
-                                      "params": [
-                                        {
-                                          "id": "_arg4856",
-                                          "name": "score",
-                                          "type": "Int",
-                                          "isOut": false
-                                        }
-                                      ],
-                                      "returnType": null
-                                    },
-                                    "fields": {
-                                      "T": "S"
-                                    },
-                                    "inputs": {
-                                      "_arg4856": {
-                                        "shadow": {
-                                          "type": "tys",
-                                          "id": "8/Ql@vhhErv:oVkXG~BD",
-                                          "extraState": "Int"
-                                        },
-                                        "block": {
-                                          "type": "lcg",
-                                          "id": "kX7}Ng~?D:sv|zeZs;:r",
-                                          "extraState": "}]UkIEJW50tC7A!]EhrVVD",
-                                          "fields": {
-                                            "VR": "points"
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "next": {
-                                      "block": {
-                                        "type": "grs",
-                                        "id": "cZ6MEa=:T,+EhXRI^_}T",
-                                        "fields": {
-                                          "VR": "vOHGBQduu",
-                                          "O": "AD"
-                                        },
-                                        "inputs": {
-                                          "V": {
-                                            "shadow": {
-                                              "type": "tys",
-                                              "id": "SS9diJl2Sx+P!RY//5B!",
-                                              "extraState": "Int"
-                                            },
-                                            "block": {
-                                              "type": "ipi",
-                                              "id": "Kh@AUW,W]9%e2}2pr#Wc",
-                                              "fields": {
-                                                "V": 1
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "next": {
-                                          "block": {
-                                            "type": "fca",
-                                            "id": "3{{{U{;=joNI)7u]%W8G",
-                                            "extraState": {
-                                              "id": "KiT8Zb3Lw,cbN/b72S0)",
-                                              "name": "resetKills",
-                                              "params": [],
-                                              "returnType": null
-                                            },
-                                            "fields": {
-                                              "T": "S"
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "D_else": {
+                            "next": {
                               "block": {
                                 "type": "fca",
-                                "id": "[2K7[ift%+j*eh7QFbxE",
+                                "id": "IW$2kos%9!Oz?YiC;CU`",
                                 "extraState": {
                                   "id": "hrr-YtmS*A^Vbl2@MM~5",
                                   "name": "setTargetScore",
@@ -602,13 +439,13 @@
                                   "_arg4856": {
                                     "shadow": {
                                       "type": "tys",
-                                      "id": "cJSx!9U!XsZUP|gFL*$!",
+                                      "id": "$rKM-U%1wEceHc1QD~Kg",
                                       "extraState": "Int"
                                     },
                                     "block": {
                                       "type": "lcg",
-                                      "id": "^#U~N!k|`5Y0VWRW:)ue",
-                                      "extraState": "}]UkIEJW50tC7A!]EhrVVD",
+                                      "id": "pxGEt_%RQ~J*jdCy2prf",
+                                      "extraState": "rZ-rrL[usAQHdlq^/X(4VD",
                                       "fields": {
                                         "VR": "points"
                                       }
@@ -617,20 +454,61 @@
                                 },
                                 "next": {
                                   "block": {
-                                    "type": "fca",
-                                    "id": "E5n^5=KOFzw[~5Axh/!:",
-                                    "extraState": {
-                                      "id": "KiT8Zb3Lw,cbN/b72S0)",
-                                      "name": "resetKills",
-                                      "params": [],
-                                      "returnType": null
-                                    },
+                                    "type": "grs",
+                                    "id": "+d~B;,9e~:cDkDu#-Wkz",
                                     "fields": {
-                                      "T": "S"
+                                      "VR": "vOHGBQduu",
+                                      "O": "AD"
+                                    },
+                                    "inputs": {
+                                      "V": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "]U0,tAajUcr[BY%$G/S}",
+                                          "extraState": "Int"
+                                        },
+                                        "block": {
+                                          "type": "ipi",
+                                          "id": ",w8bGyb6Kch#K5fx^uRa",
+                                          "fields": {
+                                            "V": 1
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "fca",
+                                        "id": "KogO}yC#10LuuR/dmZAf",
+                                        "extraState": {
+                                          "id": "KiT8Zb3Lw,cbN/b72S0)",
+                                          "name": "resetKills",
+                                          "params": [],
+                                          "returnType": null
+                                        },
+                                        "fields": {
+                                          "T": "S"
+                                        }
+                                      }
                                     }
                                   }
                                 }
                               }
+                            }
+                          }
+                        },
+                        "D_else": {
+                          "block": {
+                            "type": "fca",
+                            "id": "LBB!NAqo9wTQWIGbWFEw",
+                            "extraState": {
+                              "id": "KiT8Zb3Lw,cbN/b72S0)",
+                              "name": "resetKills",
+                              "params": [],
+                              "returnType": null
+                            },
+                            "fields": {
+                              "T": "S"
                             }
                           }
                         }
@@ -676,7 +554,7 @@
                 "V": {
                   "shadow": {
                     "type": "tys",
-                    "id": "QTJ4l/u1#o+(Vl7[=$|P",
+                    "id": "*)Gf$R5|P]/!?.j,cZ@_",
                     "extraState": "Int"
                   },
                   "block": {
@@ -933,7 +811,7 @@
                           "V1": {
                             "shadow": {
                               "type": "tys",
-                              "id": "hK14ij)H=SKloqj01oNL",
+                              "id": ",0ZC#gJOXP6kbH,):or~",
                               "extraState": "any"
                             },
                             "block": {
@@ -948,7 +826,7 @@
                           "V2": {
                             "shadow": {
                               "type": "tys",
-                              "id": "Ur{mh9eL=K/V{)?@%Gi8",
+                              "id": "N`v-Oi^_B6bT~k(}~ccd",
                               "extraState": "any"
                             },
                             "block": {
@@ -978,7 +856,7 @@
                     "V": {
                       "shadow": {
                         "type": "tys",
-                        "id": ":]2ak|?m%|cf$_r02T}w",
+                        "id": "g~NtqO%w%c2XhhWMG!B^",
                         "extraState": "Int"
                       },
                       "block": {
@@ -1002,7 +880,7 @@
                         "V": {
                           "shadow": {
                             "type": "tys",
-                            "id": ")v~}C|}j$Mvw?i]c}|R0",
+                            "id": "SGZC/]|UU((G_=3c0)w=",
                             "extraState": "Int"
                           },
                           "block": {
@@ -1044,7 +922,7 @@
                 "V": {
                   "shadow": {
                     "type": "tys",
-                    "id": "Fa}GJpu4#L60[RCx;7A.",
+                    "id": "k;6KYwWGQov}EU@[u{Wg",
                     "extraState": "Int"
                   },
                   "block": {
@@ -1063,8 +941,8 @@
       {
         "type": "fnv",
         "id": "8]KM^x$`U:+CZ;[c!.Ji",
-        "x": 485,
-        "y": 92,
+        "x": 419,
+        "y": 100,
         "extraState": [],
         "fields": {
           "N": "getTeamScore2",
@@ -1086,7 +964,7 @@
                 "V": {
                   "shadow": {
                     "type": "tyd",
-                    "id": "@=*{jNDp)3j$X_0.?%~f",
+                    "id": "v%5,?$djoM=}%Ap!jqfp",
                     "extraState": "Int"
                   },
                   "block": {
@@ -1152,7 +1030,7 @@
                                 "V1": {
                                   "shadow": {
                                     "type": "tys",
-                                    "id": "yoRw!T8q5+px`:uk6pPB",
+                                    "id": "B}X/pD0}(),)?oC^1.o|",
                                     "extraState": "any"
                                   },
                                   "block": {
@@ -1167,7 +1045,7 @@
                                 "V2": {
                                   "shadow": {
                                     "type": "tys",
-                                    "id": "S=/DVCQ:xRlVn:]73@g]",
+                                    "id": "DKi[w6%?hV@.L@HHkEU1",
                                     "extraState": "any"
                                   },
                                   "block": {
@@ -1224,7 +1102,7 @@
                         "R": {
                           "shadow": {
                             "type": "tys",
-                            "id": "}*V-Xoc?*=oUpDg_%z}2",
+                            "id": "ZyXItoYU?Ng`J+_m4W}C",
                             "extraState": "Int"
                           },
                           "block": {
@@ -1310,7 +1188,7 @@
           "V": {
             "shadow": {
               "type": "tyd",
-              "id": "R`I)^SzUg3a._K=R~jxB",
+              "id": "RgG5S,1o)gD=1/CrTMAc",
               "extraState": "Int"
             },
             "block": {
@@ -1376,7 +1254,7 @@
                           "V1": {
                             "shadow": {
                               "type": "tys",
-                              "id": "fjFXD(jl)A=Tmv))wZ^0",
+                              "id": "R5^:4*}p5Ma`kAh(CxYE",
                               "extraState": "any"
                             },
                             "block": {
@@ -1391,7 +1269,7 @@
                           "V2": {
                             "shadow": {
                               "type": "tys",
-                              "id": "RAi_U`%G}Xhg$O%9~*!x",
+                              "id": "pt/L~2^4}wi5r;Ps?ZFX",
                               "extraState": "any"
                             },
                             "block": {
@@ -1501,7 +1379,7 @@
               "V": {
                 "shadow": {
                   "type": "tys",
-                  "id": "TH:HS~`_|tEBr{U|y,`=",
+                  "id": "[|pB^`,HBfk.t[sjx#6y",
                   "extraState": "Bool"
                 },
                 "block": {
@@ -1509,6 +1387,450 @@
                   "id": "x?v/#I[ak!5a/_w`m(5/",
                   "fields": {
                     "V": "F"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "ipcm",
+        "id": "`/+F`aHoxim/TeE!cLUY",
+        "x": -210,
+        "y": 536,
+        "inputs": {
+          "V": {
+            "shadow": {
+              "type": "ipta",
+              "id": ".#NNC[^^E7gf!PX#:Hi-",
+              "fields": {
+                "V": "SetRoundResult old version"
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "z62jOaV|dDTaAl%*z)?J",
+            "extraState": {
+              "X": 46,
+              "L": [
+                1,
+                2,
+                3
+              ],
+              "O": [
+                "",
+                "",
+                ""
+              ],
+              "T": "ListSetElement",
+              "OT": null
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "9g`4B@-/TT]=SewFi%8x",
+                  "extraState": "List"
+                },
+                "block": {
+                  "type": "grg",
+                  "id": "}hxI=]^DX[|{KtQ0h2-X",
+                  "fields": {
+                    "VR": "vtC7cKMDW"
+                  }
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "ipi",
+                  "id": "/{kb5h!53;:7bZ`kh-s$",
+                  "fields": {
+                    "V": 0
+                  }
+                },
+                "block": {
+                  "type": "glg",
+                  "id": "gJGSXQ#T2?Sw7:OfKrt0",
+                  "fields": {
+                    "P": "CurRoundIndex:Global"
+                  }
+                }
+              },
+              "P3": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "oc|:J3LejV8.R-wv5U;f",
+                  "extraState": ""
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "Z,BD5Y]67u_%4N!]dUde",
+                  "extraState": "+Loe4/fZ7X)c{lwvoOtY_arg2107",
+                  "fields": {
+                    "VR": "result"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "lcd",
+                "id": "}]UkIEJW50tC7A!]EhrV",
+                "fields": {
+                  "VD": {
+                    "name": "points",
+                    "type": "Int"
+                  },
+                  "T": "$Auto"
+                },
+                "inputs": {
+                  "V": {
+                    "shadow": {
+                      "type": "tyd",
+                      "id": "#_Ei1M(I/c0KkVp,0Pv;",
+                      "extraState": "$Auto"
+                    },
+                    "block": {
+                      "type": "grg",
+                      "id": ":X]/PPNPksZ@x7!^p;HG",
+                      "fields": {
+                        "VR": "vbsKe3oYI"
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "ife1",
+                    "id": "AB)c_9@LfBs?v/h@VYI|",
+                    "extraState": {
+                      "X": 1,
+                      "CIDS": []
+                    },
+                    "inputs": {
+                      "C": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "]%j1*(Hy]_19m;X%BJ+)",
+                          "extraState": "bool"
+                        },
+                        "block": {
+                          "type": "grg",
+                          "id": "u6cO]CZCRxQP:f0{WnRj",
+                          "fields": {
+                            "VR": "v2425DBgP"
+                          }
+                        }
+                      },
+                      "D": {
+                        "block": {
+                          "type": "lcs",
+                          "id": "byQbeA{#S-DW0puY=w`j",
+                          "extraState": "}]UkIEJW50tC7A!]EhrVVD",
+                          "fields": {
+                            "VR": "points",
+                            "O": "AD"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "+A`w%s*@|6`|+9GH)a=l",
+                                "extraState": "Int"
+                              },
+                              "block": {
+                                "type": "ipi",
+                                "id": "2LBB3dqZ]Oi8dirrzC(y",
+                                "fields": {
+                                  "V": 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "ife1",
+                        "id": "BPlhNYSPqMTTI8v|ome8",
+                        "extraState": {
+                          "X": 2,
+                          "CIDS": []
+                        },
+                        "inputs": {
+                          "C": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "n[GA5sIG9EUy.pPVE@28",
+                              "extraState": "bool"
+                            },
+                            "block": {
+                              "type": "opc",
+                              "id": "yH8L@_9iVKHqS=DVxg#@",
+                              "fields": {
+                                "O": "EQ"
+                              },
+                              "inputs": {
+                                "V1": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "kek(FiS`%l;jn2:,r!mm",
+                                    "extraState": "any"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "Z23w*aDjo#ddVs!/$t~$",
+                                    "extraState": "+Loe4/fZ7X)c{lwvoOtY_arg2107",
+                                    "fields": {
+                                      "VR": "result"
+                                    }
+                                  }
+                                },
+                                "V2": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "8X3~YNTy^8rs9uXuZCoK",
+                                    "extraState": "any"
+                                  },
+                                  "block": {
+                                    "type": "ipe",
+                                    "id": "b.LTEKHSTiVYNB@ANgb,",
+                                    "extraState": 450,
+                                    "fields": {
+                                      "I": "Win"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "D": {
+                            "block": {
+                              "type": "lcs",
+                              "id": "f.(D}pT=8(d1%2-Rv:r-",
+                              "extraState": "}]UkIEJW50tC7A!]EhrVVD",
+                              "fields": {
+                                "VR": "points",
+                                "O": "AD"
+                              },
+                              "inputs": {
+                                "V": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "SNMroYIFW;9Jo{(Cw1~:",
+                                    "extraState": "Int"
+                                  },
+                                  "block": {
+                                    "type": "ipi",
+                                    "id": "6kgQ3rtCG|%EeY;HHo1{",
+                                    "fields": {
+                                      "V": 3
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "fca",
+                                  "id": "mc8!;ccC0zUe=[oU{;@]",
+                                  "extraState": {
+                                    "id": "hrr-YtmS*A^Vbl2@MM~5",
+                                    "name": "setTargetScore",
+                                    "params": [
+                                      {
+                                        "id": "_arg4856",
+                                        "name": "score",
+                                        "type": "Int",
+                                        "isOut": false
+                                      }
+                                    ],
+                                    "returnType": null
+                                  },
+                                  "fields": {
+                                    "T": "S"
+                                  },
+                                  "inputs": {
+                                    "_arg4856": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "|^1~jSb5:uA8P#XcZac-",
+                                        "extraState": "Int"
+                                      },
+                                      "block": {
+                                        "type": "lcg",
+                                        "id": "kX7}Ng~?D:sv|zeZs;:r",
+                                        "extraState": "}]UkIEJW50tC7A!]EhrVVD",
+                                        "fields": {
+                                          "VR": "points"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "grs",
+                                      "id": "cZ6MEa=:T,+EhXRI^_}T",
+                                      "fields": {
+                                        "VR": "vOHGBQduu",
+                                        "O": "AD"
+                                      },
+                                      "inputs": {
+                                        "V": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": "uk8pEh=5i_GEJo$!N{qP",
+                                            "extraState": "Int"
+                                          },
+                                          "block": {
+                                            "type": "ipi",
+                                            "id": "Kh@AUW,W]9%e2}2pr#Wc",
+                                            "fields": {
+                                              "V": 1
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "fca",
+                                          "id": "3{{{U{;=joNI)7u]%W8G",
+                                          "extraState": {
+                                            "id": "KiT8Zb3Lw,cbN/b72S0)",
+                                            "name": "resetKills",
+                                            "params": [],
+                                            "returnType": null
+                                          },
+                                          "fields": {
+                                            "T": "S"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "D_else": {
+                            "block": {
+                              "type": "fca",
+                              "id": "[2K7[ift%+j*eh7QFbxE",
+                              "extraState": {
+                                "id": "hrr-YtmS*A^Vbl2@MM~5",
+                                "name": "setTargetScore",
+                                "params": [
+                                  {
+                                    "id": "_arg4856",
+                                    "name": "score",
+                                    "type": "Int",
+                                    "isOut": false
+                                  }
+                                ],
+                                "returnType": null
+                              },
+                              "fields": {
+                                "T": "S"
+                              },
+                              "inputs": {
+                                "_arg4856": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "L?DyfY;S=w+Xgq+A;NF)",
+                                    "extraState": "Int"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "^#U~N!k|`5Y0VWRW:)ue",
+                                    "extraState": "}]UkIEJW50tC7A!]EhrVVD",
+                                    "fields": {
+                                      "VR": "points"
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "fca",
+                                  "id": "E5n^5=KOFzw[~5Axh/!:",
+                                  "extraState": {
+                                    "id": "KiT8Zb3Lw,cbN/b72S0)",
+                                    "name": "resetKills",
+                                    "params": [],
+                                    "returnType": null
+                                  },
+                                  "fields": {
+                                    "T": "S"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "fnr",
+        "id": "}La(`)|Me^XwD}n2ZPi,",
+        "x": -412,
+        "y": 81,
+        "extraState": {
+          "rt": "Int"
+        },
+        "inputs": {
+          "R": {
+            "shadow": {
+              "type": "tys",
+              "id": ".xebmw06/f..Kz_!V~pz",
+              "extraState": "Int"
+            },
+            "block": {
+              "type": "v",
+              "id": "I$8n-1(MPm.iyD|Htbol",
+              "extraState": {
+                "X": 106,
+                "L": [
+                  1,
+                  2
+                ],
+                "O": [
+                  "",
+                  ""
+                ],
+                "T": "GetTeamScoreByType",
+                "OT": null
+              },
+              "inputs": {
+                "P1": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "oG0nmUEahwHD9p#Pbr!z",
+                    "extraState": "Team"
+                  },
+                  "block": {
+                    "type": "ent",
+                    "id": "!8_DUlxxLqw1xw$m,V+;"
+                  }
+                },
+                "P2": {
+                  "shadow": {
+                    "type": "ipe",
+                    "id": "q/Gss^7e@6NMncm5i^qg",
+                    "extraState": "ScoreType",
+                    "fields": {
+                      "I": "MainScore"
+                    }
                   }
                 }
               }

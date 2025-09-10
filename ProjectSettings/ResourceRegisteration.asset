@@ -72,6 +72,70 @@
             {
               "id": "35r1OTaU",
               "scriptName": "TEAM4_SCORE"
+            },
+            {
+              "id": "jdJRotvP",
+              "scriptName": "player1_T1"
+            },
+            {
+              "id": "9zMixnRE",
+              "scriptName": "player1_T1_knock"
+            },
+            {
+              "id": "lpeyT7pJ",
+              "scriptName": "player2_T1"
+            },
+            {
+              "id": "c6nzLUHE",
+              "scriptName": "player2_T1_knock"
+            },
+            {
+              "id": "mHvQ3L2c",
+              "scriptName": "player1_T3"
+            },
+            {
+              "id": "1sTxYBb2",
+              "scriptName": "player1_T3_knock"
+            },
+            {
+              "id": "CRqwsQ1H",
+              "scriptName": "player2_T3"
+            },
+            {
+              "id": "tiamrf22",
+              "scriptName": "player2_T3_knock"
+            },
+            {
+              "id": "47wMmqUm",
+              "scriptName": "player1_T4"
+            },
+            {
+              "id": "jxR6F4c3",
+              "scriptName": "player1_T4_knock"
+            },
+            {
+              "id": "JlQl8RkZ",
+              "scriptName": "player2_T4"
+            },
+            {
+              "id": "afeGwjWc",
+              "scriptName": "player2_T4_knock"
+            },
+            {
+              "id": "lcV6MMFq",
+              "scriptName": "player1_T2"
+            },
+            {
+              "id": "bKTkOeQb",
+              "scriptName": "player1_T2_knock"
+            },
+            {
+              "id": "Cc4BuVxg",
+              "scriptName": "player2_T2"
+            },
+            {
+              "id": "RcRC70Xq",
+              "scriptName": "player2_T2_knock"
             }
           ]
         },
@@ -1216,7 +1280,20 @@
     },
     "internalhudtype": {
       "id": "internalhudtype",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "InternalHud_TwoTeamRoundScoreBannerHud",
+            "filePath": "lib://ffInternalHuds/TwoTeamRoundScoreBannerHud",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "internalhudtype"
+          },
+          "scriptName": "ROUND_START",
+          "children": []
+        }
+      ]
     },
     "textureResource": {
       "id": "textureResource",

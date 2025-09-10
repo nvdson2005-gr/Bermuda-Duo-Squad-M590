@@ -5,6 +5,7 @@
 import "StdLibrary.fcc" as StdLib
 import "EditorGenLib.fcc" as EditorLib
 import "List.fcc" as List
+import "../Team/TeamMatchData.fcg" as TeamMatchData
 graph GlobalTeam {
     teamList List<entity<Team>> = List<entity<Team>>{}
     isFirstBlood bool = true
@@ -19,10 +20,10 @@ graph GlobalTeam {
         if isFirstBlood {
             isFirstBlood = false
             for index, team in teamList {
-                if List.Contain(team<entity<Team>>.AllTeammates, player) {
-                    team<entity<Team>>.isFirstBloodTeam = true
+                if List.Contain(team<Team>.AllTeammates, player) {
+                    team<TeamMatchData>.isFirstBloodThisRound = true
                 } else {
-                    team<entity<Team>>.isFirstBloodTeam = false
+                    team<TeamMatchData>.isFirstBloodThisRound = false
                 }
             }
         }
