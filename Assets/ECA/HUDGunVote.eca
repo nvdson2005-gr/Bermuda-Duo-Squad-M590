@@ -1,1 +1,811 @@
-{"blocks":{"languageVersion":0,"blocks":[{"type":"hbe","id":"@X~Zst`w[Ct[Kzo~30[l","x":-156,"y":185,"extraState":{"X":135,"L":[1],"T":"OnClick","OT":"HudButtonWidget"},"fields":{"N":"Callback7072","H":{"name":"Button","type":"HudButtonWidget"},"P1":{"name":"Triggering player","type":"Player"}},"next":{"block":{"type":"ife1","id":"{.0K_xVp5OZm7wFZX7VB","extraState":{"X":4,"CIDS":[1,2]},"inputs":{"C":{"shadow":{"type":"tys","id":"j36c#brhBKvk,nybLKsi","extraState":"bool"},"block":{"type":"opc","id":"uOV4hh*.8cFp^=_Wp#}h","fields":{"O":"EQ"},"inputs":{"V1":{"shadow":{"type":"tys","id":"f`_@Ih=7u%NeH#:5MXp(","extraState":"any"},"block":{"type":"v","id":"5v-_mX9QpTTU`6PKM|/r","extraState":{"X":102,"L":[1,2,3],"T":"GetWidgetFromCustomHud","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"t]*2b#;51]HO:`(@C.4Z","extraState":"Player"},"block":{"type":"lcg","id":"RvADPj~X}}3[~Fr}-BUk","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}},"P2":{"shadow":{"type":"tys","id":";task7mxP,sZ7d6XW~Ki","extraState":"CustomHud"},"block":{"type":"ent","id":"(%4eCpU5Zx$$Z~@uLZNu"}},"P3":{"shadow":{"type":"pwi","id":"!l75NT^,M*ekiP(hIofd","fields":{"HD":"sckoijjnoeq-lqnkioih-lrxf6sp29bf","E":"EPzucHcg"}}}}}},"V2":{"shadow":{"type":"tys","id":"saGoRvCPkB9yO?wy`=j#","extraState":"any"},"block":{"type":"lcg","id":"{njFmI]O1}JTBZ}/GDWM","extraState":"@X~Zst`w[Ct[Kzo~30[lH","fields":{"VR":"Button"}}}}}},"D":{"block":{"type":"exa","id":"U;i)Ea#*hQK][a{(B{rC","extraState":{"graphId":"gp6s5c4k33w-lqnoql7z-idyx9465r7s","id":"^!FQ!uK]yYo6~Gli9wW4","name":"chooseCombo1","params":[],"tooltip":"Assets\\ECA\\PlayerVoteGun.eca"},"fields":{"T":"S"},"inputs":{"H":{"shadow":{"type":"tys","id":"H~zaKt+XGRbZ3k?M^FLU","extraState":"Component"},"block":{"type":"lcg","id":"[w[k?A(K/[8{0l[))-C!","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}}},"next":{"block":{"type":"a","id":"J5dl6V07m?r}:9l,|G#B","extraState":{"X":53,"L":[1,2],"T":"NotifyPlaySound","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"l}:-~54ZOC99=,LC+*pO","extraState":"Player"},"block":{"type":"lcg","id":"0,VcA?hO4Fd;46E4#(@~","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}},"P2":{"shadow":{"type":"psd","id":"=fpy/1KEG5$VU5C|PWS%","fields":{"V":"4cbaca3eb70b4f3753abe0561e2a5fe0"}}}}}}}},"C_1":{"shadow":{"type":"tys","id":"+77CQ*S.T*TcA]`d.{.~","extraState":"bool"},"block":{"type":"opc","id":"HDly=,DJ{I/QxQv)6ZZ_","fields":{"O":"EQ"},"inputs":{"V1":{"shadow":{"type":"tys","id":".-EJ)e_Y1of+2OOwiX_8","extraState":"any"},"block":{"type":"v","id":"R@AVV(3C*5wY|x1sG}8P","extraState":{"X":102,"L":[1,2,3],"T":"GetWidgetFromCustomHud","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"t]*2b#;51]HO:`(@C.4Z","extraState":"Player"},"block":{"type":"lcg","id":"hSo)DJ$t#Td.9~sD0Xpw","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}},"P2":{"shadow":{"type":"tys","id":";task7mxP,sZ7d6XW~Ki","extraState":"CustomHud"},"block":{"type":"ent","id":"Jphj$,a:2;Cj.#l?oCnl"}},"P3":{"shadow":{"type":"pwi","id":"pxN#UBob?Vzl8EZ7#yF=","fields":{"HD":"sckoijjnoeq-lqnkioih-lrxf6sp29bf","E":"GIBX7yFS"}}}}}},"V2":{"shadow":{"type":"tys","id":"^-;C(1sEi-BW5*wQA!YF","extraState":"any"},"block":{"type":"lcg","id":"z0g#U|AbAt!s?XZOG~~=","extraState":"@X~Zst`w[Ct[Kzo~30[lH","fields":{"VR":"Button"}}}}}},"D_1":{"block":{"type":"exa","id":"jT1-0e:MB.@6p:vV^ROj","extraState":{"graphId":"gp6s5c4k33w-lqnoql7z-idyx9465r7s","id":"Unm%rD9v_TEs`.Fl|o3i","name":"chooseCombo2","params":[],"tooltip":"Assets\\ECA\\PlayerVoteGun.eca"},"fields":{"T":"S"},"inputs":{"H":{"shadow":{"type":"tys","id":"fG`!PImE{r^Va8k|aKO.","extraState":"Component"},"block":{"type":"lcg","id":"gv?xI+n:JQR`AjNx0$dh","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}}},"next":{"block":{"type":"a","id":"AMQr`jyPdCav,7V[{a%9","extraState":{"X":53,"L":[1,2],"T":"NotifyPlaySound","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":";PNssuIod![:W3i@!thk","extraState":"Player"},"block":{"type":"lcg","id":"tb$qa4VCp^2o0{kJf.;A","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}},"P2":{"shadow":{"type":"psd","id":"_l)Kjy`tn~yZet)%1lQp","fields":{"V":"4cbaca3eb70b4f3753abe0561e2a5fe0"}}}}}}}},"C_2":{"shadow":{"type":"tys","id":"m$!uVy6[NP!7S:YQK79a","extraState":"bool"},"block":{"type":"opc","id":"`LEChB/+Md_3Hd/r=6gZ","fields":{"O":"EQ"},"inputs":{"V1":{"shadow":{"type":"tys","id":"N18nmi?z191?$s9*V!*V","extraState":"any"},"block":{"type":"v","id":"YLw|p7vSlhc9DI3|x2{i","extraState":{"X":102,"L":[1,2,3],"T":"GetWidgetFromCustomHud","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"t]*2b#;51]HO:`(@C.4Z","extraState":"Player"},"block":{"type":"lcg","id":"?dLl%k:0!uPdOnO3idgJ","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}},"P2":{"shadow":{"type":"tys","id":";task7mxP,sZ7d6XW~Ki","extraState":"CustomHud"},"block":{"type":"ent","id":"xVxHoU;b(*|VW]hJh{pC"}},"P3":{"shadow":{"type":"pwi","id":"]pUuM4qHm-Zd9lI9H~Dz","fields":{"HD":"sckoijjnoeq-lqnkioih-lrxf6sp29bf","E":"0LuxoSGD"}}}}}},"V2":{"shadow":{"type":"tys","id":":dYcwwacD=f5w@[zfG;w","extraState":"any"},"block":{"type":"lcg","id":"x9Ow!h=-^4#Vm60](,JJ","extraState":"@X~Zst`w[Ct[Kzo~30[lH","fields":{"VR":"Button"}}}}}},"D_2":{"block":{"type":"exa","id":"ALvC}]{ynqo=@,jUaiYt","extraState":{"graphId":"gp6s5c4k33w-lqnoql7z-idyx9465r7s","id":")N)9k_^6H$Xo!#$qTZ.U","name":"chooseCombo3","params":[],"tooltip":"Assets\\ECA\\PlayerVoteGun.eca"},"fields":{"T":"S"},"inputs":{"H":{"shadow":{"type":"tys","id":"7ITkqp{0%Nn{FKx90rYB","extraState":"Component"},"block":{"type":"lcg","id":":EZ$~jwsQ!$GIaMlG*iO","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}}},"next":{"block":{"type":"a","id":"Q_}TBcUsZ?;-g2hF7%/2","extraState":{"X":53,"L":[1,2],"T":"NotifyPlaySound","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"^(T75++Ip[K^qd`TW=H[","extraState":"Player"},"block":{"type":"lcg","id":"Sj?=aPFLnH69ay=)PT7.","extraState":"@X~Zst`w[Ct[Kzo~30[lP1","fields":{"VR":"Triggering player"}}},"P2":{"shadow":{"type":"psd","id":"%`Aa=~XvMz@,cVU@(+(u","fields":{"V":"4cbaca3eb70b4f3753abe0561e2a5fe0"}}}}}}}}}}}}]},"graphData":{"ownerType":"Entity","componentTypes":"CustomHud","isStatic":false}}
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "hbe",
+        "id": "@X~Zst`w[Ct[Kzo~30[l",
+        "x": -156,
+        "y": 185,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "ChooseComboCallback",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Triggering player",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "{.0K_xVp5OZm7wFZX7VB",
+            "extraState": {
+              "X": 5,
+              "CIDS": [
+                1,
+                2,
+                3
+              ]
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "j36c#brhBKvk,nybLKsi",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "uOV4hh*.8cFp^=_Wp#}h",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "ra{ZC%q2D,1O9LQIyOIT",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "5v-_mX9QpTTU`6PKM|/r",
+                        "extraState": {
+                          "X": 102,
+                          "L": [
+                            1,
+                            2,
+                            3
+                          ],
+                          "O": [
+                            "",
+                            "",
+                            ""
+                          ],
+                          "T": "GetWidgetFromCustomHud",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "t]*2b#;51]HO:`(@C.4Z",
+                              "extraState": "Player"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "RvADPj~X}}3[~Fr}-BUk",
+                              "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                              "fields": {
+                                "VR": "Triggering player"
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";task7mxP,sZ7d6XW~Ki",
+                              "extraState": "CustomHud"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "(%4eCpU5Zx$$Z~@uLZNu"
+                            }
+                          },
+                          "P3": {
+                            "shadow": {
+                              "type": "pwi",
+                              "id": "!l75NT^,M*ekiP(hIofd",
+                              "fields": {
+                                "HD": "sckoijjnoeq-lqnkioih-lrxf6sp29bf",
+                                "E": "EPzucHcg"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "P7Yc0s_^`]Hw$7HC#UeI",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "{njFmI]O1}JTBZ}/GDWM",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lH",
+                        "fields": {
+                          "VR": "Button"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "exa",
+                  "id": "U;i)Ea#*hQK][a{(B{rC",
+                  "extraState": {
+                    "graphId": "gp6s5c4k33w-lqnoql7z-idyx9465r7s",
+                    "id": "^!FQ!uK]yYo6~Gli9wW4",
+                    "name": "chooseCombo1",
+                    "params": [],
+                    "tooltip": "Assets\\ECA\\PlayerVoteGun.eca"
+                  },
+                  "fields": {
+                    "T": "S"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "H~zaKt+XGRbZ3k?M^FLU",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "[w[k?A(K/[8{0l[))-C!",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                        "fields": {
+                          "VR": "Triggering player"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "a",
+                      "id": "ltyf?4S6prliLL`[6`W,",
+                      "extraState": {
+                        "X": 942,
+                        "L": [
+                          1,
+                          2,
+                          3
+                        ],
+                        "O": [
+                          "",
+                          "",
+                          ""
+                        ],
+                        "T": "NotifyPlaySoundV2",
+                        "OT": null
+                      },
+                      "inputs": {
+                        "P1": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "D~@mLJ.F*v^K)BYL6gA^",
+                            "extraState": "Player"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": "b$c3H{z`5Y=D19C:nWBg",
+                            "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                            "fields": {
+                              "VR": "Triggering player"
+                            }
+                          }
+                        },
+                        "P2": {
+                          "shadow": {
+                            "type": "psd",
+                            "id": "KBz(X]qs@ih(!j-QvGMU",
+                            "fields": {
+                              "V": "4cbaca3eb70b4f3753abe0561e2a5fe0"
+                            }
+                          }
+                        },
+                        "P3": {
+                          "shadow": {
+                            "type": "ipf",
+                            "id": "@Rxf(k~$Gyn`N^yq79V)",
+                            "fields": {
+                              "V": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "C_1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "+77CQ*S.T*TcA]`d.{.~",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "HDly=,DJ{I/QxQv)6ZZ_",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "Sq4#`Gp!5f^R@VO^-0[1",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "R@AVV(3C*5wY|x1sG}8P",
+                        "extraState": {
+                          "X": 102,
+                          "L": [
+                            1,
+                            2,
+                            3
+                          ],
+                          "O": [
+                            "",
+                            "",
+                            ""
+                          ],
+                          "T": "GetWidgetFromCustomHud",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "t]*2b#;51]HO:`(@C.4Z",
+                              "extraState": "Player"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "hSo)DJ$t#Td.9~sD0Xpw",
+                              "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                              "fields": {
+                                "VR": "Triggering player"
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";task7mxP,sZ7d6XW~Ki",
+                              "extraState": "CustomHud"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "Jphj$,a:2;Cj.#l?oCnl"
+                            }
+                          },
+                          "P3": {
+                            "shadow": {
+                              "type": "pwi",
+                              "id": "pxN#UBob?Vzl8EZ7#yF=",
+                              "fields": {
+                                "HD": "sckoijjnoeq-lqnkioih-lrxf6sp29bf",
+                                "E": "GIBX7yFS"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "1BW_d7A-g]ezs:e/,L*p",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "z0g#U|AbAt!s?XZOG~~=",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lH",
+                        "fields": {
+                          "VR": "Button"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D_1": {
+                "block": {
+                  "type": "exa",
+                  "id": "jT1-0e:MB.@6p:vV^ROj",
+                  "extraState": {
+                    "graphId": "gp6s5c4k33w-lqnoql7z-idyx9465r7s",
+                    "id": "Unm%rD9v_TEs`.Fl|o3i",
+                    "name": "chooseCombo2",
+                    "params": [],
+                    "tooltip": "Assets\\ECA\\PlayerVoteGun.eca"
+                  },
+                  "fields": {
+                    "T": "S"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "fG`!PImE{r^Va8k|aKO.",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "gv?xI+n:JQR`AjNx0$dh",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                        "fields": {
+                          "VR": "Triggering player"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "a",
+                      "id": "v%?Qjsuc#7-)REAOC=M_",
+                      "extraState": {
+                        "X": 942,
+                        "L": [
+                          1,
+                          2,
+                          3
+                        ],
+                        "O": [
+                          "",
+                          "",
+                          ""
+                        ],
+                        "T": "NotifyPlaySoundV2",
+                        "OT": null
+                      },
+                      "inputs": {
+                        "P1": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "D~@mLJ.F*v^K)BYL6gA^",
+                            "extraState": "Player"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": "ynH(:NE+JNLFx*2igITR",
+                            "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                            "fields": {
+                              "VR": "Triggering player"
+                            }
+                          }
+                        },
+                        "P2": {
+                          "shadow": {
+                            "type": "psd",
+                            "id": "^^P!H0Q$1{hhGTvbMCQ,",
+                            "fields": {
+                              "V": "4cbaca3eb70b4f3753abe0561e2a5fe0"
+                            }
+                          }
+                        },
+                        "P3": {
+                          "shadow": {
+                            "type": "ipf",
+                            "id": "3[.jhbVWCQ9.N01E/~sr",
+                            "fields": {
+                              "V": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "C_2": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "m$!uVy6[NP!7S:YQK79a",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "`LEChB/+Md_3Hd/r=6gZ",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "5WBQH)]}4?a.1B.TDAH6",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "YLw|p7vSlhc9DI3|x2{i",
+                        "extraState": {
+                          "X": 102,
+                          "L": [
+                            1,
+                            2,
+                            3
+                          ],
+                          "O": [
+                            "",
+                            "",
+                            ""
+                          ],
+                          "T": "GetWidgetFromCustomHud",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "t]*2b#;51]HO:`(@C.4Z",
+                              "extraState": "Player"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "?dLl%k:0!uPdOnO3idgJ",
+                              "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                              "fields": {
+                                "VR": "Triggering player"
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";task7mxP,sZ7d6XW~Ki",
+                              "extraState": "CustomHud"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "xVxHoU;b(*|VW]hJh{pC"
+                            }
+                          },
+                          "P3": {
+                            "shadow": {
+                              "type": "pwi",
+                              "id": "]pUuM4qHm-Zd9lI9H~Dz",
+                              "fields": {
+                                "HD": "sckoijjnoeq-lqnkioih-lrxf6sp29bf",
+                                "E": "0LuxoSGD"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "}!mHh2bVVK7vmI5bbKpM",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "x9Ow!h=-^4#Vm60](,JJ",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lH",
+                        "fields": {
+                          "VR": "Button"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D_2": {
+                "block": {
+                  "type": "exa",
+                  "id": "ALvC}]{ynqo=@,jUaiYt",
+                  "extraState": {
+                    "graphId": "gp6s5c4k33w-lqnoql7z-idyx9465r7s",
+                    "id": ")N)9k_^6H$Xo!#$qTZ.U",
+                    "name": "chooseCombo3",
+                    "params": [],
+                    "tooltip": "Assets\\ECA\\PlayerVoteGun.eca"
+                  },
+                  "fields": {
+                    "T": "S"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "7ITkqp{0%Nn{FKx90rYB",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": ":EZ$~jwsQ!$GIaMlG*iO",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                        "fields": {
+                          "VR": "Triggering player"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "a",
+                      "id": ",!4t,4i;IpVgsI)5BCzN",
+                      "extraState": {
+                        "X": 942,
+                        "L": [
+                          1,
+                          2,
+                          3
+                        ],
+                        "O": [
+                          "",
+                          "",
+                          ""
+                        ],
+                        "T": "NotifyPlaySoundV2",
+                        "OT": null
+                      },
+                      "inputs": {
+                        "P1": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "D~@mLJ.F*v^K)BYL6gA^",
+                            "extraState": "Player"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": "Sj?=aPFLnH69ay=)PT7.",
+                            "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                            "fields": {
+                              "VR": "Triggering player"
+                            }
+                          }
+                        },
+                        "P2": {
+                          "shadow": {
+                            "type": "psd",
+                            "id": "c]N8`N-]RenC*Ofj[R#Y",
+                            "fields": {
+                              "V": "4cbaca3eb70b4f3753abe0561e2a5fe0"
+                            }
+                          }
+                        },
+                        "P3": {
+                          "shadow": {
+                            "type": "ipf",
+                            "id": ",J}/ab%|51}II28tngPH",
+                            "fields": {
+                              "V": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "C_3": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "lP2)9]ddcNL.I*xM(Xd|",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "+?iEZzS4qBs-m~fLMgnm",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "?/]AM23TKS@8T7XGIt}T",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "=ZZA:o{:%2{e.voO_.)A",
+                        "extraState": {
+                          "X": 102,
+                          "L": [
+                            1,
+                            2,
+                            3
+                          ],
+                          "O": [
+                            "",
+                            "",
+                            ""
+                          ],
+                          "T": "GetWidgetFromCustomHud",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "t]*2b#;51]HO:`(@C.4Z",
+                              "extraState": "Player"
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";task7mxP,sZ7d6XW~Ki",
+                              "extraState": "CustomHud"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "(^M~5GTTe,0+bB9Z7%;W"
+                            }
+                          },
+                          "P3": {
+                            "shadow": {
+                              "type": "pwi",
+                              "id": "#?Ytz%8y)P`wt5`7hcRq",
+                              "fields": {
+                                "HD": "sckoijjnoeq-lqnkioih-lrxf6sp29bf",
+                                "E": "kKbgDjNK"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "gHLDE8!c,Wt`)82=2`1V",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "TUZX#4!+%V+Ah|CHpSQ.",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lH",
+                        "fields": {
+                          "VR": "Button"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D_3": {
+                "block": {
+                  "type": "exa",
+                  "id": "EWtXI~q/HEN!%.wai@.T",
+                  "extraState": {
+                    "graphId": "gp6s5c4k33w-lqnoql7z-idyx9465r7s",
+                    "id": "J_n6%LKt6d2=_)s4_73_",
+                    "name": "chooseCombo4",
+                    "params": [],
+                    "tooltip": "Assets\\ECA\\PlayerVoteGun.eca"
+                  },
+                  "fields": {
+                    "T": "S"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "64XDvR`Q(qR4XDa)w++J",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "eYO*CSBs5eaFFk=hiVh(",
+                        "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                        "fields": {
+                          "VR": "Triggering player"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "a",
+                      "id": ":S-t49G1wFooF^sHwL_A",
+                      "extraState": {
+                        "X": 942,
+                        "L": [
+                          1,
+                          2,
+                          3
+                        ],
+                        "O": [
+                          "",
+                          "",
+                          ""
+                        ],
+                        "T": "NotifyPlaySoundV2",
+                        "OT": null
+                      },
+                      "inputs": {
+                        "P1": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "D~@mLJ.F*v^K)BYL6gA^",
+                            "extraState": "Player"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": "1#$$_R~7#3fk8:{+f-X7",
+                            "extraState": "@X~Zst`w[Ct[Kzo~30[lP1",
+                            "fields": {
+                              "VR": "Triggering player"
+                            }
+                          }
+                        },
+                        "P2": {
+                          "shadow": {
+                            "type": "psd",
+                            "id": "$hz$.NG84u.dzQ@Yw^t1",
+                            "fields": {
+                              "V": "4cbaca3eb70b4f3753abe0561e2a5fe0"
+                            }
+                          }
+                        },
+                        "P3": {
+                          "shadow": {
+                            "type": "ipf",
+                            "id": "!daXu_$GP`@0f~.AjN_n",
+                            "fields": {
+                              "V": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D_else": {
+                "block": {
+                  "type": "print",
+                  "id": "wXTgNsnuefB]^W$u30fC",
+                  "fields": {
+                    "T": "PrintError"
+                  },
+                  "inputs": {
+                    "V": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "rBvx1;@Pe/bzq36qh6)=",
+                        "extraState": "Object"
+                      },
+                      "block": {
+                        "type": "ipt",
+                        "id": "3O)zRzz-Ebkps.gv=o@t",
+                        "fields": {
+                          "V": "<HUDGunVote.eca>: Somehow the index exceeds the limit of gun combos (currently 4)"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomHud",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

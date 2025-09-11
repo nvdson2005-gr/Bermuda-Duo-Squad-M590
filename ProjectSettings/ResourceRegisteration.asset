@@ -29,6 +29,139 @@
               "scriptName": "rowTemplate"
             }
           ]
+        },
+        {
+          "refer": {
+            "fileId": "6fhb3e4mtk9-lq0qglvb-gsbjhejt5y",
+            "filePath": "Assets\\UI\\teamScoreHUD.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "TEAM_SCORE_HUD",
+          "children": [
+            {
+              "id": "XULa5f6c",
+              "scriptName": "CURRENT_TEAM_1"
+            },
+            {
+              "id": "1HKkbBQY",
+              "scriptName": "CURRENT_TEAM_2"
+            },
+            {
+              "id": "zUOC3h8J",
+              "scriptName": "CURRENT_TEAM_3"
+            },
+            {
+              "id": "ZoLnnEk4",
+              "scriptName": "CURRENT_TEAM_4"
+            },
+            {
+              "id": "QZLeM2ue",
+              "scriptName": "TEAM1_SCORE"
+            },
+            {
+              "id": "gp5Gm0xn",
+              "scriptName": "TEAM2_SCORE"
+            },
+            {
+              "id": "4aapDIxN",
+              "scriptName": "TEAM3_SCORE"
+            },
+            {
+              "id": "35r1OTaU",
+              "scriptName": "TEAM4_SCORE"
+            },
+            {
+              "id": "jdJRotvP",
+              "scriptName": "player1_T1"
+            },
+            {
+              "id": "9zMixnRE",
+              "scriptName": "player1_T1_knock"
+            },
+            {
+              "id": "lpeyT7pJ",
+              "scriptName": "player2_T1"
+            },
+            {
+              "id": "c6nzLUHE",
+              "scriptName": "player2_T1_knock"
+            },
+            {
+              "id": "mHvQ3L2c",
+              "scriptName": "player1_T3"
+            },
+            {
+              "id": "1sTxYBb2",
+              "scriptName": "player1_T3_knock"
+            },
+            {
+              "id": "CRqwsQ1H",
+              "scriptName": "player2_T3"
+            },
+            {
+              "id": "tiamrf22",
+              "scriptName": "player2_T3_knock"
+            },
+            {
+              "id": "47wMmqUm",
+              "scriptName": "player1_T4"
+            },
+            {
+              "id": "jxR6F4c3",
+              "scriptName": "player1_T4_knock"
+            },
+            {
+              "id": "JlQl8RkZ",
+              "scriptName": "player2_T4"
+            },
+            {
+              "id": "afeGwjWc",
+              "scriptName": "player2_T4_knock"
+            },
+            {
+              "id": "lcV6MMFq",
+              "scriptName": "player1_T2"
+            },
+            {
+              "id": "bKTkOeQb",
+              "scriptName": "player1_T2_knock"
+            },
+            {
+              "id": "Cc4BuVxg",
+              "scriptName": "player2_T2"
+            },
+            {
+              "id": "RcRC70Xq",
+              "scriptName": "player2_T2_knock"
+            }
+          ]
+        },
+        {
+          "refer": {
+            "fileId": "fk843kpss5j-lr7i3xy7-8mfdaj61u0a",
+            "filePath": "Assets\\UI\\reminder.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "REMINDER",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "l2o204lsb7b-lrkbmtj0-gz5rnikfzut",
+            "filePath": "Assets\\UI\\FirstBlood.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "FIRST_BLOOD",
+          "children": []
         }
       ]
     },
@@ -36,7 +169,237 @@
       "id": "scene",
       "label": "Scene",
       "scriptName": "Scene",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+            "filePath": "Assets\\Scene\\Bermuda.scene",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "scene"
+          },
+          "scriptName": "Bermuda",
+          "children": [
+            {
+              "id": "lOCkeBVE",
+              "scriptName": "Team3Spawn_Map1"
+            },
+            {
+              "id": "z39CqVXO",
+              "scriptName": "Team2Spawn_Map1"
+            },
+            {
+              "id": "1jTugzOM",
+              "scriptName": "Team1Spawn_Map1"
+            },
+            {
+              "id": "07e1ayYc",
+              "scriptName": "Team4Spawn_Map1"
+            },
+            {
+              "id": "nwLRTmls",
+              "scriptName": "Spawn_T1_M2"
+            },
+            {
+              "id": "UKnbocC2",
+              "scriptName": "Spawn_T2_M2"
+            },
+            {
+              "id": "QAN7YdkF",
+              "scriptName": "Spawn_T3_M2"
+            },
+            {
+              "id": "sMlw83XC",
+              "scriptName": "Spawn_T4_M2"
+            },
+            {
+              "id": "umOvsUss",
+              "scriptName": "Spawn_T1_Map3"
+            },
+            {
+              "id": "mRellLjT",
+              "scriptName": "Spawn_T2_Map3"
+            },
+            {
+              "id": "4ik6Je1n",
+              "scriptName": "Spawn_T3_Map3"
+            },
+            {
+              "id": "18LXPEes",
+              "scriptName": "Spawn_T4_Map3"
+            },
+            {
+              "id": "YeHx2aft",
+              "scriptName": "Spawn_T1_Map4"
+            },
+            {
+              "id": "NQXEh6wI",
+              "scriptName": "Spawn_T2_Map4"
+            },
+            {
+              "id": "2kxVOQAN",
+              "scriptName": "Spawn_T3_Map4"
+            },
+            {
+              "id": "dDa91qjh",
+              "scriptName": "Spawn_T4_Map4"
+            },
+            {
+              "id": "enfTyKtY",
+              "scriptName": "Spawn_T1_Map5"
+            },
+            {
+              "id": "V0nYIbx0",
+              "scriptName": "Spawn_T2_Map5"
+            },
+            {
+              "id": "UzVzBcL5",
+              "scriptName": "Spawn_T3_Map5"
+            },
+            {
+              "id": "4AwuN98F",
+              "scriptName": "Spawn_T4_Map5"
+            },
+            {
+              "id": "Fx8YhOCK",
+              "scriptName": "Spawn_T1_Map6"
+            },
+            {
+              "id": "z9ZIxxUX",
+              "scriptName": "Spawn_T2_Map6"
+            },
+            {
+              "id": "MxK3XpnK",
+              "scriptName": "Spawn_T3_Map6"
+            },
+            {
+              "id": "fVh1rKXG",
+              "scriptName": "Spawn_T4_Map6"
+            },
+            {
+              "id": "UqWV7MQK",
+              "scriptName": "Border_Map1_1"
+            },
+            {
+              "id": "wTt25CJG",
+              "scriptName": "Border_Map1_11"
+            },
+            {
+              "id": "0uQXdGzA",
+              "scriptName": "Border_Map1_12"
+            },
+            {
+              "id": "6b9RaksV",
+              "scriptName": "Border_Map2_1"
+            },
+            {
+              "id": "SFd3e5rN",
+              "scriptName": "Border_Map2_11"
+            },
+            {
+              "id": "LQf4om34",
+              "scriptName": "Border_Map2_12"
+            },
+            {
+              "id": "jm8ZOEME",
+              "scriptName": "border_Map3"
+            },
+            {
+              "id": "hldOl2Jq",
+              "scriptName": "border_Map31"
+            },
+            {
+              "id": "oWlgqAW8",
+              "scriptName": "border_Map32"
+            },
+            {
+              "id": "bF9QKulo",
+              "scriptName": "Border_Map4"
+            },
+            {
+              "id": "63Dyt55p",
+              "scriptName": "Border_Map41"
+            },
+            {
+              "id": "ALdgDAjm",
+              "scriptName": "Border_Map42"
+            },
+            {
+              "id": "P0kjXdta",
+              "scriptName": "Border_Map5"
+            },
+            {
+              "id": "4HqPYYxC",
+              "scriptName": "Border_Map51"
+            },
+            {
+              "id": "urGyDAaW",
+              "scriptName": "Border_Map52"
+            },
+            {
+              "id": "nlNYq3n9",
+              "scriptName": "Border_Map6"
+            },
+            {
+              "id": "br673TwE",
+              "scriptName": "Border_Map61"
+            },
+            {
+              "id": "f2tl4tAH",
+              "scriptName": "Border_Map62"
+            },
+            {
+              "id": "ZA2EXvMf",
+              "scriptName": "Airdrop_Map1_1"
+            },
+            {
+              "id": "pwcGO0dE",
+              "scriptName": "Airdrop_Map1_2"
+            },
+            {
+              "id": "vVe8eh6s",
+              "scriptName": "Airdrop_Map2_1_1"
+            },
+            {
+              "id": "EeamuIEL",
+              "scriptName": "Airdrop_Map2_1_2"
+            },
+            {
+              "id": "b7Y9y8SG",
+              "scriptName": "Airdrop_Map3_1_1"
+            },
+            {
+              "id": "J2lP7ZyX",
+              "scriptName": "Airdrop_Map3_1_2"
+            },
+            {
+              "id": "2AEtQQyi",
+              "scriptName": "Airdrop_Map4_1_1"
+            },
+            {
+              "id": "JmgZ3Zai",
+              "scriptName": "Airdrop_Map4_1_2"
+            },
+            {
+              "id": "tVUmcx9s",
+              "scriptName": "Airdrop_Map5_1_1"
+            },
+            {
+              "id": "SodXpSQq",
+              "scriptName": "Airdrop_Map5_1_2"
+            },
+            {
+              "id": "YymQZl77",
+              "scriptName": "Airdrop_Map6_1_1"
+            },
+            {
+              "id": "RCtQ6xTx",
+              "scriptName": "Airdrop_Map6_1_2"
+            }
+          ]
+        }
+      ]
     },
     "prefab": {
       "id": "prefab",
@@ -48,7 +411,56 @@
       "id": "ugcscript",
       "label": "UGCScript",
       "scriptName": "UGCScript",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "v9a4ld3rk2g-mfatjinm-por2hb615ti",
+            "filePath": "Assets\\Script\\Globals\\GlobalData\\GlobalRandomEvent.fcg",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ugcscript"
+          },
+          "scriptName": "GlobalRandomEvent",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "97w1pnps7sd-mfavor41-9ww7p6z9jhq",
+            "filePath": "Assets\\Script\\Players\\PlayerEvents.fcg",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ugcscript"
+          },
+          "scriptName": "PlayerEvents",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "mhba7ashjm-mfashqro-grw8kc4zcb",
+            "filePath": "Assets\\Script\\Globals\\GlobalData\\GlobalGunCombo.fcg",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ugcscript"
+          },
+          "scriptName": "GlobalGunCombo",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "st5omz3vtz-mfc806hh-210o5m0mcqwi",
+            "filePath": "Assets\\Script\\Globals\\GlobalData\\GlobalConfig.fcg",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ugcscript"
+          },
+          "scriptName": "GlobalConfig",
+          "children": []
+        }
+      ]
     },
     "eca": {
       "id": "eca",
@@ -56,11 +468,421 @@
     },
     "texture": {
       "id": "texture",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "xqibbkwww3-lqnl1fc6-z9m2ttjxbol",
+            "filePath": "Assets\\images\\icon_weapon_m1014.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "M10143",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "j5tlutds7bc-lqnl1ffz-5wz2za8vjvq",
+            "filePath": "Assets\\images\\icon_weapon_m1887.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "M1887",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "dz56g0xxs0w-lqnl1env-1nc83obojuu",
+            "filePath": "Assets\\images\\icon_weapon_bm94.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "M82B",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "5jxgkplzoiw-lqnl1fwc-0uou2a3ns44a",
+            "filePath": "Assets\\images\\icon_weapon_scar.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "SCAR3",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "i6owrih5gw-lqnl1f0o-7yvtoorkfs",
+            "filePath": "Assets\\images\\icon_weapon_groza.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "GROZAX",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "w83l687157a-lqnl1fop-e2pg6s45hf7",
+            "filePath": "Assets\\images\\icon_weapon_mp5.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "MP53",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "7mfo2eh9pep-lqnl1g3j-1a4klca8lwr",
+            "filePath": "Assets\\images\\icon_weapon_svd.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "SVDY",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "ud08ijdfhln-lqnmyk3j-5iu2mak51a",
+            "filePath": "Assets\\images\\icon_weapon_m60.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "M603",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "o79jl6d3bx-lqnl1fsj-4utpj37u14j",
+            "filePath": "Assets\\images\\icon_weapon_mp40.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "MP40",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "7lfqyddytfo-lqnl1f8g-x1vp7wvjxj",
+            "filePath": "Assets\\images\\icon_weapon_m21a5.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "WOODPECKER",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "q3xlmrjriq-lqnl1g7d-54zyc0gb2rx",
+            "filePath": "Assets\\images\\icon_weapon_vss.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "VSS",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "vvcq29qlyh-lqnl1fkr-3t8kt6tem9z",
+            "filePath": "Assets\\images\\icon_weapon_mac10.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "MAC10",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "afm6byr1f1r-lqnl1fzz-wv5qzjrdre",
+            "filePath": "Assets\\images\\icon_weapon_sks.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "SKS",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "1fhplvoitg3-lqnl1f4k-fc8swmeoemf",
+            "filePath": "Assets\\images\\icon_weapon_katana.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "KATANA",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "di5d83i4r5-lqnn3prn-jad7q4sq3cf",
+            "filePath": "Assets\\images\\icon_shoe_doublejumpshoe.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "JUMPINGSHOES",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "qhjb3f1w4w-lrh8okzi-qiirwbe1l",
+            "filePath": "Assets\\images\\icon_weapon_awm.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "AWMY",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "0gtb9w8hhhfd-mdzn6mrp-i5fzwy72r9",
+            "filePath": "Assets\\images\\icon_weapon_airburst.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "M590",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "4ziisuu8bkt-mdznbhtl-3b1f0kliul2",
+            "filePath": "Assets\\images\\icon_weapon_kar98k.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "KAR98K",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "v6hjivyeazg-mdzncgse-fsr9unxofk5",
+            "filePath": "Assets\\images\\icon_weapon_mini.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "AC80",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "ule8k1vrcur-me2c6vr5-ok8sznmtnv",
+            "filePath": "Assets\\images\\icon_weapon_ak.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "AK47",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "v4izyu5ydab-me2c74rf-y916664ud6",
+            "filePath": "Assets\\images\\icon_weapon_m249.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "M249",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "x3qvk8uf92j-me2c7gb3-epitvyr9szi",
+            "filePath": "Assets\\images\\icon_weapon_famas.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "FAMAS3",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "110b07f3314b6edb7e155db03a397ada",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_CORPSE.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "ZOMBIE",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "di5d83i4r5-lqnn3prn-jad7q4sq3cf",
+            "filePath": "Assets\\images\\icon_shoe_doublejumpshoe.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "DOUBLEJUMPSHOE",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "682076f9484c5ddf0ec30c6691fcbfec",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/ui_icon_skill_Grenade_Split.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "GRENADESPLIT",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "3968b91ec1dbda7bcd6d0d03934321a5",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/T_17_C_SKILL_NAME_PLAYBOY.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "NUTTYMOVEMENT",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "6b07d6203e7e43c774714344577231ee",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_WT_WS_ENTITY7_PARAM1.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "PLAYER",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "854e6fbd9ba587323e1b86fca4b1b899",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/ui_icon_skill_Santino_01.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "SANTINO1",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "y47949qj328-lqnn3pwh-27ir4mq943f",
+            "filePath": "Assets\\images\\icon_shoe_jetshoe.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "JETSHOE",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "35a4a75eb1118e69ef54ece8f24f5589",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/FF_UI_Active_Noon.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "ACTIVENOON",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "66b88bfcea2348b3131c6d268cffe9e3",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/ui_icon_skill_Kenta.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "KENTA",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "a6ba2ada27253fe95bfe35c24e0a1ec4",
+            "filePath": "lib://fftextures/WorkshopIconLibrary/UI_WeaponPower_BR_01.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "TOP_TEAM_ICON",
+          "children": []
+        }
+      ]
     },
     "effecttype": {
       "id": "effecttype",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "EffectType_UGC_T_34_LY_WS_VFX2",
+            "filePath": "lib://ffEffects/T_34_LY_WS_VFX2",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "effecttype"
+          },
+          "scriptName": "CYLINDRICAL",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "EffectType_UGC_T_34_LY_WS_VFX3",
+            "filePath": "lib://ffEffects/T_34_LY_WS_VFX3",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "effecttype"
+          },
+          "scriptName": "RING",
+          "children": []
+        }
+      ]
     },
     "sound": {
       "id": "sound",
@@ -68,11 +890,373 @@
     },
     "fitem": {
       "id": "fitem",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "b37ebe60d443c8081a59af7d33611b79",
+            "filePath": "lib://ffitem/item_186",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "M10143",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "ffc3f4b513fbe51ef58d175d5539a0e9",
+            "filePath": "lib://ffitem/item_41",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "M1887",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "258391b94447d33b20cf3c8a771ca9b0",
+            "filePath": "lib://ffitem/item_45",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "M82B",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "e74e0ef33e391734a8ff7ca46894e444",
+            "filePath": "lib://ffitem/item_180",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "SCAR3",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "40e09243ca39167877ac302d27d2a3cc",
+            "filePath": "lib://ffitem/item_70",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "GROZAX",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "5cec5ad4e5195a9ef60d9a79c7821cf8",
+            "filePath": "lib://ffitem/item_121",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "MP53",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "583fa6be162564f22de08aaa469dcc2a",
+            "filePath": "lib://ffitem/item_72",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "SVDY",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "263b452a64563ea62ac3ef515b919291",
+            "filePath": "lib://ffitem/item_123",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "M603",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "704e20e0e58a882e20f053070dbb3e1d",
+            "filePath": "lib://ffitem/item_15",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "MP40",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "3c05875974f836b6897d21aa766bb2bf",
+            "filePath": "lib://ffitem/item_48",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "WOODPECKER",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "9eea43eeaba828a0f543cb07397d83b8",
+            "filePath": "lib://ffitem/item_13",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "VSS",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "531b87244ddb80ae183047669ea5abbb",
+            "filePath": "lib://ffitem/item_88",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "MAC10",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "2fa2d3aeff8b07ddbcf8c66e722b3911",
+            "filePath": "lib://ffitem/item_18",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "SKS",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "31c39178634c59e11e42f7cc66683e70",
+            "filePath": "lib://ffitem/item_34",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "KATANA",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "25e5be60480f1458a6ba640a28609c29",
+            "filePath": "lib://ffitem/item_1602",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "JUMPINGSHOES",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "02475282e9932326ed165668ce0dd7c9",
+            "filePath": "lib://ffitem/item_65",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "AWMY",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "f426d0587d254d00b2d1d3cf084149c0",
+            "filePath": "lib://ffitem/item_21002",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "M590",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "881cd2d119127732f59b536fe3746847",
+            "filePath": "lib://ffitem/item_129",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "KAR98K",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "a117c987ff5eb5814910a96f4de76623",
+            "filePath": "lib://ffitem/item_89",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "AC80",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "9cb4b297a2dc2e25384c2df19681304d",
+            "filePath": "lib://ffitem/item_6",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "AK47",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "d7b61db9ae596a07c09244f98d1f87d1",
+            "filePath": "lib://ffitem/item_19",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "M249",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "0ba13b1b42fcc1a588adff3ab6596a6e",
+            "filePath": "lib://ffitem/item_131",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "FAMAS3",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "6be38e4b54ccc01a6845dc6bcae006f9",
+            "filePath": "lib://ffitem/item_1601",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "JETPACKSHOES",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "5496c970a33aad3509e3bf94a8375066",
+            "filePath": "lib://ffitem/item_1205",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "SUPERMED",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "98d38ce98956314fd73c9d992fe0fdd1",
+            "filePath": "lib://ffitem/item_534",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "SCOPE2",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "d38a1b0452be91e8383a62c1f6ad0639",
+            "filePath": "lib://ffitem/item_108",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "HORIZALINE",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "5c65a6b1287e1186d3bde416c22c0639",
+            "filePath": "lib://ffitem/item_38",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "HOOK_GUN",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "95782190aee072d8ac71edb8ece4c0db",
+            "filePath": "lib://ffitem/item_2102",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "MINI_TURRET",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "2b335df95ee6d7618c96c2a63967b238",
+            "filePath": "lib://ffitem/item_309",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fitem"
+          },
+          "scriptName": "VEST4",
+          "children": []
+        }
+      ]
     },
     "fScenePrefab": {
       "id": "fScenePrefab",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "150d8a69-8ec4-4ac6-9137-6c6298ecb4d9_223",
+            "filePath": "lib://ffmod/ffOptionID_1/option_9/se_223",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "fScenePrefab"
+          },
+          "scriptName": "ICON_OBJECT",
+          "children": []
+        }
+      ]
     },
     "clothskin": {
       "id": "clothskin",
@@ -96,7 +1280,20 @@
     },
     "internalhudtype": {
       "id": "internalhudtype",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "InternalHud_TwoTeamRoundScoreBannerHud",
+            "filePath": "lib://ffInternalHuds/TwoTeamRoundScoreBannerHud",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "internalhudtype"
+          },
+          "scriptName": "ROUND_START",
+          "children": []
+        }
+      ]
     },
     "textureResource": {
       "id": "textureResource",

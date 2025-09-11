@@ -1,0 +1,52 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Workflow.fcc" as Workflow
+import "Scene.fcc" as Scene
+import "../Globals/GlobalData/GlobalRandomEvent.fcg" as GlobalRandomEvent
+import "Items.fcc" as Items
+graph Global {
+    canUpdate bool
+    teamMap Map<entity<Team>, List<entity<Player>>> = Map<entity<Team>, List<entity<Player>>>{}
+    // EVENTS
+    event OnPhaseStart(phase entity<Phase>) {
+        if phase<Phase>.Index == EPhase.Preparation {
+            canUpdate = true
+            // External call to initGunCombo in GlobalGunComboECA (implement later)
+        } else if phase<Phase>.Index == EPhase.Vote{
+            globalEntity<GlobalRandomEvent>.ApplyRandomEvent()
+            AddItemForAllPlayers()
+        } else if phase<Phase>.Index == EPhase.__End6Round__ {
+            SetSkybox(SkyboxType.Day) 
+        }
+    }
+
+    event OnRoundStart(roundIndex int) {
+        var teamList = GetAllTeams()
+        teamMap[teamList[0]] = teamList[0]<Team>.AllTeammates
+        teamMap[teamList[1]] = teamList[1]<Team>.AllTeammates
+        teamMap[teamList[2]] = teamList[2]<Team>.AllTeammates
+        teamMap[teamList[3]] = teamList[3]<Team>.AllTeammates
+    }
+
+    // UTILS
+    func AddItemForAllPlayers(){
+        for index, player in GetAllPlayers() {
+            AddItem(player, ItemIDType.Bag3, 1, out var bag)
+            AddItem(player, EResItem.SUPERMED as ItemIDType, 4, out var supermed)
+            AddItem(player, ItemIDType.GlooWall, 10, out var gloo)
+            AddItem(player, ItemIDType.Grenade, 3, out var grenade)
+            AddItem(player, ItemIDType.FlashFreeze, 2, out var flash)
+            AddItem(player, ItemIDType.SmokeGrenade, 2, out var smoke)
+            AddItem(player, ItemIDType.Vest3, 1, out var vest)
+            AddItem(player, ItemIDType.Helmet3, 1, out var helmet)
+            AddItem(player, EResItem.SCOPE2 as ItemIDType, 2, out var scope2)
+            AddItem(player, ItemIDType.RepairKit, 5, out var repair)
+            AddItem(player, ItemIDType.Magazine3, 2, out var mag3)
+            AddItem(player, ItemIDType.Foregrip3, 2, out var foregrip3)
+            AddItem(player, ItemIDType.Stock3, 2, out var stock3)
+            AddItem(player, ItemIDType.Muzzle3, 2, out var muzzle3)
+            AddItem(player, ItemIDType.Inhaler, 5, out var inhaler)
+            AddItem(player, EResItem.HORIZALINE as ItemIDType, 1, out var horizaline)
+        }
+    }
+}

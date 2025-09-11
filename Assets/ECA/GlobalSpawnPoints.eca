@@ -51,6 +51,10 @@
                         1,
                         2
                       ],
+                      "O": [
+                        "",
+                        ""
+                      ],
                       "T": "SetActive",
                       "OT": null
                     },
@@ -91,6 +95,9 @@
                     "X": 227,
                     "L": [
                       1
+                    ],
+                    "O": [
+                      ""
                     ],
                     "T": "ListClear",
                     "OT": null
@@ -139,7 +146,7 @@
                 "V": {
                   "shadow": {
                     "type": "tys",
-                    "id": "MKD{#a1G+5E8p=)QAfM[",
+                    "id": "%IG9R^J5TwvNKMr%5!yo",
                     "extraState": "ListT_any"
                   },
                   "block": {
@@ -162,7 +169,7 @@
                       "_arg3641": {
                         "shadow": {
                           "type": "tys",
-                          "id": "HreT{D$gmCIm?PnLB4^]",
+                          "id": "5).72XUSr|^W:.%2^JA,",
                           "extraState": "Int"
                         },
                         "block": {
@@ -206,7 +213,7 @@
                     "V": {
                       "shadow": {
                         "type": "tyd",
-                        "id": "!tFHrpJh#lzV5dz.i.@2",
+                        "id": "a;EhcQznul}[[pT`Dzw%",
                         "extraState": "$Auto"
                       },
                       "block": {
@@ -288,6 +295,9 @@
                         "L": [
                           1
                         ],
+                        "O": [
+                          ""
+                        ],
                         "T": "ListShuffle",
                         "OT": null
                       },
@@ -323,7 +333,7 @@
                             "V": {
                               "shadow": {
                                 "type": "tyd",
-                                "id": "6V=Bj4{PE3{(2/%-;+~f",
+                                "id": "v*u_*DIfeSTjjvlCxVB}",
                                 "extraState": "SpawnPos"
                               },
                               "block": {
@@ -334,6 +344,10 @@
                                   "L": [
                                     1,
                                     2
+                                  ],
+                                  "O": [
+                                    "",
+                                    ""
                                   ],
                                   "T": "ListGetElement",
                                   "OT": null
@@ -369,6 +383,10 @@
                                         "L": [
                                           1,
                                           2
+                                        ],
+                                        "O": [
+                                          "",
+                                          ""
                                         ],
                                         "T": "ListGetElement",
                                         "OT": null
@@ -420,7 +438,7 @@
                                 "V": {
                                   "shadow": {
                                     "type": "tyd",
-                                    "id": "Sw`CJu+DWROa}}zQ75sa",
+                                    "id": "ry%xB+K;P!ZTV4]k$@V3",
                                     "extraState": "SpawnPos"
                                   },
                                   "block": {
@@ -431,6 +449,10 @@
                                       "L": [
                                         1,
                                         2
+                                      ],
+                                      "O": [
+                                        "",
+                                        ""
                                       ],
                                       "T": "ListGetElement",
                                       "OT": null
@@ -466,6 +488,10 @@
                                             "L": [
                                               1,
                                               2
+                                            ],
+                                            "O": [
+                                              "",
+                                              ""
                                             ],
                                             "T": "ListGetElement",
                                             "OT": null
@@ -517,7 +543,7 @@
                                     "V": {
                                       "shadow": {
                                         "type": "tyd",
-                                        "id": "JG|g.~y(P/[uWkyc8Y`T",
+                                        "id": "~0~q7{mVl79N;sxcb]+E",
                                         "extraState": "SpawnPos"
                                       },
                                       "block": {
@@ -528,6 +554,10 @@
                                           "L": [
                                             1,
                                             2
+                                          ],
+                                          "O": [
+                                            "",
+                                            ""
                                           ],
                                           "T": "ListGetElement",
                                           "OT": null
@@ -563,6 +593,10 @@
                                                 "L": [
                                                   1,
                                                   2
+                                                ],
+                                                "O": [
+                                                  "",
+                                                  ""
                                                 ],
                                                 "T": "ListGetElement",
                                                 "OT": null
@@ -614,7 +648,7 @@
                                         "V": {
                                           "shadow": {
                                             "type": "tyd",
-                                            "id": "kIPus.r?:)ih|L#oMyoT",
+                                            "id": "0Lm^baCk!]=?8dN@M4f-",
                                             "extraState": "SpawnPos"
                                           },
                                           "block": {
@@ -625,6 +659,10 @@
                                               "L": [
                                                 1,
                                                 2
+                                              ],
+                                              "O": [
+                                                "",
+                                                ""
                                               ],
                                               "T": "ListGetElement",
                                               "OT": null
@@ -660,6 +698,10 @@
                                                     "L": [
                                                       1,
                                                       2
+                                                    ],
+                                                    "O": [
+                                                      "",
+                                                      ""
                                                     ],
                                                     "T": "ListGetElement",
                                                     "OT": null
@@ -711,7 +753,7 @@
                                             "V": {
                                               "shadow": {
                                                 "type": "tyd",
-                                                "id": "0FI!i8`L#5QKm@~Y_#ys",
+                                                "id": "tbC|pBJO;Q_A8)H=P95F",
                                                 "extraState": "$Auto"
                                               },
                                               "block": {
@@ -745,6 +787,7 @@
                                                       "extraState": {
                                                         "X": 95,
                                                         "L": [],
+                                                        "O": [],
                                                         "T": "GetGlobalEntity",
                                                         "OT": null
                                                       }
@@ -753,7 +796,7 @@
                                                   "_arg4319": {
                                                     "shadow": {
                                                       "type": "tys",
-                                                      "id": "U_;huWql6J@+QfkZ{W0e",
+                                                      "id": "RZYj+Ex#CYBQA=yz9s3c",
                                                       "extraState": "any"
                                                     },
                                                     "block": {
@@ -776,6 +819,7 @@
                                                             "extraState": {
                                                               "X": 95,
                                                               "L": [],
+                                                              "O": [],
                                                               "T": "GetGlobalEntity",
                                                               "OT": null
                                                             }
@@ -803,7 +847,7 @@
                                                 "V": {
                                                   "shadow": {
                                                     "type": "tyd",
-                                                    "id": "TB=e{Nkw1z=m,?L+}@0;",
+                                                    "id": "]/y:x.xUF/3Z6G[JXgDc",
                                                     "extraState": "$Auto"
                                                   },
                                                   "block": {
@@ -819,7 +863,7 @@
                                                       "I0": {
                                                         "shadow": {
                                                           "type": "tys",
-                                                          "id": "T]NTycMU}8s#=G}`)d7y",
+                                                          "id": "@Rx.KN3#SL3~s%Sl+$o.",
                                                           "extraState": "SpawnPos"
                                                         },
                                                         "block": {
@@ -834,7 +878,7 @@
                                                       "I1": {
                                                         "shadow": {
                                                           "type": "tys",
-                                                          "id": "gVvuyfd[TRJ9WZ;pYHjD",
+                                                          "id": "H7rar%yM:d6V}T~5CaVs",
                                                           "extraState": "SpawnPos"
                                                         },
                                                         "block": {
@@ -849,7 +893,7 @@
                                                       "I2": {
                                                         "shadow": {
                                                           "type": "tys",
-                                                          "id": "o8PHAt27As_#o)3{T91E",
+                                                          "id": "^La?DZlnQ51JGm?z8pDR",
                                                           "extraState": "SpawnPos"
                                                         },
                                                         "block": {
@@ -864,7 +908,7 @@
                                                       "I3": {
                                                         "shadow": {
                                                           "type": "tys",
-                                                          "id": "iR9b5)g]y;l*[HNefQN|",
+                                                          "id": "uD=DmS0skMmab|SyY;.?",
                                                           "extraState": "SpawnPos"
                                                         },
                                                         "block": {
@@ -918,6 +962,10 @@
                                                           "L": [
                                                             1,
                                                             2
+                                                          ],
+                                                          "O": [
+                                                            "",
+                                                            ""
                                                           ],
                                                           "T": "SetActive",
                                                           "OT": null
@@ -998,6 +1046,10 @@
                                                                       1,
                                                                       2
                                                                     ],
+                                                                    "O": [
+                                                                      "",
+                                                                      ""
+                                                                    ],
                                                                     "T": "ListGetElement",
                                                                     "OT": null
                                                                   },
@@ -1014,6 +1066,7 @@
                                                                         "extraState": {
                                                                           "X": 65,
                                                                           "L": [],
+                                                                          "O": [],
                                                                           "T": "AllTeams",
                                                                           "OT": null
                                                                         }
@@ -1044,6 +1097,11 @@
                                                                 1,
                                                                 2,
                                                                 3
+                                                              ],
+                                                              "O": [
+                                                                "",
+                                                                "",
+                                                                ""
                                                               ],
                                                               "T": "TeleportPlayerPositionAndForward",
                                                               "OT": null
@@ -1139,7 +1197,7 @@
                                                                     "_arg9810": {
                                                                       "shadow": {
                                                                         "type": "tys",
-                                                                        "id": "LSpX6)D3-ozuR_Qb:LiY",
+                                                                        "id": "wD+5?12cdFB/_Van?WaK",
                                                                         "extraState": "Vector3"
                                                                       },
                                                                       "block": {
@@ -1174,7 +1232,7 @@
                                                                     "_arg3869": {
                                                                       "shadow": {
                                                                         "type": "tys",
-                                                                        "id": "aY5btwE1uiCtr/u{/v)U",
+                                                                        "id": "d[rb.d4Qsq:ea59Mxqm.",
                                                                         "extraState": "Vector3"
                                                                       },
                                                                       "block": {
@@ -1240,6 +1298,10 @@
                                                                           1,
                                                                           2
                                                                         ],
+                                                                        "O": [
+                                                                          "",
+                                                                          ""
+                                                                        ],
                                                                         "T": "ListGetElement",
                                                                         "OT": null
                                                                       },
@@ -1256,6 +1318,7 @@
                                                                             "extraState": {
                                                                               "X": 65,
                                                                               "L": [],
+                                                                              "O": [],
                                                                               "T": "AllTeams",
                                                                               "OT": null
                                                                             }
@@ -1286,6 +1349,11 @@
                                                                     1,
                                                                     2,
                                                                     3
+                                                                  ],
+                                                                  "O": [
+                                                                    "",
+                                                                    "",
+                                                                    ""
                                                                   ],
                                                                   "T": "TeleportPlayerPositionAndForward",
                                                                   "OT": null
@@ -1381,7 +1449,7 @@
                                                                         "_arg9810": {
                                                                           "shadow": {
                                                                             "type": "tys",
-                                                                            "id": "6:sal.n0Ebwi7ZgngYnu",
+                                                                            "id": "j$Ed;%)|,sLUNzHIAo:E",
                                                                             "extraState": "Vector3"
                                                                           },
                                                                           "block": {
@@ -1416,7 +1484,7 @@
                                                                         "_arg3869": {
                                                                           "shadow": {
                                                                             "type": "tys",
-                                                                            "id": "pHy$i(Xx=U/FBMt@C(Lt",
+                                                                            "id": "g=B|MKf6z-eT;qV}.z`@",
                                                                             "extraState": "Vector3"
                                                                           },
                                                                           "block": {
@@ -1482,6 +1550,10 @@
                                                                               1,
                                                                               2
                                                                             ],
+                                                                            "O": [
+                                                                              "",
+                                                                              ""
+                                                                            ],
                                                                             "T": "ListGetElement",
                                                                             "OT": null
                                                                           },
@@ -1498,6 +1570,7 @@
                                                                                 "extraState": {
                                                                                   "X": 65,
                                                                                   "L": [],
+                                                                                  "O": [],
                                                                                   "T": "AllTeams",
                                                                                   "OT": null
                                                                                 }
@@ -1528,6 +1601,11 @@
                                                                         1,
                                                                         2,
                                                                         3
+                                                                      ],
+                                                                      "O": [
+                                                                        "",
+                                                                        "",
+                                                                        ""
                                                                       ],
                                                                       "T": "TeleportPlayerPositionAndForward",
                                                                       "OT": null
@@ -1623,7 +1701,7 @@
                                                                             "_arg9810": {
                                                                               "shadow": {
                                                                                 "type": "tys",
-                                                                                "id": "J_$|*~ciRpbG%*Gdw7J3",
+                                                                                "id": ";sSIQMU@|0?xRe2P4Iq#",
                                                                                 "extraState": "Vector3"
                                                                               },
                                                                               "block": {
@@ -1658,7 +1736,7 @@
                                                                             "_arg3869": {
                                                                               "shadow": {
                                                                                 "type": "tys",
-                                                                                "id": ";Z10G?e0T{|n#1F,UmSh",
+                                                                                "id": "kYO{09VUY#Q|uO`b2sxu",
                                                                                 "extraState": "Vector3"
                                                                               },
                                                                               "block": {
@@ -1724,6 +1802,10 @@
                                                                                   1,
                                                                                   2
                                                                                 ],
+                                                                                "O": [
+                                                                                  "",
+                                                                                  ""
+                                                                                ],
                                                                                 "T": "ListGetElement",
                                                                                 "OT": null
                                                                               },
@@ -1740,6 +1822,7 @@
                                                                                     "extraState": {
                                                                                       "X": 65,
                                                                                       "L": [],
+                                                                                      "O": [],
                                                                                       "T": "AllTeams",
                                                                                       "OT": null
                                                                                     }
@@ -1770,6 +1853,11 @@
                                                                             1,
                                                                             2,
                                                                             3
+                                                                          ],
+                                                                          "O": [
+                                                                            "",
+                                                                            "",
+                                                                            ""
                                                                           ],
                                                                           "T": "TeleportPlayerPositionAndForward",
                                                                           "OT": null
@@ -1865,7 +1953,7 @@
                                                                                 "_arg9810": {
                                                                                   "shadow": {
                                                                                     "type": "tys",
-                                                                                    "id": "zf:S%7T)vl^b?]LcjMhX",
+                                                                                    "id": ":7~ErRvRy{(g^lCoepl^",
                                                                                     "extraState": "Vector3"
                                                                                   },
                                                                                   "block": {
@@ -1900,7 +1988,7 @@
                                                                                 "_arg3869": {
                                                                                   "shadow": {
                                                                                     "type": "tys",
-                                                                                    "id": "^S`]OnQLgcSf2Ia+SGyd",
+                                                                                    "id": "DagDIb`vm=UL*OWrLt@4",
                                                                                     "extraState": "Vector3"
                                                                                   },
                                                                                   "block": {
@@ -1946,6 +2034,7 @@
                                                                             "extraState": {
                                                                               "X": 65,
                                                                               "L": [],
+                                                                              "O": [],
                                                                               "T": "AllTeams",
                                                                               "OT": null
                                                                             }
@@ -1960,6 +2049,11 @@
                                                                               "L": [
                                                                                 1,
                                                                                 3
+                                                                              ],
+                                                                              "O": [
+                                                                                "o",
+                                                                                null,
+                                                                                ""
                                                                               ],
                                                                               "T": "CreateEffectEntityNew",
                                                                               "OT": null
@@ -2008,7 +2102,7 @@
                                                                                   "V": {
                                                                                     "shadow": {
                                                                                       "type": "tys",
-                                                                                      "id": "9u?|r|c9LU+QE`SV{}AB",
+                                                                                      "id": "-h#_-%2xPzrUE+ntnc@@",
                                                                                       "extraState": "Bool"
                                                                                     },
                                                                                     "block": {
@@ -2047,7 +2141,7 @@
                                                                                       "V": {
                                                                                         "shadow": {
                                                                                           "type": "tys",
-                                                                                          "id": "f7T2*CbFVbjXHv!(ZI:i",
+                                                                                          "id": "v3QkKFe876PVbS^7|BMs",
                                                                                           "extraState": "Vector3"
                                                                                         },
                                                                                         "block": {
@@ -2059,6 +2153,11 @@
                                                                                               1,
                                                                                               2,
                                                                                               3
+                                                                                            ],
+                                                                                            "O": [
+                                                                                              "",
+                                                                                              "",
+                                                                                              ""
                                                                                             ],
                                                                                             "T": "NewVector",
                                                                                             "OT": null
@@ -2122,7 +2221,7 @@
                                                                                           "V": {
                                                                                             "shadow": {
                                                                                               "type": "tys",
-                                                                                              "id": "R*~:kUjV]y^o*%rgdnAN",
+                                                                                              "id": "Gn1+zv9T$boRO]GNgz?_",
                                                                                               "extraState": "Vector3"
                                                                                             },
                                                                                             "block": {
@@ -2150,6 +2249,10 @@
                                                                                                       "L": [
                                                                                                         1,
                                                                                                         2
+                                                                                                      ],
+                                                                                                      "O": [
+                                                                                                        "",
+                                                                                                        ""
                                                                                                       ],
                                                                                                       "T": "ListGetElement",
                                                                                                       "OT": null
@@ -2221,7 +2324,7 @@
                                                                                               "V": {
                                                                                                 "shadow": {
                                                                                                   "type": "tys",
-                                                                                                  "id": "J6|w4pYZVWn@q{);B+vM",
+                                                                                                  "id": "#A4vcD:h!HT@@0MaCO^2",
                                                                                                   "extraState": "Color"
                                                                                                 },
                                                                                                 "block": {
@@ -2275,7 +2378,7 @@
                                                                                                   "_arg5454": {
                                                                                                     "shadow": {
                                                                                                       "type": "tys",
-                                                                                                      "id": "ec@*r~-1@p%9H_D,Pe2E",
+                                                                                                      "id": "MJT$+q)Vdu]Mhln|2i_{",
                                                                                                       "extraState": "any"
                                                                                                     },
                                                                                                     "block": {
@@ -2370,7 +2473,7 @@
                 "V": {
                   "shadow": {
                     "type": "tyd",
-                    "id": "/fnv~w=(J!a{6U5e_jp5",
+                    "id": "eT|`*x3v|_:A?Ls+?94L",
                     "extraState": "$Auto"
                   },
                   "block": {
@@ -2387,7 +2490,7 @@
                       "K0": {
                         "shadow": {
                           "type": "tys",
-                          "id": "rW^~Xx$b8GEdMhCGt;vm",
+                          "id": "a^ZFccLPvhxiktOcm85H",
                           "extraState": "Int__Key"
                         },
                         "block": {
@@ -2401,7 +2504,7 @@
                       "V0": {
                         "shadow": {
                           "type": "tys",
-                          "id": "w,TtBLXHJVvGso}tuMWt",
+                          "id": "$ozQ`cpVuf{|uInR{F52",
                           "extraState": "ListT_any__Value"
                         },
                         "block": {
@@ -2480,7 +2583,7 @@
                       "K1": {
                         "shadow": {
                           "type": "tys",
-                          "id": "5hi:-q|RMmdRY[EAnSpv",
+                          "id": "mR;~_G0`+i2X=/t`9+=w",
                           "extraState": "Int__Key"
                         },
                         "block": {
@@ -2494,7 +2597,7 @@
                       "V1": {
                         "shadow": {
                           "type": "tys",
-                          "id": "CO~^OzhJmrE8/R9l]u-Y",
+                          "id": "1Hcj5WZ!C|G096cCsM6~",
                           "extraState": "ListT_any__Value"
                         },
                         "block": {
@@ -2573,7 +2676,7 @@
                       "K2": {
                         "shadow": {
                           "type": "tys",
-                          "id": "xgBl![Dk)xD[o5VT`kyh",
+                          "id": "@~6cth#9:da{{V]:3@}?",
                           "extraState": "Int__Key"
                         },
                         "block": {
@@ -2587,7 +2690,7 @@
                       "V2": {
                         "shadow": {
                           "type": "tys",
-                          "id": "-vL#P(/Bc_X]sg3Z$8NC",
+                          "id": ",5+9F9]I[_)nLEA?u=b3",
                           "extraState": "ListT_any__Value"
                         },
                         "block": {
@@ -2666,7 +2769,7 @@
                       "K3": {
                         "shadow": {
                           "type": "tys",
-                          "id": "A)GVZ@j_]KD(q!!DREnw",
+                          "id": "PxbtizaE(aaTO|R:iKB]",
                           "extraState": "Int__Key"
                         },
                         "block": {
@@ -2680,7 +2783,7 @@
                       "V3": {
                         "shadow": {
                           "type": "tys",
-                          "id": "I+4(U^x@[ppjnRna^f}F",
+                          "id": "Kc9$%VR,#3_hMy-]$d[t",
                           "extraState": "ListT_any__Value"
                         },
                         "block": {
@@ -2759,7 +2862,7 @@
                       "K4": {
                         "shadow": {
                           "type": "tys",
-                          "id": "CwoI!t)P~]_;VOgnI$Z@",
+                          "id": "J{=i4+ky=Bb+wMCL({VJ",
                           "extraState": "Int__Key"
                         },
                         "block": {
@@ -2773,7 +2876,7 @@
                       "V4": {
                         "shadow": {
                           "type": "tys",
-                          "id": "=PK5PN|O}n%ZB85[?4h9",
+                          "id": "mD.B@~?Xz]sjF#9d2R]3",
                           "extraState": "ListT_any__Value"
                         },
                         "block": {
@@ -2852,7 +2955,7 @@
                       "K5": {
                         "shadow": {
                           "type": "tys",
-                          "id": "m7ddj#/ZIZCn@X7FhPzD",
+                          "id": "7ne+pwI|Pk]@_l#b3Q=]",
                           "extraState": "Int__Key"
                         },
                         "block": {
@@ -2866,7 +2969,7 @@
                       "V5": {
                         "shadow": {
                           "type": "tys",
-                          "id": "^=vC+?EBU1d[oZiS$BRX",
+                          "id": "+kW_%)E;|4Y@LIPq5j%/",
                           "extraState": "ListT_any__Value"
                         },
                         "block": {
@@ -2957,7 +3060,7 @@
                     "R": {
                       "shadow": {
                         "type": "tys",
-                        "id": "+;uP9F=TnkSY`0EW^DlU",
+                        "id": "X4i7Qle^V{GWzk#,cuWm",
                         "extraState": "ListT_any"
                       },
                       "block": {
@@ -2968,6 +3071,10 @@
                           "L": [
                             1,
                             2
+                          ],
+                          "O": [
+                            "",
+                            ""
                           ],
                           "T": "MapGetValue",
                           "OT": null
@@ -3065,6 +3172,9 @@
                 "L": [
                   1
                 ],
+                "O": [
+                  ""
+                ],
                 "T": "WaitForSeconds",
                 "OT": null
               },
@@ -3087,6 +3197,9 @@
                     "X": 349,
                     "L": [
                       1
+                    ],
+                    "O": [
+                      ""
                     ],
                     "T": "RemoveEntity",
                     "OT": null
@@ -3161,7 +3274,7 @@
                 "V": {
                   "shadow": {
                     "type": "tyd",
-                    "id": "0J4yBfgmkRahb(rtaFQ!",
+                    "id": "6+-Gu*5m0gl(dCtF40K)",
                     "extraState": "Vector3"
                   },
                   "block": {
@@ -3171,6 +3284,9 @@
                       "X": 89,
                       "L": [
                         1
+                      ],
+                      "O": [
+                        ""
                       ],
                       "T": "VectorNormalize",
                       "OT": null
@@ -3195,6 +3311,11 @@
                               1,
                               2,
                               3
+                            ],
+                            "O": [
+                              "",
+                              "",
+                              ""
                             ],
                             "T": "NewVector",
                             "OT": null
@@ -3429,7 +3550,7 @@
                     "R": {
                       "shadow": {
                         "type": "tys",
-                        "id": "uIQT[?r1-wRiWHC~*LtL",
+                        "id": "CKt@OS%A$U$$)/Ho1eS[",
                         "extraState": "Vector3"
                       },
                       "block": {
@@ -3467,7 +3588,8 @@
   "graphData": {
     "ownerType": "Entity",
     "componentTypes": "Global",
-    "isStatic": false
+    "isStatic": false,
+    "platform": 2
   }
 }
-//"{FE:{"v":"1.8.3020133","c":{"FF":4404},"s":100}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

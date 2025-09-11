@@ -1,1 +1,1331 @@
-{"blocks":{"languageVersion":0,"blocks":[{"type":"fna","id":"s%;pZd?$|QV0O2U`)C$Q","x":-195,"y":-110,"extraState":[{"id":"_arg6634","name":"mapChoice","type":"Int","isOut":false}],"fields":{"N":"createAirdrop","_arg6634":{"name":"mapChoice","type":"Int"}},"inputs":{"D":{"block":{"type":"a","id":"xCuBj3qw[+rmZn]F8[fC","extraState":{"X":30,"L":[1],"T":"WaitForSeconds","OT":null},"inputs":{"P1":{"shadow":{"type":"ipi","id":".)$p.Lq=zB(U1)UaG?`q","fields":{"V":15000}}}},"next":{"block":{"type":"a","id":"K7.~QpmK4Os`ND@XI9=b","extraState":{"X":684,"L":[1],"T":"CreateAirDropEntity","OT":null},"fields":{"P1":{"name":"Airdrop","type":"AirDrop"}},"next":{"block":{"type":"grs","id":"l^I7SboJvBq@gx3V2W|/","fields":{"VR":"vbMJQowdh","O":"UK"},"inputs":{"V":{"shadow":{"type":"tys","id":"ZpX6`1=bF!L[H3n5jnw;","extraState":"AirDrop"},"block":{"type":"lcg","id":":o/07M#://88@h:X.zN$","extraState":"K7.~QpmK4Os`ND@XI9=bP1","fields":{"VR":"Airdrop"}}}},"next":{"block":{"type":"lcd","id":"$+Fd9es8;=9~ebx(SA3;","fields":{"VD":{"name":"airdropItemList","type":"ListT_any"},"T":"ListT_any"},"inputs":{"V":{"shadow":{"type":"tyd","id":"0=OqQed{Q`9LG^:OW@S,","extraState":"ListT_any"},"block":{"type":"lic","id":"%xv;WND;q=WxjV[0u5fu","extraState":{"X":3},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"j=NR]/TDN/]i)E^1@o6w","extraState":"any"},"block":{"type":"pki","id":"!B[S%%?=DeR#Z:D18Xq+","fields":{"V":"5c65a6b1287e1186d3bde416c22c0639"}}},"I1":{"shadow":{"type":"tys","id":"P{$_ApvR4M2r^-a5Del4","extraState":"any"},"block":{"type":"pki","id":"u$Zt:+@5wc7m/rY01DZZ","fields":{"V":"95782190aee072d8ac71edb8ece4c0db"}}},"I2":{"shadow":{"type":"tys","id":"X1JRzat*jhx1`q4d9F,p","extraState":"any"},"block":{"type":"pki","id":"r6h6^Ccn]gz!N,Rls*fx","fields":{"V":"7be2b8b0763c5302964a76402a95d9a0"}}}}}}},"next":{"block":{"type":"prs","id":";d]R.*!xNt+58rro(22@","fields":{"P":"StartDropTime:AirDrop","O":"UK"},"inputs":{"H":{"shadow":{"type":"tys","id":"k6xm_l5(XX-wH2$cop+%","extraState":"Component"},"block":{"type":"grg","id":"l!G3`8*D6?(7,lM:J=8v","fields":{"VR":"vbMJQowdh"}}},"V":{"shadow":{"type":"tys","id":"bXi}COt2)foFV`7G;|H!","extraState":"Int"},"block":{"type":"glg","id":"mT#d]ti1pxF5SxcvN-9|","fields":{"P":"GameTimeMs:Global"}}}},"next":{"block":{"type":"prs","id":"%2_S$vt?:5J@VJn%ci[S","fields":{"P":"Position:Transform","O":"UK"},"inputs":{"H":{"shadow":{"type":"tys","id":"k6xm_l5(XX-wH2$cop+%","extraState":"Component"},"block":{"type":"grg","id":"efIn{ota?!~@Le#:P-EK","fields":{"VR":"vbMJQowdh"}}},"V":{"shadow":{"type":"tys","id":"6-2#uyd}uDjJQvmXM[l6","extraState":"Vector3"},"block":{"type":"v","id":";9*CP*drr@vO]J|5G)8W","extraState":{"X":67,"L":[1,2],"T":"ListGetElement","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"POKok$R]FNUR$-GzWwTy","extraState":"List"},"block":{"type":"tya","id":"P;Z|K_GW2S9b*3eY]ruC","fields":{"T":"ListT_any"},"inputs":{"V":{"shadow":{"type":"tys","id":"]Xw,T)[u2as6l6igZYXe","extraState":"any"},"block":{"type":"v","id":"NU8Kz/^D4w^z#STUC=J;","extraState":{"X":67,"L":[1,2],"T":"ListGetElement","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"jJ*?;_,~FTui;;_};lE{","extraState":"List"},"block":{"type":"grg","id":"`1K4GV)jbkVaZdDoXM,:","fields":{"VR":"vp0PyxP1j"}}},"P2":{"shadow":{"type":"ipi","id":"ahtr37bh?!9mYR_IFHl`","fields":{"V":0}},"block":{"type":"lcg","id":"eYjhA0q.Xl(],pHkY5aG","extraState":"s%;pZd?$|QV0O2U`)C$Q_arg6634","fields":{"VR":"mapChoice"}}}}}}}}},"P2":{"shadow":{"type":"ipi","id":"#[|G99UDpc1GTgNP/zHq","fields":{"V":0}},"block":{"type":"grg","id":"@JVwkIP0-|FgL4Wi71jS","fields":{"VR":"vYCTa5Ilt"}}}}}}},"next":{"block":{"type":"lcd","id":"C]x)pv/6C_#@G5zJ/sgW","fields":{"VD":{"name":"randomItem","type":"Int"},"T":"$Auto"},"inputs":{"V":{"shadow":{"type":"tyd","id":"]:aDeB8_cL7FJ{Q-4%c1","extraState":"$Auto"},"block":{"type":"v","id":"T^g)8~n3xOFYy~0Gm41^","extraState":{"X":68,"L":[1,2],"T":"RandomInt","OT":null},"inputs":{"P1":{"shadow":{"type":"ipi","id":"WQoTbWfTd-PRasW/}Y;G","fields":{"V":0}}},"P2":{"shadow":{"type":"ipi","id":"YPm23=@cU/vnv`j/NA-G","fields":{"V":0}},"block":{"type":"ipi","id":"ic`xwK05.lv=}]6BXj/2","fields":{"V":3}}}}}}},"next":{"block":{"type":"prs","id":"i#Q.$]V0`*n!=1]7fGEi","fields":{"P":"DropItems:AirDrop","O":"UK"},"inputs":{"H":{"shadow":{"type":"tys","id":"k6xm_l5(XX-wH2$cop+%","extraState":"Component"},"block":{"type":"grg","id":"yoV^Z[(P*`U9Pn~r/KWt","fields":{"VR":"vbMJQowdh"}}},"V":{"shadow":{"type":"tys","id":"HInfa`npu{~48=B]1.|8","extraState":"MapT_Int_Int"},"block":{"type":"lid","id":"Tt==|0^.}a9ShQSQ0-5`","extraState":{"X":3},"fields":{"T1":"any","T2":"any"},"inputs":{"K0":{"shadow":{"type":"tys","id":"_=_RYCYujqoiB]3W4I!.","extraState":"any__Key"},"block":{"type":"pki","id":"*HGiV|^_:J4f%,_dR7P9","fields":{"V":"2b335df95ee6d7618c96c2a63967b238"}}},"V0":{"shadow":{"type":"tys","id":"V9}%E-1_;1F/~%vNBaAu","extraState":"any__Value"},"block":{"type":"ipi","id":"qy9zJE4OHPbG(o:b-8ov","fields":{"V":1}}},"K1":{"shadow":{"type":"tys","id":"E_Ksqm2i.jiuBRrf3.d?","extraState":"any__Key"},"block":{"type":"pki","id":"`h-.$0}?8|=9.Avqd?zU","fields":{"V":"d38a1b0452be91e8383a62c1f6ad0639"}}},"V1":{"shadow":{"type":"tys","id":"A.%a0T!L?$@09Pv9_Rn$","extraState":"any__Value"},"block":{"type":"ipi","id":"@W9p7P1PnN}:=2g3}73)","fields":{"V":1}}},"K2":{"shadow":{"type":"tys","id":"`:9(Gr8Ej:M1R/_Q[zyj","extraState":"any__Key"},"block":{"type":"v","id":"dwxko@$E8u5QEnjn9nv,","extraState":{"X":67,"L":[1,2],"T":"ListGetElement","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"]%-q~CcVNcrB5cyyV}|z","extraState":"List"},"block":{"type":"lcg","id":"[Vaa?2,t48=K{{p-bKbd","extraState":"$+Fd9es8;=9~ebx(SA3;VD","fields":{"VR":"airdropItemList"}}},"P2":{"shadow":{"type":"ipi","id":"{SaPzVa.`A~]qavYI]R}","fields":{"V":0}},"block":{"type":"lcg","id":"Lqor9yx2H=^1uPH5(Ulo","extraState":"C]x)pv/6C_#@G5zJ/sgWVD","fields":{"VR":"randomItem"}}}}}},"V2":{"shadow":{"type":"tys","id":"u^FefhmBJg1z`Z^RsQST","extraState":"any__Value"},"block":{"type":"ipi","id":"CCE-::ba.:KG:aD%BWFW","fields":{"V":1}}}}}}}}}}}}}}}}}}}}}}}}},{"type":"fna","id":"}fC)$E*o[zI2lLp$5A;!","x":302,"y":669,"extraState":[],"fields":{"N":"deleteAirdrop"},"inputs":{"D":{"block":{"type":"a","id":"7t^}g39mf@^{]{DUdb!p","extraState":{"X":349,"L":[1],"T":"RemoveEntity","OT":null},"inputs":{"P1":{"shadow":{"type":"tys","id":"nx[$FfK+:cr(SUJL|M,+","extraState":"entity"},"block":{"type":"grg","id":"ar2xXb.d!L6JjXk|w.M?","fields":{"VR":"vbMJQowdh"}}}}}}}},{"type":"pke","id":"P95af#Drge(I^c9pP*Ey","x":3295,"y":-178,"fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"0uQXdGzA"}},{"type":"pke","id":"Ha4s!x/u~8aWi$R@DTXX","x":3294,"y":74,"fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"LQf4om34"}},{"type":"pke","id":"$Giw%mIBXJxw4q`GY$8n","x":3294,"y":326,"fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"oWlgqAW8"}},{"type":"pke","id":"+H}.#3$NK47mg3?B/(I8","x":3294,"y":578,"fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"ALdgDAjm"}},{"type":"pke","id":":j~[p)zhSV*Epa00hA5r","x":3294,"y":830,"fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"urGyDAaW"}},{"type":"pke","id":"bqgVud3bVR`$nhvY,rpC","x":3294,"y":1082,"fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"f2tl4tAH"}},{"type":"e","id":"eci0_:cz##GvM4NCd8S!","x":1518,"y":-225,"extraState":{"X":3,"L":[1],"T":"OnRoundStart","OT":null},"fields":{"P1":{"name":"Round index","type":"Int"}},"next":{"block":{"type":"grs","id":".$uo1fOL],Tu2*;vANSs","fields":{"VR":"vp0PyxP1j","O":"UK"},"inputs":{"V":{"shadow":{"type":"tys","id":"hn%sW6vMJ%x!D#!jouIa","extraState":"any"},"block":{"type":"lic","id":"}QamaGh7=@a.8wz]5q;p","extraState":{"X":6},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"1QhhAwg2}2cDZ3j5SS;Q","extraState":"any"},"block":{"type":"lic","id":"E|$j2J@S=~x]|U}Z1Dm%","extraState":{"X":2},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"x8WUp%25)41FC)jH[b6H","extraState":"any"},"block":{"type":"prg","id":"uXY8~CfzV;J+8qbP8{?^","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"V)XS;r~ufF}u~7rl/LCr","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"ZA2EXvMf"}}}}}},"I1":{"shadow":{"type":"tys","id":";P)Xt-uDcX#HR?e4)D=Y","extraState":"any"},"block":{"type":"prg","id":"B5T{AlX+=mP+!l^?LvkB","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"!xSp,fA`O!b}_W*KnRuz","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"pwcGO0dE"}}}}}}}}},"I1":{"shadow":{"type":"tys","id":"h)#U$^j!wkAL:D4OG3.#","extraState":"any"},"block":{"type":"lic","id":"wf7*`DM+M_#7]:iK/~|;","extraState":{"X":2},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"x8WUp%25)41FC)jH[b6H","extraState":"any"},"block":{"type":"prg","id":"2G2sUgPb,TWMyyi$1^|2","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"?cN;xp*9!WCmSksmZ6[?","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"vVe8eh6s"}}}}}},"I1":{"shadow":{"type":"tys","id":";P)Xt-uDcX#HR?e4)D=Y","extraState":"any"},"block":{"type":"prg","id":"`w.P,URb{M+yPm|a9d2?","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"~O_|~N1C4o09Qo*3}5NF","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"EeamuIEL"}}}}}}}}},"I2":{"shadow":{"type":"tys","id":"@]RJqy.hA%7#U|xDq4eg","extraState":"any"},"block":{"type":"lic","id":"Ds=@x3F)Xv!9[_Tf8)6_","extraState":{"X":2},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"x8WUp%25)41FC)jH[b6H","extraState":"any"},"block":{"type":"prg","id":"s(S/ulU.wWGViAPrG8dJ","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"MSBqSP1E~Qs%i2W!BV?s","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"b7Y9y8SG"}}}}}},"I1":{"shadow":{"type":"tys","id":";P)Xt-uDcX#HR?e4)D=Y","extraState":"any"},"block":{"type":"prg","id":"Nl)gq}hgpwv^;_QKUv,z","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"Gs|P|MR9UO0UwpBqwV[~","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"J2lP7ZyX"}}}}}}}}},"I3":{"shadow":{"type":"tys","id":"@/$J4{^}HOdaxnqJF3Tb","extraState":"any"},"block":{"type":"lic","id":"49/s@g)}ghx_DQhDmqtS","extraState":{"X":2},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"x8WUp%25)41FC)jH[b6H","extraState":"any"},"block":{"type":"prg","id":"4VOZ$]#M3GVo,_vOh%BF","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"p%T%ssdpKFBtQEZgIAUx","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"2AEtQQyi"}}}}}},"I1":{"shadow":{"type":"tys","id":";P)Xt-uDcX#HR?e4)D=Y","extraState":"any"},"block":{"type":"prg","id":"fZpY2Q=ePCq1sJc+?!q[","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"e[sQTl_U*GjmKl0?^[1.","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"JmgZ3Zai"}}}}}}}}},"I4":{"shadow":{"type":"tys","id":"@0*2v:*Qs^Isv8d}O9jH","extraState":"any"},"block":{"type":"lic","id":"Rf;O#`bb-mAlIlF0PeGX","extraState":{"X":2},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"x8WUp%25)41FC)jH[b6H","extraState":"any"},"block":{"type":"prg","id":"8bb-Z9Az/xA1U]J?vj@t","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"n(`l$*4#KZs*wwc[}M4z","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"tVUmcx9s"}}}}}},"I1":{"shadow":{"type":"tys","id":";P)Xt-uDcX#HR?e4)D=Y","extraState":"any"},"block":{"type":"prg","id":"9!M%t/$_L4sd,YM;k5LD","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":";53=/|ie?#p)esEDAQkw","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"SodXpSQq"}}}}}}}}},"I5":{"shadow":{"type":"tys","id":"t,24D.9NP@DHM/pPFqU,","extraState":"any"},"block":{"type":"lic","id":"jr8LI#891D-aLXgULgrK","extraState":{"X":2},"fields":{"T":"any"},"inputs":{"I0":{"shadow":{"type":"tys","id":"x8WUp%25)41FC)jH[b6H","extraState":"any"},"block":{"type":"prg","id":"uTtMGQb|)pONbVC=2]JN","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"*#ECFZ$6lm(o~D?7myQY","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"YymQZl77"}}}}}},"I1":{"shadow":{"type":"tys","id":";P)Xt-uDcX#HR?e4)D=Y","extraState":"any"},"block":{"type":"prg","id":"8c#Yw~{/DRD`^qTu:+T-","extraState":{"X":1,"T":"Vector3"},"fields":{"P":"Position:Transform"},"inputs":{"H":{"shadow":{"type":"tys","id":"m2_lLE@M1Yaq/B`w5R8}","extraState":"Component"},"block":{"type":"pke","id":"cP*jxbVR:QAQh.VR*l3,","fields":{"HD":"89p60ls4wg4-lpuplinv-ot9169p3iab","E":"RCtQ6xTx"}}}}}}}}}}}}},"next":{"block":{"type":"grs","id":"6tum;?}b5WGSAVnl}-l=","fields":{"VR":"vYCTa5Ilt","O":"UK"},"inputs":{"V":{"shadow":{"type":"tys","id":"I2VJx-=|j*P_I}cz8N*x","extraState":"any"},"block":{"type":"v","id":"o#isbkH|{b7p~jbqq6H,","extraState":{"X":68,"L":[1,2],"T":"RandomInt","OT":null},"inputs":{"P1":{"shadow":{"type":"ipi","id":"LH|hqdVQ=_B)|gw:O0d%","fields":{"V":0}}},"P2":{"shadow":{"type":"ipi","id":"cXQH:ICyQ/w=,8Kvm:`%","fields":{"V":2}}}}}}}}}}}},{"type":"pki","id":"Hb@4]fVHPd#yntkm),#=","x":909,"y":412,"fields":{"V":"2b335df95ee6d7618c96c2a63967b238"}}]},"variables":[{"id":"vbMJQowdh","name":"airdrop","type":"AirDrop","value":null},{"id":"vp0PyxP1j","name":"airdropLocation","type":"any","value":null},{"id":"vYCTa5Ilt","name":"airdropChoice","type":"any","value":null}],"graphData":{"ownerType":"Entity","componentTypes":"Entity","isStatic":false}}//"{FE:{"v":"1.7.4","c":{"FF":43},"s":100}
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fna",
+        "id": "s%;pZd?$|QV0O2U`)C$Q",
+        "x": -195,
+        "y": -110,
+        "extraState": [
+          {
+            "id": "_arg6634",
+            "name": "mapChoice",
+            "type": "Int",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "createAirdrop",
+          "_arg6634": {
+            "name": "mapChoice",
+            "type": "Int"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "a",
+              "id": "xCuBj3qw[+rmZn]F8[fC",
+              "extraState": {
+                "X": 30,
+                "L": [
+                  1
+                ],
+                "O": [
+                  ""
+                ],
+                "T": "WaitForSeconds",
+                "OT": null
+              },
+              "inputs": {
+                "P1": {
+                  "shadow": {
+                    "type": "ipi",
+                    "id": ".)$p.Lq=zB(U1)UaG?`q",
+                    "fields": {
+                      "V": 15000
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "a",
+                  "id": "K7.~QpmK4Os`ND@XI9=b",
+                  "extraState": {
+                    "X": 684,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      "o"
+                    ],
+                    "T": "CreateAirDropEntity",
+                    "OT": null
+                  },
+                  "fields": {
+                    "P1": {
+                      "name": "Airdrop",
+                      "type": "AirDrop"
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "grs",
+                      "id": "l^I7SboJvBq@gx3V2W|/",
+                      "fields": {
+                        "VR": "vbMJQowdh",
+                        "O": "UK"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "Y9V7-,wOT8!o$SYH,r4X",
+                            "extraState": "AirDrop"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": ":o/07M#://88@h:X.zN$",
+                            "extraState": "K7.~QpmK4Os`ND@XI9=bP1",
+                            "fields": {
+                              "VR": "Airdrop"
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "lcd",
+                          "id": "$+Fd9es8;=9~ebx(SA3;",
+                          "fields": {
+                            "VD": {
+                              "name": "airdropItemList",
+                              "type": "ListT_any"
+                            },
+                            "T": "ListT_any"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tyd",
+                                "id": "xV[`Rb7M=,`HKlJBw=w3",
+                                "extraState": "ListT_any"
+                              },
+                              "block": {
+                                "type": "lic",
+                                "id": "%xv;WND;q=WxjV[0u5fu",
+                                "extraState": {
+                                  "X": 3
+                                },
+                                "fields": {
+                                  "T": "any"
+                                },
+                                "inputs": {
+                                  "I0": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "j=NR]/TDN/]i)E^1@o6w",
+                                      "extraState": "any"
+                                    },
+                                    "block": {
+                                      "type": "pki",
+                                      "id": "!B[S%%?=DeR#Z:D18Xq+",
+                                      "fields": {
+                                        "V": "5c65a6b1287e1186d3bde416c22c0639"
+                                      }
+                                    }
+                                  },
+                                  "I1": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "P{$_ApvR4M2r^-a5Del4",
+                                      "extraState": "any"
+                                    },
+                                    "block": {
+                                      "type": "pki",
+                                      "id": "u$Zt:+@5wc7m/rY01DZZ",
+                                      "fields": {
+                                        "V": "95782190aee072d8ac71edb8ece4c0db"
+                                      }
+                                    }
+                                  },
+                                  "I2": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "X1JRzat*jhx1`q4d9F,p",
+                                      "extraState": "any"
+                                    },
+                                    "block": {
+                                      "type": "pki",
+                                      "id": "r6h6^Ccn]gz!N,Rls*fx",
+                                      "fields": {
+                                        "V": "84fcab56664755dddc2c11852c7a6d86"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "prs",
+                              "id": ";d]R.*!xNt+58rro(22@",
+                              "fields": {
+                                "P": "StartDropTime:AirDrop",
+                                "O": "UK"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "k6xm_l5(XX-wH2$cop+%",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "grg",
+                                    "id": "l!G3`8*D6?(7,lM:J=8v",
+                                    "fields": {
+                                      "VR": "vbMJQowdh"
+                                    }
+                                  }
+                                },
+                                "V": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "@hPX]g~{rcKi!_bHle|B",
+                                    "extraState": "Int"
+                                  },
+                                  "block": {
+                                    "type": "glg",
+                                    "id": "mT#d]ti1pxF5SxcvN-9|",
+                                    "fields": {
+                                      "P": "GameTimeMs:Global"
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "prs",
+                                  "id": "%2_S$vt?:5J@VJn%ci[S",
+                                  "fields": {
+                                    "P": "Position:Transform",
+                                    "O": "UK"
+                                  },
+                                  "inputs": {
+                                    "H": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "k6xm_l5(XX-wH2$cop+%",
+                                        "extraState": "Component"
+                                      },
+                                      "block": {
+                                        "type": "grg",
+                                        "id": "efIn{ota?!~@Le#:P-EK",
+                                        "fields": {
+                                          "VR": "vbMJQowdh"
+                                        }
+                                      }
+                                    },
+                                    "V": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "s#IN:LL?9LyO_u5N4J~{",
+                                        "extraState": "Vector3"
+                                      },
+                                      "block": {
+                                        "type": "v",
+                                        "id": ";9*CP*drr@vO]J|5G)8W",
+                                        "extraState": {
+                                          "X": 67,
+                                          "L": [
+                                            1,
+                                            2
+                                          ],
+                                          "O": [
+                                            "",
+                                            ""
+                                          ],
+                                          "T": "ListGetElement",
+                                          "OT": null
+                                        },
+                                        "inputs": {
+                                          "P1": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "POKok$R]FNUR$-GzWwTy",
+                                              "extraState": "List"
+                                            },
+                                            "block": {
+                                              "type": "tya",
+                                              "id": "P;Z|K_GW2S9b*3eY]ruC",
+                                              "fields": {
+                                                "T": "ListT_any"
+                                              },
+                                              "inputs": {
+                                                "V": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "]Xw,T)[u2as6l6igZYXe",
+                                                    "extraState": "any"
+                                                  },
+                                                  "block": {
+                                                    "type": "v",
+                                                    "id": "NU8Kz/^D4w^z#STUC=J;",
+                                                    "extraState": {
+                                                      "X": 67,
+                                                      "L": [
+                                                        1,
+                                                        2
+                                                      ],
+                                                      "O": [
+                                                        "",
+                                                        ""
+                                                      ],
+                                                      "T": "ListGetElement",
+                                                      "OT": null
+                                                    },
+                                                    "inputs": {
+                                                      "P1": {
+                                                        "shadow": {
+                                                          "type": "tys",
+                                                          "id": "jJ*?;_,~FTui;;_};lE{",
+                                                          "extraState": "List"
+                                                        },
+                                                        "block": {
+                                                          "type": "grg",
+                                                          "id": "`1K4GV)jbkVaZdDoXM,:",
+                                                          "fields": {
+                                                            "VR": "vp0PyxP1j"
+                                                          }
+                                                        }
+                                                      },
+                                                      "P2": {
+                                                        "shadow": {
+                                                          "type": "ipi",
+                                                          "id": "ahtr37bh?!9mYR_IFHl`",
+                                                          "fields": {
+                                                            "V": 0
+                                                          }
+                                                        },
+                                                        "block": {
+                                                          "type": "lcg",
+                                                          "id": "eYjhA0q.Xl(],pHkY5aG",
+                                                          "extraState": "s%;pZd?$|QV0O2U`)C$Q_arg6634",
+                                                          "fields": {
+                                                            "VR": "mapChoice"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "P2": {
+                                            "shadow": {
+                                              "type": "ipi",
+                                              "id": "#[|G99UDpc1GTgNP/zHq",
+                                              "fields": {
+                                                "V": 0
+                                              }
+                                            },
+                                            "block": {
+                                              "type": "grg",
+                                              "id": "@JVwkIP0-|FgL4Wi71jS",
+                                              "fields": {
+                                                "VR": "vYCTa5Ilt"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "lcd",
+                                      "id": "C]x)pv/6C_#@G5zJ/sgW",
+                                      "fields": {
+                                        "VD": {
+                                          "name": "randomItem",
+                                          "type": "Int"
+                                        },
+                                        "T": "$Auto"
+                                      },
+                                      "inputs": {
+                                        "V": {
+                                          "shadow": {
+                                            "type": "tyd",
+                                            "id": "j7G3RJ.~YCsi`J(-MEtD",
+                                            "extraState": "$Auto"
+                                          },
+                                          "block": {
+                                            "type": "v",
+                                            "id": "T^g)8~n3xOFYy~0Gm41^",
+                                            "extraState": {
+                                              "X": 68,
+                                              "L": [
+                                                1,
+                                                2
+                                              ],
+                                              "O": [
+                                                "",
+                                                ""
+                                              ],
+                                              "T": "RandomInt",
+                                              "OT": null
+                                            },
+                                            "inputs": {
+                                              "P1": {
+                                                "shadow": {
+                                                  "type": "ipi",
+                                                  "id": "WQoTbWfTd-PRasW/}Y;G",
+                                                  "fields": {
+                                                    "V": 0
+                                                  }
+                                                }
+                                              },
+                                              "P2": {
+                                                "shadow": {
+                                                  "type": "ipi",
+                                                  "id": "YPm23=@cU/vnv`j/NA-G",
+                                                  "fields": {
+                                                    "V": 0
+                                                  }
+                                                },
+                                                "block": {
+                                                  "type": "ipi",
+                                                  "id": "ic`xwK05.lv=}]6BXj/2",
+                                                  "fields": {
+                                                    "V": 3
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "prs",
+                                          "id": "i#Q.$]V0`*n!=1]7fGEi",
+                                          "fields": {
+                                            "P": "DropItems:AirDrop",
+                                            "O": "UK"
+                                          },
+                                          "inputs": {
+                                            "H": {
+                                              "shadow": {
+                                                "type": "tys",
+                                                "id": "k6xm_l5(XX-wH2$cop+%",
+                                                "extraState": "Component"
+                                              },
+                                              "block": {
+                                                "type": "grg",
+                                                "id": "yoV^Z[(P*`U9Pn~r/KWt",
+                                                "fields": {
+                                                  "VR": "vbMJQowdh"
+                                                }
+                                              }
+                                            },
+                                            "V": {
+                                              "shadow": {
+                                                "type": "tys",
+                                                "id": "0;5v$XNKjohIS3G_%)]B",
+                                                "extraState": "MapT_Int_Int"
+                                              },
+                                              "block": {
+                                                "type": "lid",
+                                                "id": "Tt==|0^.}a9ShQSQ0-5`",
+                                                "extraState": {
+                                                  "X": 3
+                                                },
+                                                "fields": {
+                                                  "T1": "any",
+                                                  "T2": "any"
+                                                },
+                                                "inputs": {
+                                                  "K0": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "_=_RYCYujqoiB]3W4I!.",
+                                                      "extraState": "any__Key"
+                                                    },
+                                                    "block": {
+                                                      "type": "pki",
+                                                      "id": "*HGiV|^_:J4f%,_dR7P9",
+                                                      "fields": {
+                                                        "V": "2b335df95ee6d7618c96c2a63967b238"
+                                                      }
+                                                    }
+                                                  },
+                                                  "V0": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "V9}%E-1_;1F/~%vNBaAu",
+                                                      "extraState": "any__Value"
+                                                    },
+                                                    "block": {
+                                                      "type": "ipi",
+                                                      "id": "qy9zJE4OHPbG(o:b-8ov",
+                                                      "fields": {
+                                                        "V": 1
+                                                      }
+                                                    }
+                                                  },
+                                                  "K1": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "E_Ksqm2i.jiuBRrf3.d?",
+                                                      "extraState": "any__Key"
+                                                    },
+                                                    "block": {
+                                                      "type": "pki",
+                                                      "id": "`h-.$0}?8|=9.Avqd?zU",
+                                                      "fields": {
+                                                        "V": "d38a1b0452be91e8383a62c1f6ad0639"
+                                                      }
+                                                    }
+                                                  },
+                                                  "V1": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "A.%a0T!L?$@09Pv9_Rn$",
+                                                      "extraState": "any__Value"
+                                                    },
+                                                    "block": {
+                                                      "type": "ipi",
+                                                      "id": "@W9p7P1PnN}:=2g3}73)",
+                                                      "fields": {
+                                                        "V": 1
+                                                      }
+                                                    }
+                                                  },
+                                                  "K2": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "`:9(Gr8Ej:M1R/_Q[zyj",
+                                                      "extraState": "any__Key"
+                                                    },
+                                                    "block": {
+                                                      "type": "v",
+                                                      "id": "dwxko@$E8u5QEnjn9nv,",
+                                                      "extraState": {
+                                                        "X": 67,
+                                                        "L": [
+                                                          1,
+                                                          2
+                                                        ],
+                                                        "O": [
+                                                          "",
+                                                          ""
+                                                        ],
+                                                        "T": "ListGetElement",
+                                                        "OT": null
+                                                      },
+                                                      "inputs": {
+                                                        "P1": {
+                                                          "shadow": {
+                                                            "type": "tys",
+                                                            "id": "]%-q~CcVNcrB5cyyV}|z",
+                                                            "extraState": "List"
+                                                          },
+                                                          "block": {
+                                                            "type": "lcg",
+                                                            "id": "[Vaa?2,t48=K{{p-bKbd",
+                                                            "extraState": "$+Fd9es8;=9~ebx(SA3;VD",
+                                                            "fields": {
+                                                              "VR": "airdropItemList"
+                                                            }
+                                                          }
+                                                        },
+                                                        "P2": {
+                                                          "shadow": {
+                                                            "type": "ipi",
+                                                            "id": "{SaPzVa.`A~]qavYI]R}",
+                                                            "fields": {
+                                                              "V": 0
+                                                            }
+                                                          },
+                                                          "block": {
+                                                            "type": "lcg",
+                                                            "id": "Lqor9yx2H=^1uPH5(Ulo",
+                                                            "extraState": "C]x)pv/6C_#@G5zJ/sgWVD",
+                                                            "fields": {
+                                                              "VR": "randomItem"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "V2": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "u^FefhmBJg1z`Z^RsQST",
+                                                      "extraState": "any__Value"
+                                                    },
+                                                    "block": {
+                                                      "type": "ipi",
+                                                      "id": "CCE-::ba.:KG:aD%BWFW",
+                                                      "fields": {
+                                                        "V": 1
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "fna",
+        "id": "}fC)$E*o[zI2lLp$5A;!",
+        "x": 302,
+        "y": 669,
+        "extraState": [],
+        "fields": {
+          "N": "deleteAirdrop"
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "a",
+              "id": "7t^}g39mf@^{]{DUdb!p",
+              "extraState": {
+                "X": 349,
+                "L": [
+                  1
+                ],
+                "O": [
+                  ""
+                ],
+                "T": "RemoveEntity",
+                "OT": null
+              },
+              "inputs": {
+                "P1": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "nx[$FfK+:cr(SUJL|M,+",
+                    "extraState": "entity"
+                  },
+                  "block": {
+                    "type": "grg",
+                    "id": "ar2xXb.d!L6JjXk|w.M?",
+                    "fields": {
+                      "VR": "vbMJQowdh"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "pke",
+        "id": "bqgVud3bVR`$nhvY,rpC",
+        "x": 3294,
+        "y": 1082,
+        "fields": {
+          "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+          "E": "f2tl4tAH"
+        }
+      },
+      {
+        "type": "e",
+        "id": "eci0_:cz##GvM4NCd8S!",
+        "x": 1518,
+        "y": -225,
+        "extraState": {
+          "X": 3,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnRoundStart",
+          "OT": null
+        },
+        "fields": {
+          "P1": {
+            "name": "Round index",
+            "type": "Int"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "grs",
+            "id": ".$uo1fOL],Tu2*;vANSs",
+            "fields": {
+              "VR": "vp0PyxP1j",
+              "O": "UK"
+            },
+            "inputs": {
+              "V": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "IRE=-oXBd_DNvTmZ$pe)",
+                  "extraState": "any"
+                },
+                "block": {
+                  "type": "lic",
+                  "id": "}QamaGh7=@a.8wz]5q;p",
+                  "extraState": {
+                    "X": 6
+                  },
+                  "fields": {
+                    "T": "any"
+                  },
+                  "inputs": {
+                    "I0": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "1QhhAwg2}2cDZ3j5SS;Q",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lic",
+                        "id": "E|$j2J@S=~x]|U}Z1Dm%",
+                        "extraState": {
+                          "X": 2
+                        },
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "I0": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "x8WUp%25)41FC)jH[b6H",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "uXY8~CfzV;J+8qbP8{?^",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "V)XS;r~ufF}u~7rl/LCr",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "ZA2EXvMf"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "I1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";P)Xt-uDcX#HR?e4)D=Y",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "B5T{AlX+=mP+!l^?LvkB",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "!xSp,fA`O!b}_W*KnRuz",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "pwcGO0dE"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "I1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "h)#U$^j!wkAL:D4OG3.#",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lic",
+                        "id": "wf7*`DM+M_#7]:iK/~|;",
+                        "extraState": {
+                          "X": 2
+                        },
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "I0": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "x8WUp%25)41FC)jH[b6H",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "2G2sUgPb,TWMyyi$1^|2",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "?cN;xp*9!WCmSksmZ6[?",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "vVe8eh6s"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "I1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";P)Xt-uDcX#HR?e4)D=Y",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "`w.P,URb{M+yPm|a9d2?",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "~O_|~N1C4o09Qo*3}5NF",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "EeamuIEL"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "I2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "@]RJqy.hA%7#U|xDq4eg",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lic",
+                        "id": "Ds=@x3F)Xv!9[_Tf8)6_",
+                        "extraState": {
+                          "X": 2
+                        },
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "I0": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "x8WUp%25)41FC)jH[b6H",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "s(S/ulU.wWGViAPrG8dJ",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "MSBqSP1E~Qs%i2W!BV?s",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "b7Y9y8SG"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "I1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";P)Xt-uDcX#HR?e4)D=Y",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "Nl)gq}hgpwv^;_QKUv,z",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "Gs|P|MR9UO0UwpBqwV[~",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "J2lP7ZyX"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "I3": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "@/$J4{^}HOdaxnqJF3Tb",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lic",
+                        "id": "49/s@g)}ghx_DQhDmqtS",
+                        "extraState": {
+                          "X": 2
+                        },
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "I0": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "x8WUp%25)41FC)jH[b6H",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "4VOZ$]#M3GVo,_vOh%BF",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "p%T%ssdpKFBtQEZgIAUx",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "2AEtQQyi"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "I1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";P)Xt-uDcX#HR?e4)D=Y",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "fZpY2Q=ePCq1sJc+?!q[",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "e[sQTl_U*GjmKl0?^[1.",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "JmgZ3Zai"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "I4": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "@0*2v:*Qs^Isv8d}O9jH",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lic",
+                        "id": "Rf;O#`bb-mAlIlF0PeGX",
+                        "extraState": {
+                          "X": 2
+                        },
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "I0": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "x8WUp%25)41FC)jH[b6H",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "8bb-Z9Az/xA1U]J?vj@t",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "n(`l$*4#KZs*wwc[}M4z",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "tVUmcx9s"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "I1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";P)Xt-uDcX#HR?e4)D=Y",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "9!M%t/$_L4sd,YM;k5LD",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": ";53=/|ie?#p)esEDAQkw",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "SodXpSQq"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "I5": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "t,24D.9NP@DHM/pPFqU,",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lic",
+                        "id": "jr8LI#891D-aLXgULgrK",
+                        "extraState": {
+                          "X": 2
+                        },
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "I0": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "x8WUp%25)41FC)jH[b6H",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "uTtMGQb|)pONbVC=2]JN",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "*#ECFZ$6lm(o~D?7myQY",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "YymQZl77"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "I1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": ";P)Xt-uDcX#HR?e4)D=Y",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "8c#Yw~{/DRD`^qTu:+T-",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Vector3"
+                              },
+                              "fields": {
+                                "P": "Position:Transform"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "m2_lLE@M1Yaq/B`w5R8}",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "pke",
+                                    "id": "cP*jxbVR:QAQh.VR*l3,",
+                                    "fields": {
+                                      "HD": "89p60ls4wg4-lpuplinv-ot9169p3iab",
+                                      "E": "RCtQ6xTx"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "grs",
+                "id": "6tum;?}b5WGSAVnl}-l=",
+                "fields": {
+                  "VR": "vYCTa5Ilt",
+                  "O": "UK"
+                },
+                "inputs": {
+                  "V": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "Va3y~TR}KE/OH.WiYYdD",
+                      "extraState": "any"
+                    },
+                    "block": {
+                      "type": "v",
+                      "id": "o#isbkH|{b7p~jbqq6H,",
+                      "extraState": {
+                        "X": 68,
+                        "L": [
+                          1,
+                          2
+                        ],
+                        "O": [
+                          "",
+                          ""
+                        ],
+                        "T": "RandomInt",
+                        "OT": null
+                      },
+                      "inputs": {
+                        "P1": {
+                          "shadow": {
+                            "type": "ipi",
+                            "id": "LH|hqdVQ=_B)|gw:O0d%",
+                            "fields": {
+                              "V": 0
+                            }
+                          }
+                        },
+                        "P2": {
+                          "shadow": {
+                            "type": "ipi",
+                            "id": "cXQH:ICyQ/w=,8Kvm:`%",
+                            "fields": {
+                              "V": 2
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vbMJQowdh",
+      "name": "airdrop",
+      "type": "AirDrop",
+      "value": null
+    },
+    {
+      "id": "vp0PyxP1j",
+      "name": "airdropLocation",
+      "type": "any",
+      "value": null
+    },
+    {
+      "id": "vYCTa5Ilt",
+      "name": "airdropChoice",
+      "type": "any",
+      "value": null
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Entity",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

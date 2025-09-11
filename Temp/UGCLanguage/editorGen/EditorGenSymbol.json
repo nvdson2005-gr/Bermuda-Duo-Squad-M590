@@ -1036,6 +1036,10 @@
               {
                 "ID": "vRMhLOtBS",
                 "Name": "voted"
+              },
+              {
+                "ID": "visBjLys9",
+                "Name": "chooseCombo4"
               }
             ],
             "Funcs": [
@@ -1098,6 +1102,10 @@
               {
                 "ID": "getGunComboByIndex",
                 "Name": "getGunComboByIndex"
+              },
+              {
+                "ID": "chooseCombo4",
+                "Name": "chooseCombo4"
               }
             ]
           },
@@ -1314,7 +1322,7 @@
             ]
           },
           {
-            "ID": "EDITOR_GEN_RESOURCE_REGISTERATION_ID0l551ujq3",
+            "ID": "EDITOR_GEN_RESOURCE_REGISTERATION_IDruktyj2rz",
             "Name": "Res",
             "Props": [
               {
@@ -1414,8 +1422,24 @@
                 "Name": "Performance"
               },
               {
+                "ID": "Editor_Gen_Resource_Scene_Bermuda",
+                "Name": "Bermuda"
+              },
+              {
                 "ID": "Editor_Gen_Resource_UI_RoundResult",
                 "Name": "RoundResult"
+              },
+              {
+                "ID": "Editor_Gen_Resource_UI_TEAM_SCORE_HUD",
+                "Name": "TEAM_SCORE_HUD"
+              },
+              {
+                "ID": "Editor_Gen_Resource_UI_REMINDER",
+                "Name": "REMINDER"
+              },
+              {
+                "ID": "Editor_Gen_Resource_UI_FIRST_BLOOD",
+                "Name": "FIRST_BLOOD"
               }
             ],
             "Funcs": []
@@ -1423,132 +1447,653 @@
         ],
         "Enums": [
           {
-            "ID": 508272,
+            "ID": 571595,
             "Name": "EResFCG",
-            "Items": []
+            "Items": [
+              {
+                "Name": "GlobalRandomEvent",
+                "Value": "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxSYW5kb21FdmVudC5mY2c="
+              },
+              {
+                "Name": "PlayerEvents",
+                "Value": "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L1BsYXllcnMvUGxheWVyRXZlbnRzLmZjZw=="
+              },
+              {
+                "Name": "GlobalGunCombo",
+                "Value": "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxHdW5Db21iby5mY2c="
+              },
+              {
+                "Name": "GlobalConfig",
+                "Value": "bH7wBDEhLi9Bc3NldHMvU2NyaXB0L0dsb2JhbHMvR2xvYmFsRGF0YS9HbG9iYWxDb25maWcuZmNn"
+              }
+            ]
           },
           {
-            "ID": 107381,
+            "ID": 6827,
             "Name": "EResECA",
             "Items": []
           },
           {
-            "ID": 326299,
+            "ID": 336353,
             "Name": "EResPrefab",
             "Items": []
           },
           {
-            "ID": 4359,
+            "ID": 741057,
             "Name": "EResSprite",
-            "Items": []
+            "Items": [
+              {
+                "Name": "M10143",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp1"
+              },
+              {
+                "Name": "M1887",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp2"
+              },
+              {
+                "Name": "M82B",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp3"
+              },
+              {
+                "Name": "SCAR3",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp4"
+              },
+              {
+                "Name": "GROZAX",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp5"
+              },
+              {
+                "Name": "MP53",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp6"
+              },
+              {
+                "Name": "SVDY",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp7"
+              },
+              {
+                "Name": "M603",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp8"
+              },
+              {
+                "Name": "MP40",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp9"
+              },
+              {
+                "Name": "WOODPECKER",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp10"
+              },
+              {
+                "Name": "VSS",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp11"
+              },
+              {
+                "Name": "MAC10",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp12"
+              },
+              {
+                "Name": "SKS",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp13"
+              },
+              {
+                "Name": "KATANA",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp14"
+              },
+              {
+                "Name": "JUMPINGSHOES",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp15"
+              },
+              {
+                "Name": "AWMY",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp16"
+              },
+              {
+                "Name": "M590",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp17"
+              },
+              {
+                "Name": "KAR98K",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp18"
+              },
+              {
+                "Name": "AC80",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp19"
+              },
+              {
+                "Name": "AK47",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp20"
+              },
+              {
+                "Name": "M249",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp21"
+              },
+              {
+                "Name": "FAMAS3",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp22"
+              },
+              {
+                "Name": "ZOMBIE",
+                "Value": "T_34_M_WS_ICON_CORPSE"
+              },
+              {
+                "Name": "DOUBLEJUMPSHOE",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp15"
+              },
+              {
+                "Name": "GRENADESPLIT",
+                "Value": "ui_icon_skill_Grenade_Split"
+              },
+              {
+                "Name": "NUTTYMOVEMENT",
+                "Value": "ui_icon_skill_Singersb_link"
+              },
+              {
+                "Name": "PLAYER",
+                "Value": "FF_WS_guest"
+              },
+              {
+                "Name": "SANTINO1",
+                "Value": "ui_icon_skill_Santino_01"
+              },
+              {
+                "Name": "JETSHOE",
+                "Value": "bH7wBDEh.a-bhgckqbcj0b-mfakpvpv-bhm4q4w9v57/Sp23"
+              },
+              {
+                "Name": "ACTIVENOON",
+                "Value": "FF_UI_Active_Noon"
+              },
+              {
+                "Name": "KENTA",
+                "Value": "ui_icon_skill_Kenta"
+              },
+              {
+                "Name": "TOP_TEAM_ICON",
+                "Value": "UI_WeaponPower_BR_01"
+              }
+            ]
           },
           {
-            "ID": 874948,
+            "ID": 184939,
             "Name": "EResTexture",
             "Items": []
           },
           {
-            "ID": 574930,
+            "ID": 460767,
             "Name": "EResEffect",
-            "Items": []
+            "Items": [
+              {
+                "Name": "CYLINDRICAL",
+                "Value": "UGC_T_34_LY_WS_VFX2"
+              },
+              {
+                "Name": "RING",
+                "Value": "UGC_T_34_LY_WS_VFX3"
+              }
+            ]
           },
           {
-            "ID": 75443,
+            "ID": 845566,
             "Name": "EResSound",
             "Items": []
           },
           {
-            "ID": 201806,
+            "ID": 233477,
             "Name": "EResItem",
-            "Items": []
+            "Items": [
+              {
+                "Name": "M10143",
+                "Value": 186
+              },
+              {
+                "Name": "M1887",
+                "Value": 41
+              },
+              {
+                "Name": "M82B",
+                "Value": 45
+              },
+              {
+                "Name": "SCAR3",
+                "Value": 180
+              },
+              {
+                "Name": "GROZAX",
+                "Value": 70
+              },
+              {
+                "Name": "MP53",
+                "Value": 121
+              },
+              {
+                "Name": "SVDY",
+                "Value": 72
+              },
+              {
+                "Name": "M603",
+                "Value": 123
+              },
+              {
+                "Name": "MP40",
+                "Value": 15
+              },
+              {
+                "Name": "WOODPECKER",
+                "Value": 48
+              },
+              {
+                "Name": "VSS",
+                "Value": 13
+              },
+              {
+                "Name": "MAC10",
+                "Value": 88
+              },
+              {
+                "Name": "SKS",
+                "Value": 18
+              },
+              {
+                "Name": "KATANA",
+                "Value": 34
+              },
+              {
+                "Name": "JUMPINGSHOES",
+                "Value": 1602
+              },
+              {
+                "Name": "AWMY",
+                "Value": 65
+              },
+              {
+                "Name": "M590",
+                "Value": 21002
+              },
+              {
+                "Name": "KAR98K",
+                "Value": 129
+              },
+              {
+                "Name": "AC80",
+                "Value": 89
+              },
+              {
+                "Name": "AK47",
+                "Value": 6
+              },
+              {
+                "Name": "M249",
+                "Value": 19
+              },
+              {
+                "Name": "FAMAS3",
+                "Value": 131
+              },
+              {
+                "Name": "JETPACKSHOES",
+                "Value": 1601
+              },
+              {
+                "Name": "SUPERMED",
+                "Value": 1205
+              },
+              {
+                "Name": "SCOPE2",
+                "Value": 534
+              },
+              {
+                "Name": "HORIZALINE",
+                "Value": 108
+              },
+              {
+                "Name": "HOOK_GUN",
+                "Value": 38
+              },
+              {
+                "Name": "MINI_TURRET",
+                "Value": 2102
+              },
+              {
+                "Name": "VEST4",
+                "Value": 309
+              }
+            ]
           },
           {
-            "ID": 955090,
+            "ID": 993986,
             "Name": "EResLevelObject",
-            "Items": []
+            "Items": [
+              {
+                "Name": "ICON_OBJECT",
+                "Value": 223
+              }
+            ]
           },
           {
-            "ID": 557026,
+            "ID": 429320,
             "Name": "EResCloth",
             "Items": []
           },
           {
-            "ID": 620706,
+            "ID": 273566,
             "Name": "EResWeaponSkin",
             "Items": []
           },
           {
-            "ID": 501377,
+            "ID": 238428,
             "Name": "EResVehicleSkin",
             "Items": []
           },
           {
-            "ID": 131626,
+            "ID": 644025,
             "Name": "EResEmote",
             "Items": []
           },
           {
-            "ID": 439971,
+            "ID": 820658,
             "Name": "EResCSV",
             "Items": []
           },
           {
-            "ID": 89157,
+            "ID": 161891,
             "Name": "EResInternalHud",
-            "Items": []
+            "Items": [
+              {
+                "Name": "ROUND_START",
+                "Value": 1018
+              }
+            ]
           },
           {
-            "ID": 991379,
+            "ID": 977218,
             "Name": "EResMesh",
             "Items": []
           },
           {
-            "ID": 982711,
+            "ID": 61228,
             "Name": "EResMaterial",
             "Items": []
           },
           {
-            "ID": 192150,
+            "ID": 247655,
             "Name": "EResAnimationController",
             "Items": []
           },
           {
-            "ID": 306244,
+            "ID": 775719,
             "Name": "EResParticles",
             "Items": []
           },
           {
-            "ID": 311366,
+            "ID": 862885,
             "Name": "EResPlayerData",
             "Items": []
           },
           {
-            "ID": 324852,
+            "ID": 808165,
             "Name": "EResBehaviorTree",
             "Items": []
           },
           {
-            "ID": 379178,
+            "ID": 707545,
             "Name": "EResPerformance",
             "Items": []
           },
           {
-            "ID": 909102,
+            "ID": 838824,
             "Name": "EResScene",
-            "Items": []
+            "Items": [
+              {
+                "Name": "Bermuda",
+                "Value": "bH7wBDEh.89p60ls4wg4-lpuplinv-ot9169p3iab"
+              }
+            ]
           },
           {
-            "ID": 218159,
+            "ID": 369487,
             "Name": "EResUI",
             "Items": [
               {
                 "Name": "RoundResult",
                 "Value": ""
+              },
+              {
+                "Name": "TEAM_SCORE_HUD",
+                "Value": ""
+              },
+              {
+                "Name": "REMINDER",
+                "Value": ""
+              },
+              {
+                "Name": "FIRST_BLOOD",
+                "Value": ""
               }
             ]
           },
           {
-            "ID": 580046,
+            "ID": 220491,
+            "Name": "EResSceneBermuda",
+            "Items": [
+              {
+                "Name": "Team3Spawn_Map1",
+                "Value": "/1/lOCkeBVE"
+              },
+              {
+                "Name": "Team2Spawn_Map1",
+                "Value": "/1/z39CqVXO"
+              },
+              {
+                "Name": "Team1Spawn_Map1",
+                "Value": "/1/1jTugzOM"
+              },
+              {
+                "Name": "Team4Spawn_Map1",
+                "Value": "/1/07e1ayYc"
+              },
+              {
+                "Name": "Spawn_T1_M2",
+                "Value": "/1/nwLRTmls"
+              },
+              {
+                "Name": "Spawn_T2_M2",
+                "Value": "/1/UKnbocC2"
+              },
+              {
+                "Name": "Spawn_T3_M2",
+                "Value": "/1/QAN7YdkF"
+              },
+              {
+                "Name": "Spawn_T4_M2",
+                "Value": "/1/sMlw83XC"
+              },
+              {
+                "Name": "Spawn_T1_Map3",
+                "Value": "/1/umOvsUss"
+              },
+              {
+                "Name": "Spawn_T2_Map3",
+                "Value": "/1/mRellLjT"
+              },
+              {
+                "Name": "Spawn_T3_Map3",
+                "Value": "/1/4ik6Je1n"
+              },
+              {
+                "Name": "Spawn_T4_Map3",
+                "Value": "/1/18LXPEes"
+              },
+              {
+                "Name": "Spawn_T1_Map4",
+                "Value": "/1/YeHx2aft"
+              },
+              {
+                "Name": "Spawn_T2_Map4",
+                "Value": "/1/NQXEh6wI"
+              },
+              {
+                "Name": "Spawn_T3_Map4",
+                "Value": "/1/2kxVOQAN"
+              },
+              {
+                "Name": "Spawn_T4_Map4",
+                "Value": "/1/dDa91qjh"
+              },
+              {
+                "Name": "Spawn_T1_Map5",
+                "Value": "/1/enfTyKtY"
+              },
+              {
+                "Name": "Spawn_T2_Map5",
+                "Value": "/1/V0nYIbx0"
+              },
+              {
+                "Name": "Spawn_T3_Map5",
+                "Value": "/1/UzVzBcL5"
+              },
+              {
+                "Name": "Spawn_T4_Map5",
+                "Value": "/1/4AwuN98F"
+              },
+              {
+                "Name": "Spawn_T1_Map6",
+                "Value": "/1/Fx8YhOCK"
+              },
+              {
+                "Name": "Spawn_T2_Map6",
+                "Value": "/1/z9ZIxxUX"
+              },
+              {
+                "Name": "Spawn_T3_Map6",
+                "Value": "/1/MxK3XpnK"
+              },
+              {
+                "Name": "Spawn_T4_Map6",
+                "Value": "/1/fVh1rKXG"
+              },
+              {
+                "Name": "Border_Map1_1",
+                "Value": "/1/UqWV7MQK"
+              },
+              {
+                "Name": "Border_Map1_11",
+                "Value": "/1/wTt25CJG"
+              },
+              {
+                "Name": "Border_Map1_12",
+                "Value": "/1/0uQXdGzA"
+              },
+              {
+                "Name": "Border_Map2_1",
+                "Value": "/1/6b9RaksV"
+              },
+              {
+                "Name": "Border_Map2_11",
+                "Value": "/1/SFd3e5rN"
+              },
+              {
+                "Name": "Border_Map2_12",
+                "Value": "/1/LQf4om34"
+              },
+              {
+                "Name": "border_Map3",
+                "Value": "/1/jm8ZOEME"
+              },
+              {
+                "Name": "border_Map31",
+                "Value": "/1/hldOl2Jq"
+              },
+              {
+                "Name": "border_Map32",
+                "Value": "/1/oWlgqAW8"
+              },
+              {
+                "Name": "Border_Map4",
+                "Value": "/1/bF9QKulo"
+              },
+              {
+                "Name": "Border_Map41",
+                "Value": "/1/63Dyt55p"
+              },
+              {
+                "Name": "Border_Map42",
+                "Value": "/1/ALdgDAjm"
+              },
+              {
+                "Name": "Border_Map5",
+                "Value": "/1/P0kjXdta"
+              },
+              {
+                "Name": "Border_Map51",
+                "Value": "/1/4HqPYYxC"
+              },
+              {
+                "Name": "Border_Map52",
+                "Value": "/1/urGyDAaW"
+              },
+              {
+                "Name": "Border_Map6",
+                "Value": "/1/nlNYq3n9"
+              },
+              {
+                "Name": "Border_Map61",
+                "Value": "/1/br673TwE"
+              },
+              {
+                "Name": "Border_Map62",
+                "Value": "/1/f2tl4tAH"
+              },
+              {
+                "Name": "Airdrop_Map1_1",
+                "Value": "/1/ZA2EXvMf"
+              },
+              {
+                "Name": "Airdrop_Map1_2",
+                "Value": "/1/pwcGO0dE"
+              },
+              {
+                "Name": "Airdrop_Map2_1_1",
+                "Value": "/1/vVe8eh6s"
+              },
+              {
+                "Name": "Airdrop_Map2_1_2",
+                "Value": "/1/EeamuIEL"
+              },
+              {
+                "Name": "Airdrop_Map3_1_1",
+                "Value": "/1/b7Y9y8SG"
+              },
+              {
+                "Name": "Airdrop_Map3_1_2",
+                "Value": "/1/J2lP7ZyX"
+              },
+              {
+                "Name": "Airdrop_Map4_1_1",
+                "Value": "/1/2AEtQQyi"
+              },
+              {
+                "Name": "Airdrop_Map4_1_2",
+                "Value": "/1/JmgZ3Zai"
+              },
+              {
+                "Name": "Airdrop_Map5_1_1",
+                "Value": "/1/tVUmcx9s"
+              },
+              {
+                "Name": "Airdrop_Map5_1_2",
+                "Value": "/1/SodXpSQq"
+              },
+              {
+                "Name": "Airdrop_Map6_1_1",
+                "Value": "/1/YymQZl77"
+              },
+              {
+                "Name": "Airdrop_Map6_1_2",
+                "Value": "/1/RCtQ6xTx"
+              }
+            ]
+          },
+          {
+            "ID": 711678,
             "Name": "EResUIRoundResult",
             "Items": [
               {
@@ -1562,128 +2107,260 @@
             ]
           },
           {
+            "ID": 304899,
+            "Name": "EResUITEAM_SCORE_HUD",
+            "Items": [
+              {
+                "Name": "CURRENT_TEAM_1",
+                "Value": 0
+              },
+              {
+                "Name": "CURRENT_TEAM_2",
+                "Value": 0
+              },
+              {
+                "Name": "CURRENT_TEAM_3",
+                "Value": 0
+              },
+              {
+                "Name": "CURRENT_TEAM_4",
+                "Value": 0
+              },
+              {
+                "Name": "TEAM1_SCORE",
+                "Value": 0
+              },
+              {
+                "Name": "TEAM2_SCORE",
+                "Value": 0
+              },
+              {
+                "Name": "TEAM3_SCORE",
+                "Value": 0
+              },
+              {
+                "Name": "TEAM4_SCORE",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T1",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T1_knock",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T1",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T1_knock",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T3",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T3_knock",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T3",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T3_knock",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T4",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T4_knock",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T4",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T4_knock",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T2",
+                "Value": 0
+              },
+              {
+                "Name": "player1_T2_knock",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T2",
+                "Value": 0
+              },
+              {
+                "Name": "player2_T2_knock",
+                "Value": 0
+              }
+            ]
+          },
+          {
+            "ID": 501054,
+            "Name": "EResUIREMINDER",
+            "Items": []
+          },
+          {
+            "ID": 70873,
+            "Name": "EResUIFIRST_BLOOD",
+            "Items": []
+          },
+          {
             "Name": "EResKeyUI",
-            "ID": 803239,
+            "ID": 409522,
             "Items": []
           },
           {
             "Name": "EResKeyScene",
-            "ID": 535809,
+            "ID": 545998,
             "Items": []
           },
           {
             "Name": "EResKeyPrefab",
-            "ID": 388482,
+            "ID": 71492,
             "Items": []
           },
           {
             "Name": "EResKeyFCG",
-            "ID": 476518,
+            "ID": 883649,
             "Items": []
           },
           {
             "Name": "EResKeyECA",
-            "ID": 830012,
+            "ID": 958133,
             "Items": []
           },
           {
             "Name": "EResKeySprite",
-            "ID": 11596,
+            "ID": 348197,
             "Items": []
           },
           {
             "Name": "EResKeyEffect",
-            "ID": 85151,
+            "ID": 377445,
             "Items": []
           },
           {
             "Name": "EResKeySound",
-            "ID": 385192,
+            "ID": 606862,
             "Items": []
           },
           {
             "Name": "EResKeyItem",
-            "ID": 207299,
+            "ID": 369971,
             "Items": []
           },
           {
             "Name": "EResKeyLevelObject",
-            "ID": 132437,
+            "ID": 910363,
             "Items": []
           },
           {
             "Name": "EResKeyCloth",
-            "ID": 831662,
+            "ID": 172011,
             "Items": []
           },
           {
             "Name": "EResKeyWeaponSkin",
-            "ID": 485837,
+            "ID": 604434,
             "Items": []
           },
           {
             "Name": "EResKeyVehicleSkin",
-            "ID": 960274,
+            "ID": 957314,
             "Items": []
           },
           {
             "Name": "EResKeyEmote",
-            "ID": 109720,
+            "ID": 865040,
             "Items": []
           },
           {
             "Name": "EResKeyCSV",
-            "ID": 578129,
+            "ID": 403654,
             "Items": []
           },
           {
             "Name": "EResKeyInternalHud",
-            "ID": 719766,
+            "ID": 881660,
             "Items": []
           },
           {
             "Name": "EResKeyTexture",
-            "ID": 450982,
+            "ID": 586208,
             "Items": []
           },
           {
             "Name": "EResKeyMesh",
-            "ID": 251675,
+            "ID": 225036,
             "Items": []
           },
           {
             "Name": "EResKeyMaterial",
-            "ID": 966407,
+            "ID": 772154,
             "Items": []
           },
           {
             "Name": "EResKeyAnimationController",
-            "ID": 155078,
+            "ID": 240638,
             "Items": []
           },
           {
             "Name": "EResKeyParticles",
-            "ID": 45218,
+            "ID": 188475,
             "Items": []
           },
           {
             "Name": "EResKeyPlayerData",
-            "ID": 811314,
+            "ID": 228568,
             "Items": []
           },
           {
             "Name": "EResKeyBehaviorTree",
-            "ID": 73011,
+            "ID": 458567,
             "Items": []
           },
           {
             "Name": "EResKeyPerformance",
-            "ID": 591717,
+            "ID": 174673,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyBermuda",
+            "ID": 954960,
             "Items": []
           },
           {
             "Name": "EResKeyRoundResult",
-            "ID": 832586,
+            "ID": 732853,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyTEAM_SCORE_HUD",
+            "ID": 387089,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyREMINDER",
+            "ID": 274215,
+            "Items": []
+          },
+          {
+            "Name": "EResKeyFIRST_BLOOD",
+            "ID": 999270,
             "Items": []
           },
           {

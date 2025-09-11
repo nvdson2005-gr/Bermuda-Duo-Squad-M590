@@ -31,7 +31,10 @@
                 "selfValue": true,
                 "valueTag": "activeValue"
               },
-              "unlockedValue": null,
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
               "editorLockValue": false,
               "editorVisibleValue": true,
               "propsData": {
@@ -305,7 +308,10 @@
             "selfValue": true,
             "valueTag": "activeValue"
           },
-          "unlockedValue": null,
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
           "editorLockValue": false,
           "editorVisibleValue": true,
           "propsData": {
@@ -498,7 +504,7 @@
                 "Entity": {},
                 "Component": {}
               },
-              "_entityName": "player1_T1_knock (1)",
+              "_entityName": "player2_T1_knock",
               "entityTagData": {
                 "tagPointers": []
               },
@@ -1006,7 +1012,10 @@
                 "selfValue": true,
                 "valueTag": "activeValue"
               },
-              "unlockedValue": null,
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
               "editorLockValue": false,
               "editorVisibleValue": true,
               "propsData": {
@@ -1285,7 +1294,7 @@
                 "Entity": {},
                 "Component": {}
               },
-              "_entityName": "player1_T2_knock (2)",
+              "_entityName": "player2_T2_knock",
               "entityTagData": {
                 "tagPointers": []
               },
@@ -1498,7 +1507,7 @@
                 "Entity": {},
                 "Component": {}
               },
-              "_entityName": "player1_T2_knock (1)",
+              "_entityName": "player1_T2_knock",
               "entityTagData": {
                 "tagPointers": []
               },
@@ -1812,7 +1821,10 @@
             "selfValue": true,
             "valueTag": "activeValue"
           },
-          "unlockedValue": null,
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
           "propsData": {
             "activeSelf": true,
             "transform": {
@@ -1981,7 +1993,10 @@
                 "selfValue": true,
                 "valueTag": "activeValue"
               },
-              "unlockedValue": null,
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
               "editorLockValue": false,
               "editorVisibleValue": true,
               "propsData": {
@@ -2260,7 +2275,7 @@
                 "Entity": {},
                 "Component": {}
               },
-              "_entityName": "player1_T3_knock (2)",
+              "_entityName": "player2_T3_knock",
               "entityTagData": {
                 "tagPointers": []
               },
@@ -2473,7 +2488,7 @@
                 "Entity": {},
                 "Component": {}
               },
-              "_entityName": "player1_T3_knock (1)",
+              "_entityName": "player1_T3_knock",
               "entityTagData": {
                 "tagPointers": []
               },
@@ -2787,7 +2802,10 @@
             "selfValue": true,
             "valueTag": "activeValue"
           },
-          "unlockedValue": null,
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
           "editorLockValue": false,
           "editorVisibleValue": true,
           "propsData": {
@@ -2956,7 +2974,10 @@
                 "selfValue": true,
                 "valueTag": "activeValue"
               },
-              "unlockedValue": null,
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
               "editorLockValue": false,
               "editorVisibleValue": true,
               "propsData": {
@@ -3235,7 +3256,7 @@
                 "Entity": {},
                 "Component": {}
               },
-              "_entityName": "player1_T4_knock (2)",
+              "_entityName": "player2_T4_knock",
               "entityTagData": {
                 "tagPointers": []
               },
@@ -3448,7 +3469,7 @@
                 "Entity": {},
                 "Component": {}
               },
-              "_entityName": "player1_T4_knock (1)",
+              "_entityName": "player1_T4_knock",
               "entityTagData": {
                 "tagPointers": []
               },
@@ -3762,7 +3783,10 @@
             "selfValue": true,
             "valueTag": "activeValue"
           },
-          "unlockedValue": null,
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
           "editorLockValue": false,
           "editorVisibleValue": true,
           "propsData": {

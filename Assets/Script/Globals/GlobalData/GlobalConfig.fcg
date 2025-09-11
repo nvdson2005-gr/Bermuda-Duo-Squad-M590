@@ -1,0 +1,16 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+
+static graph GlobalConfig {
+    // Default objective, a team must capture at least this many points to win.
+    objective int = 3 
+
+    // The money acquired by winning a match
+    winMoneys List<int> = List<int>{1000, 1500, 1700, 1900, 2000, 2200, 2500}
+
+    // The money acquired by losing a match
+    loseMoneys List<int> = List<int>{700, 1200, 1500, 1500, 1700, 2000, 2000}
+
+    // Variable indicating that the current round is match point
+    isMatchPoint bool = false
+}

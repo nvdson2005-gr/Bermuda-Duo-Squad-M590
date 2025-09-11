@@ -1,0 +1,98 @@
+/*
+    GlobalBorder.fcg
+    Description: This script defines the behavior of global borders in the game.
+    Borders are used to define the end points, and the running safe zones.
+    Replace GlobalBorder.eca
+*/
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "List.fcc" as List
+import "Player.fcc" as Player
+import "Workflow.fcc" as Workflow
+import "Math.fcc" as Math
+import "SafeZone.fcc" as SafeZone
+graph GlobalBorder {
+    // ================= Properties =================
+    // List of safe zone's end points (respective to each map index in GlobalSpawnPoints) to create a running safe zone
+    borderPoints List<List<Vector3>> = List<List<Vector3>>{}
+
+    // the index or ID of the chosen border points for the current match
+    firstBorderChoice int = -1 // -1 means no border is chosen yet
+    secondBorderChoice int = -1 // -1 means no border is chosen yet
+
+    // ================= Events =================
+    // On Awake event to initialize border points
+    event OnAwake() {
+        InitBorders()
+    }
+
+    event OnPhaseStart(phase entity<Phase>) {
+        // Sometimes the level objects are not ready at OnAwake, so we initialize borders again at the start of Preparation phase
+        if phase<Phase>.Index == EPhase.Preparation {
+            InitBorders()
+        } else {
+            // Debug info only (uncomment if needed)
+            // LogWarning(borderPointsFirstZone + " | " + borderPointsSecondZone)
+        }
+    }
+
+    // Randomize border choice at the start of each round
+    event OnRoundStart(roundIndex int) {
+        firstBorderChoice = RandomInt(0, 3)
+        secondBorderChoice = RandomInt(0, 3)
+        while firstBorderChoice == secondBorderChoice {
+            secondBorderChoice = RandomInt(0, 3)
+        }
+        LogInfo("Chosen border points for this round: First Zone - " + borderPoints[firstBorderChoice] + ", Second Zone - " + borderPoints[firstBorderChoice][secondBorderChoice])
+    }
+
+    // ================= Utils =================
+
+    // Initialize border points from level objects in Bermuda scene
+    func InitBorders(){
+        // Get all level objects from Bermuda.scene
+        var levelObjectsMap1 = List<entity<Transform>>{EResSceneBermuda.Border_Map1_1 as entity<Transform>, EResSceneBermuda.Border_Map1_11 as entity<Transform>, EResSceneBermuda.Border_Map1_12 as entity<Transform>}
+        var levelObjectsMap2 = List<entity<Transform>>{EResSceneBermuda.Border_Map2_1 as entity<Transform>, EResSceneBermuda.Border_Map2_11 as entity<Transform>, EResSceneBermuda.Border_Map2_12 as entity<Transform>}
+        var levelObjectsMap3 = List<entity<Transform>>{EResSceneBermuda.border_Map3 as entity<Transform>, EResSceneBermuda.border_Map31 as entity<Transform>, EResSceneBermuda.border_Map32 as entity<Transform>}
+        var levelObjectsMap4 = List<entity<Transform>>{EResSceneBermuda.Border_Map4 as entity<Transform>, EResSceneBermuda.Border_Map41 as entity<Transform>, EResSceneBermuda.Border_Map42 as entity<Transform>}
+        var levelObjectsMap5 = List<entity<Transform>>{EResSceneBermuda.Border_Map5 as entity<Transform>, EResSceneBermuda.Border_Map51 as entity<Transform>, EResSceneBermuda.Border_Map52 as entity<Transform>}
+        var levelObjectsMap6 = List<entity<Transform>>{EResSceneBermuda.Border_Map6 as entity<Transform>, EResSceneBermuda.Border_Map61 as entity<Transform>, EResSceneBermuda.Border_Map62 as entity<Transform>}
+
+        // The second safe zone (for running safe zone) is randomly chosen from all level objects in that map
+        var levelObjectsMap1Positions = List<Vector3>{levelObjectsMap1[1]<Transform>.Position, levelObjectsMap1[2]<Transform>.Position}
+        var levelObjectsMap2Positions = List<Vector3>{levelObjectsMap2[1]<Transform>.Position, levelObjectsMap2[2]<Transform>.Position}
+        var levelObjectsMap3Positions = List<Vector3>{levelObjectsMap3[1]<Transform>.Position, levelObjectsMap3[2]<Transform>.Position}
+        var levelObjectsMap4Positions = List<Vector3>{levelObjectsMap4[1]<Transform>.Position, levelObjectsMap4[2]<Transform>.Position}
+        var levelObjectsMap5Positions = List<Vector3>{levelObjectsMap5[1]<Transform>.Position, levelObjectsMap5[2]<Transform>.Position}
+        var levelObjectsMap6Positions = List<Vector3>{levelObjectsMap6[1]<Transform>.Position, levelObjectsMap6[2]<Transform>.Position}
+
+        borderPoints= List<List<Vector3>>{levelObjectsMap1Positions, levelObjectsMap2Positions, levelObjectsMap3Positions, levelObjectsMap4Positions, levelObjectsMap5Positions, levelObjectsMap6Positions}
+    }
+
+    /*
+        Turn on the first border based on the chosen map index
+        This function can be expanded to include logic for activating/deactivating borders in the game
+        @param mapChosen The index of the chosen map (0-based index)
+    */
+    func TurnOnFirstBorder(mapChosen int){
+        EnableSafeZone(borderPoints[mapChosen][firstBorderChoice], 100, 25, 120, 20)
+    }
+
+    /*
+        Turn on the second border based on the chosen map index
+        This function can be expanded to include logic for activating/deactivating borders in the game
+        @param mapChosen The index of the chosen map (0-based index)
+    */
+    func TurnOnSecondBorder(mapChosen int){
+        EnableSafeZone(borderPoints[mapChosen][secondBorderChoice], 100, 25, 120, 20)
+    }
+
+    /*
+        Get the location of the first border based on the chosen map index
+        @param mapChosen The index of the chosen map (0-based index)
+        @return The Vector3 location of the first border
+    */
+    func GetFirstBorderLocation(mapChosen int) Vector3 {
+        return borderPoints[mapChosen][firstBorderChoice]
+    }
+}

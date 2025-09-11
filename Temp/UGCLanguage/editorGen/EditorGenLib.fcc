@@ -12,18 +12,365 @@ import "MiniMap.fcc" as MiniMap
 [element CustomUIAssetID]
 enum EResUI {
     RoundResult
+    TEAM_SCORE_HUD
+    REMINDER
+    FIRST_BLOOD
+}
+[element string]
+enum EResScene {
+    Bermuda
+}
+[element ScriptID]
+enum EResFCG {
+    GlobalRandomEvent
+    PlayerEvents
+    GlobalGunCombo
+    GlobalConfig
+}
+[element SpriteID]
+enum EResSprite {
+    M10143
+    M1887
+    M82B
+    SCAR3
+    GROZAX
+    MP53
+    SVDY
+    M603
+    MP40
+    WOODPECKER
+    VSS
+    MAC10
+    SKS
+    KATANA
+    JUMPINGSHOES
+    AWMY
+    M590
+    KAR98K
+    AC80
+    AK47
+    M249
+    FAMAS3
+    ZOMBIE
+    DOUBLEJUMPSHOE
+    GRENADESPLIT
+    NUTTYMOVEMENT
+    PLAYER
+    SANTINO1
+    JETSHOE
+    ACTIVENOON
+    KENTA
+    TOP_TEAM_ICON
+}
+[element EffectID]
+enum EResEffect {
+    CYLINDRICAL
+    RING
+}
+[element ItemID]
+enum EResItem {
+    M10143
+    M1887
+    M82B
+    SCAR3
+    GROZAX
+    MP53
+    SVDY
+    M603
+    MP40
+    WOODPECKER
+    VSS
+    MAC10
+    SKS
+    KATANA
+    JUMPINGSHOES
+    AWMY
+    M590
+    KAR98K
+    AC80
+    AK47
+    M249
+    FAMAS3
+    JETPACKSHOES
+    SUPERMED
+    SCOPE2
+    HORIZALINE
+    HOOK_GUN
+    MINI_TURRET
+    VEST4
+}
+[element LevelObjectID]
+enum EResLevelObject {
+    ICON_OBJECT
+}
+[element Type]
+enum EResInternalHud {
+    ROUND_START
+}
+[element entity]
+enum EResSceneBermuda {
+    Team3Spawn_Map1
+    Team2Spawn_Map1
+    Team1Spawn_Map1
+    Team4Spawn_Map1
+    Spawn_T1_M2
+    Spawn_T2_M2
+    Spawn_T3_M2
+    Spawn_T4_M2
+    Spawn_T1_Map3
+    Spawn_T2_Map3
+    Spawn_T3_Map3
+    Spawn_T4_Map3
+    Spawn_T1_Map4
+    Spawn_T2_Map4
+    Spawn_T3_Map4
+    Spawn_T4_Map4
+    Spawn_T1_Map5
+    Spawn_T2_Map5
+    Spawn_T3_Map5
+    Spawn_T4_Map5
+    Spawn_T1_Map6
+    Spawn_T2_Map6
+    Spawn_T3_Map6
+    Spawn_T4_Map6
+    Border_Map1_1
+    Border_Map1_11
+    Border_Map1_12
+    Border_Map2_1
+    Border_Map2_11
+    Border_Map2_12
+    border_Map3
+    border_Map31
+    border_Map32
+    Border_Map4
+    Border_Map41
+    Border_Map42
+    Border_Map5
+    Border_Map51
+    Border_Map52
+    Border_Map6
+    Border_Map61
+    Border_Map62
+    Airdrop_Map1_1
+    Airdrop_Map1_2
+    Airdrop_Map2_1_1
+    Airdrop_Map2_1_2
+    Airdrop_Map3_1_1
+    Airdrop_Map3_1_2
+    Airdrop_Map4_1_1
+    Airdrop_Map4_1_2
+    Airdrop_Map5_1_1
+    Airdrop_Map5_1_2
+    Airdrop_Map6_1_1
+    Airdrop_Map6_1_2
 }
 [element CustomUIWidgetID]
 enum EResUIRoundResult {
     resultHolder
     rowTemplate
 }
+[element CustomUIWidgetID]
+enum EResUITEAM_SCORE_HUD {
+    CURRENT_TEAM_1
+    CURRENT_TEAM_2
+    CURRENT_TEAM_3
+    CURRENT_TEAM_4
+    TEAM1_SCORE
+    TEAM2_SCORE
+    TEAM3_SCORE
+    TEAM4_SCORE
+    player1_T1
+    player1_T1_knock
+    player2_T1
+    player2_T1_knock
+    player1_T3
+    player1_T3_knock
+    player2_T3
+    player2_T3_knock
+    player1_T4
+    player1_T4_knock
+    player2_T4
+    player2_T4_knock
+    player1_T2
+    player1_T2_knock
+    player2_T2
+    player2_T2_knock
+}
 enum EResKeyUI {
     RoundResult = "RoundResult"
+    TEAM_SCORE_HUD = "TEAM_SCORE_HUD"
+    REMINDER = "REMINDER"
+    FIRST_BLOOD = "FIRST_BLOOD"
+}
+enum EResKeyScene {
+    Bermuda = "Bermuda"
+}
+enum EResKeyFCG {
+    GlobalRandomEvent = "GlobalRandomEvent"
+    PlayerEvents = "PlayerEvents"
+    GlobalGunCombo = "GlobalGunCombo"
+    GlobalConfig = "GlobalConfig"
+}
+enum EResKeySprite {
+    M10143 = "M10143"
+    M1887 = "M1887"
+    M82B = "M82B"
+    SCAR3 = "SCAR3"
+    GROZAX = "GROZAX"
+    MP53 = "MP53"
+    SVDY = "SVDY"
+    M603 = "M603"
+    MP40 = "MP40"
+    WOODPECKER = "WOODPECKER"
+    VSS = "VSS"
+    MAC10 = "MAC10"
+    SKS = "SKS"
+    KATANA = "KATANA"
+    JUMPINGSHOES = "JUMPINGSHOES"
+    AWMY = "AWMY"
+    M590 = "M590"
+    KAR98K = "KAR98K"
+    AC80 = "AC80"
+    AK47 = "AK47"
+    M249 = "M249"
+    FAMAS3 = "FAMAS3"
+    ZOMBIE = "ZOMBIE"
+    DOUBLEJUMPSHOE = "DOUBLEJUMPSHOE"
+    GRENADESPLIT = "GRENADESPLIT"
+    NUTTYMOVEMENT = "NUTTYMOVEMENT"
+    PLAYER = "PLAYER"
+    SANTINO1 = "SANTINO1"
+    JETSHOE = "JETSHOE"
+    ACTIVENOON = "ACTIVENOON"
+    KENTA = "KENTA"
+    TOP_TEAM_ICON = "TOP_TEAM_ICON"
+}
+enum EResKeyEffect {
+    CYLINDRICAL = "CYLINDRICAL"
+    RING = "RING"
+}
+enum EResKeyItem {
+    M10143 = "M10143"
+    M1887 = "M1887"
+    M82B = "M82B"
+    SCAR3 = "SCAR3"
+    GROZAX = "GROZAX"
+    MP53 = "MP53"
+    SVDY = "SVDY"
+    M603 = "M603"
+    MP40 = "MP40"
+    WOODPECKER = "WOODPECKER"
+    VSS = "VSS"
+    MAC10 = "MAC10"
+    SKS = "SKS"
+    KATANA = "KATANA"
+    JUMPINGSHOES = "JUMPINGSHOES"
+    AWMY = "AWMY"
+    M590 = "M590"
+    KAR98K = "KAR98K"
+    AC80 = "AC80"
+    AK47 = "AK47"
+    M249 = "M249"
+    FAMAS3 = "FAMAS3"
+    JETPACKSHOES = "JETPACKSHOES"
+    SUPERMED = "SUPERMED"
+    SCOPE2 = "SCOPE2"
+    HORIZALINE = "HORIZALINE"
+    HOOK_GUN = "HOOK_GUN"
+    MINI_TURRET = "MINI_TURRET"
+    VEST4 = "VEST4"
+}
+enum EResKeyLevelObject {
+    ICON_OBJECT = "ICON_OBJECT"
+}
+enum EResKeyInternalHud {
+    ROUND_START = "ROUND_START"
+}
+enum EResKeyBermuda {
+    Team3Spawn_Map1 = "Team3Spawn_Map1"
+    Team2Spawn_Map1 = "Team2Spawn_Map1"
+    Team1Spawn_Map1 = "Team1Spawn_Map1"
+    Team4Spawn_Map1 = "Team4Spawn_Map1"
+    Spawn_T1_M2 = "Spawn_T1_M2"
+    Spawn_T2_M2 = "Spawn_T2_M2"
+    Spawn_T3_M2 = "Spawn_T3_M2"
+    Spawn_T4_M2 = "Spawn_T4_M2"
+    Spawn_T1_Map3 = "Spawn_T1_Map3"
+    Spawn_T2_Map3 = "Spawn_T2_Map3"
+    Spawn_T3_Map3 = "Spawn_T3_Map3"
+    Spawn_T4_Map3 = "Spawn_T4_Map3"
+    Spawn_T1_Map4 = "Spawn_T1_Map4"
+    Spawn_T2_Map4 = "Spawn_T2_Map4"
+    Spawn_T3_Map4 = "Spawn_T3_Map4"
+    Spawn_T4_Map4 = "Spawn_T4_Map4"
+    Spawn_T1_Map5 = "Spawn_T1_Map5"
+    Spawn_T2_Map5 = "Spawn_T2_Map5"
+    Spawn_T3_Map5 = "Spawn_T3_Map5"
+    Spawn_T4_Map5 = "Spawn_T4_Map5"
+    Spawn_T1_Map6 = "Spawn_T1_Map6"
+    Spawn_T2_Map6 = "Spawn_T2_Map6"
+    Spawn_T3_Map6 = "Spawn_T3_Map6"
+    Spawn_T4_Map6 = "Spawn_T4_Map6"
+    Border_Map1_1 = "Border_Map1_1"
+    Border_Map1_11 = "Border_Map1_11"
+    Border_Map1_12 = "Border_Map1_12"
+    Border_Map2_1 = "Border_Map2_1"
+    Border_Map2_11 = "Border_Map2_11"
+    Border_Map2_12 = "Border_Map2_12"
+    border_Map3 = "border_Map3"
+    border_Map31 = "border_Map31"
+    border_Map32 = "border_Map32"
+    Border_Map4 = "Border_Map4"
+    Border_Map41 = "Border_Map41"
+    Border_Map42 = "Border_Map42"
+    Border_Map5 = "Border_Map5"
+    Border_Map51 = "Border_Map51"
+    Border_Map52 = "Border_Map52"
+    Border_Map6 = "Border_Map6"
+    Border_Map61 = "Border_Map61"
+    Border_Map62 = "Border_Map62"
+    Airdrop_Map1_1 = "Airdrop_Map1_1"
+    Airdrop_Map1_2 = "Airdrop_Map1_2"
+    Airdrop_Map2_1_1 = "Airdrop_Map2_1_1"
+    Airdrop_Map2_1_2 = "Airdrop_Map2_1_2"
+    Airdrop_Map3_1_1 = "Airdrop_Map3_1_1"
+    Airdrop_Map3_1_2 = "Airdrop_Map3_1_2"
+    Airdrop_Map4_1_1 = "Airdrop_Map4_1_1"
+    Airdrop_Map4_1_2 = "Airdrop_Map4_1_2"
+    Airdrop_Map5_1_1 = "Airdrop_Map5_1_1"
+    Airdrop_Map5_1_2 = "Airdrop_Map5_1_2"
+    Airdrop_Map6_1_1 = "Airdrop_Map6_1_1"
+    Airdrop_Map6_1_2 = "Airdrop_Map6_1_2"
 }
 enum EResKeyRoundResult {
     resultHolder = "resultHolder"
     rowTemplate = "rowTemplate"
+}
+enum EResKeyTEAM_SCORE_HUD {
+    CURRENT_TEAM_1 = "CURRENT_TEAM_1"
+    CURRENT_TEAM_2 = "CURRENT_TEAM_2"
+    CURRENT_TEAM_3 = "CURRENT_TEAM_3"
+    CURRENT_TEAM_4 = "CURRENT_TEAM_4"
+    TEAM1_SCORE = "TEAM1_SCORE"
+    TEAM2_SCORE = "TEAM2_SCORE"
+    TEAM3_SCORE = "TEAM3_SCORE"
+    TEAM4_SCORE = "TEAM4_SCORE"
+    player1_T1 = "player1_T1"
+    player1_T1_knock = "player1_T1_knock"
+    player2_T1 = "player2_T1"
+    player2_T1_knock = "player2_T1_knock"
+    player1_T3 = "player1_T3"
+    player1_T3_knock = "player1_T3_knock"
+    player2_T3 = "player2_T3"
+    player2_T3_knock = "player2_T3_knock"
+    player1_T4 = "player1_T4"
+    player1_T4_knock = "player1_T4_knock"
+    player2_T4 = "player2_T4"
+    player2_T4_knock = "player2_T4_knock"
+    player1_T2 = "player1_T2"
+    player1_T2_knock = "player1_T2_knock"
+    player2_T2 = "player2_T2"
+    player2_T2_knock = "player2_T2_knock"
 }
 
 // Assets\ECA\Global.eca
@@ -782,6 +1129,9 @@ declare graph __AssetsA3ECAA3PlayerVoteGunneca__ {
     // voted
     voted bool
 
+    // chooseCombo4
+    chooseCombo4 bool
+
     // chooseCombo1()
     func chooseCombo1() 
 
@@ -826,6 +1176,9 @@ declare graph __AssetsA3ECAA3PlayerVoteGunneca__ {
 
     // getGunComboByIndex(gunMap any, index any)
     func getGunComboByIndex( gunMap object,  index object) object
+
+    // chooseCombo4()
+    func chooseCombo4() 
 
 }
 
@@ -989,7 +1342,16 @@ declare graph __AssetsA3ECAA3Waterneca__ {
 [platform_client]
 declare static graph Res {
     UI Map<EResKeyUI, CustomUIAssetID>
+    Scene Map<EResKeyScene, string>
+    FCG Map<EResKeyFCG, ScriptID>
+    Sprite Map<EResKeySprite, SpriteID>
+    Effect Map<EResKeyEffect, EffectID>
+    Item Map<EResKeyItem, ItemID>
+    LevelObject Map<EResKeyLevelObject, LevelObjectID>
+    InternalHud Map<EResKeyInternalHud, Type>
+    Bermuda Map<EResKeyBermuda, entity>
     RoundResult Map<EResKeyRoundResult, CustomUIWidgetID>
+    TEAM_SCORE_HUD Map<EResKeyTEAM_SCORE_HUD, CustomUIWidgetID>
 }
 
 [element entity]

@@ -1,0 +1,36 @@
+/*
+    PlayerDefaultHUD.fcg
+    Default HUD for Player, manages built-in HUD elements.
+    Replacement for PlayerDefaultHUD.eca
+*/
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Hud.fcc" as Hud
+import "Economy.fcc" as Economy
+
+graph PlayerDefaultHUD {
+    scoreboardHUD entity<UITwoTeamInfo> = nil
+    countDownHUD entity<UIPhaseTimer> = nil
+    roundStartHUD entity<UITwoTeamRoundScoreBanner> = nil
+    roundInfoHUD entity<UIOpeningBanner> = nil
+    roundResultHUD entity<UIWinOrLoseBanner> = nil
+    borderReminderHUD entity<UICountdownReminder> = nil
+    walletHUD entity<WalletHud> = nil
+    statHUD entity<UITwoTeamLeaderboardV2> = nil
+    statHUDentity entity<CustomUI> = nil
+    statHUDNew entity<UIMultipleTeamLeaderboardV2> = nil
+    objectiveHUD entity<UIMatchSubtitle> = nil
+
+    // -------------------- Functions --------------------
+    // func SetRoundStartHUD(){
+    //     if roundStartHUD != nil {
+    //         roundStartHUD<UITwoTeamRoundScoreBanner>.IsVisible = true
+    //         return
+    //     }
+    //     CreateBuiltInUI(out var createdUI, thisEntity as entity<Player>, EResInternalHud.ROUND_START as BuiltInUIType)
+    //     roundStartHUD = createdUI as entity<UITwoTeamRoundScoreBanner>
+    //     roundStartHUD<UITwoTeamRoundScoreBanner>.RoundNum = globalEntity<Global>.CurrentRoundIndex
+    //     roundStartHUD<UITwoTeamRoundScoreBanner>.
+    // }
+    
+}
