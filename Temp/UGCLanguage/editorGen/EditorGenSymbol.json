@@ -265,10 +265,6 @@
                 "Name": "initRoundGunCombo"
               },
               {
-                "ID": "calculateVote",
-                "Name": "calculateVote"
-              },
-              {
                 "ID": "SetRandomCombo",
                 "Name": "SetRandomCombo"
               }
@@ -1403,7 +1399,7 @@
         ],
         "Enums": [
           {
-            "ID": 861225,
+            "ID": 852393,
             "Name": "EResFCG",
             "Items": [
               {
@@ -1425,17 +1421,17 @@
             ]
           },
           {
-            "ID": 926290,
+            "ID": 138746,
             "Name": "EResECA",
             "Items": []
           },
           {
-            "ID": 85969,
+            "ID": 572383,
             "Name": "EResPrefab",
             "Items": []
           },
           {
-            "ID": 762893,
+            "ID": 567080,
             "Name": "EResSprite",
             "Items": [
               {
@@ -1569,12 +1565,12 @@
             ]
           },
           {
-            "ID": 467644,
+            "ID": 481292,
             "Name": "EResTexture",
             "Items": []
           },
           {
-            "ID": 784442,
+            "ID": 509874,
             "Name": "EResEffect",
             "Items": [
               {
@@ -1588,12 +1584,12 @@
             ]
           },
           {
-            "ID": 328026,
+            "ID": 456334,
             "Name": "EResSound",
             "Items": []
           },
           {
-            "ID": 311403,
+            "ID": 909292,
             "Name": "EResItem",
             "Items": [
               {
@@ -1715,7 +1711,7 @@
             ]
           },
           {
-            "ID": 208992,
+            "ID": 607235,
             "Name": "EResLevelObject",
             "Items": [
               {
@@ -1725,32 +1721,32 @@
             ]
           },
           {
-            "ID": 962017,
+            "ID": 828444,
             "Name": "EResCloth",
             "Items": []
           },
           {
-            "ID": 967276,
+            "ID": 206106,
             "Name": "EResWeaponSkin",
             "Items": []
           },
           {
-            "ID": 119487,
+            "ID": 507310,
             "Name": "EResVehicleSkin",
             "Items": []
           },
           {
-            "ID": 107731,
+            "ID": 519915,
             "Name": "EResEmote",
             "Items": []
           },
           {
-            "ID": 391179,
+            "ID": 288228,
             "Name": "EResCSV",
             "Items": []
           },
           {
-            "ID": 608270,
+            "ID": 157870,
             "Name": "EResInternalHud",
             "Items": [
               {
@@ -1760,42 +1756,42 @@
             ]
           },
           {
-            "ID": 654165,
+            "ID": 732448,
             "Name": "EResMesh",
             "Items": []
           },
           {
-            "ID": 124346,
+            "ID": 278096,
             "Name": "EResMaterial",
             "Items": []
           },
           {
-            "ID": 496898,
+            "ID": 108601,
             "Name": "EResAnimationController",
             "Items": []
           },
           {
-            "ID": 383848,
+            "ID": 438909,
             "Name": "EResParticles",
             "Items": []
           },
           {
-            "ID": 132987,
+            "ID": 280847,
             "Name": "EResPlayerData",
             "Items": []
           },
           {
-            "ID": 601711,
+            "ID": 927090,
             "Name": "EResBehaviorTree",
             "Items": []
           },
           {
-            "ID": 100281,
+            "ID": 793131,
             "Name": "EResPerformance",
             "Items": []
           },
           {
-            "ID": 410719,
+            "ID": 996643,
             "Name": "EResScene",
             "Items": [
               {
@@ -1805,29 +1801,29 @@
             ]
           },
           {
-            "ID": 41011,
+            "ID": 45222,
             "Name": "EResUI",
             "Items": [
               {
                 "Name": "RoundResult",
-                "Value": "/2/nySc8XRO"
+                "Value": ""
               },
               {
                 "Name": "TEAM_SCORE_HUD",
-                "Value": "/3/ez5Xk3IG"
+                "Value": ""
               },
               {
                 "Name": "REMINDER",
-                "Value": "/4/shm5WDYa"
+                "Value": ""
               },
               {
                 "Name": "FIRST_BLOOD",
-                "Value": "/5/eoCx5NtA"
+                "Value": ""
               }
             ]
           },
           {
-            "ID": 836460,
+            "ID": 468180,
             "Name": "EResSceneBermuda",
             "Items": [
               {
@@ -2049,274 +2045,274 @@
             ]
           },
           {
-            "ID": 186854,
+            "ID": 681156,
             "Name": "EResUIRoundResult",
             "Items": [
               {
                 "Name": "resultHolder",
-                "Value": 1
+                "Value": 0
               },
               {
                 "Name": "rowTemplate",
-                "Value": 2
+                "Value": 0
               }
             ]
           },
           {
-            "ID": 500410,
+            "ID": 844979,
             "Name": "EResUITEAM_SCORE_HUD",
             "Items": [
               {
                 "Name": "CURRENT_TEAM_1",
-                "Value": 3
+                "Value": 0
               },
               {
                 "Name": "CURRENT_TEAM_2",
-                "Value": 4
+                "Value": 0
               },
               {
                 "Name": "CURRENT_TEAM_3",
-                "Value": 5
+                "Value": 0
               },
               {
                 "Name": "CURRENT_TEAM_4",
-                "Value": 6
+                "Value": 0
               },
               {
                 "Name": "TEAM1_SCORE",
-                "Value": 7
+                "Value": 0
               },
               {
                 "Name": "TEAM2_SCORE",
-                "Value": 8
+                "Value": 0
               },
               {
                 "Name": "TEAM3_SCORE",
-                "Value": 9
+                "Value": 0
               },
               {
                 "Name": "TEAM4_SCORE",
-                "Value": 10
+                "Value": 0
               },
               {
                 "Name": "player1_T1",
-                "Value": 11
+                "Value": 0
               },
               {
                 "Name": "player1_T1_knock",
-                "Value": 12
+                "Value": 0
               },
               {
                 "Name": "player2_T1",
-                "Value": 13
+                "Value": 0
               },
               {
                 "Name": "player2_T1_knock",
-                "Value": 14
+                "Value": 0
               },
               {
                 "Name": "player1_T3",
-                "Value": 15
+                "Value": 0
               },
               {
                 "Name": "player1_T3_knock",
-                "Value": 16
+                "Value": 0
               },
               {
                 "Name": "player2_T3",
-                "Value": 17
+                "Value": 0
               },
               {
                 "Name": "player2_T3_knock",
-                "Value": 18
+                "Value": 0
               },
               {
                 "Name": "player1_T4",
-                "Value": 19
+                "Value": 0
               },
               {
                 "Name": "player1_T4_knock",
-                "Value": 20
+                "Value": 0
               },
               {
                 "Name": "player2_T4",
-                "Value": 21
+                "Value": 0
               },
               {
                 "Name": "player2_T4_knock",
-                "Value": 22
+                "Value": 0
               },
               {
                 "Name": "player1_T2",
-                "Value": 23
+                "Value": 0
               },
               {
                 "Name": "player1_T2_knock",
-                "Value": 24
+                "Value": 0
               },
               {
                 "Name": "player2_T2",
-                "Value": 25
+                "Value": 0
               },
               {
                 "Name": "player2_T2_knock",
-                "Value": 26
+                "Value": 0
               }
             ]
           },
           {
-            "ID": 89842,
+            "ID": 717760,
             "Name": "EResUIREMINDER",
             "Items": []
           },
           {
-            "ID": 224423,
+            "ID": 668345,
             "Name": "EResUIFIRST_BLOOD",
             "Items": []
           },
           {
             "Name": "EResKeyUI",
-            "ID": 928971,
+            "ID": 771845,
             "Items": []
           },
           {
             "Name": "EResKeyScene",
-            "ID": 278814,
+            "ID": 450703,
             "Items": []
           },
           {
             "Name": "EResKeyPrefab",
-            "ID": 231779,
+            "ID": 441631,
             "Items": []
           },
           {
             "Name": "EResKeyFCG",
-            "ID": 761236,
+            "ID": 788538,
             "Items": []
           },
           {
             "Name": "EResKeyECA",
-            "ID": 197728,
+            "ID": 987387,
             "Items": []
           },
           {
             "Name": "EResKeySprite",
-            "ID": 283624,
+            "ID": 538866,
             "Items": []
           },
           {
             "Name": "EResKeyEffect",
-            "ID": 354297,
+            "ID": 748463,
             "Items": []
           },
           {
             "Name": "EResKeySound",
-            "ID": 181007,
+            "ID": 352820,
             "Items": []
           },
           {
             "Name": "EResKeyItem",
-            "ID": 707713,
+            "ID": 546970,
             "Items": []
           },
           {
             "Name": "EResKeyLevelObject",
-            "ID": 694830,
+            "ID": 261188,
             "Items": []
           },
           {
             "Name": "EResKeyCloth",
-            "ID": 403958,
+            "ID": 676314,
             "Items": []
           },
           {
             "Name": "EResKeyWeaponSkin",
-            "ID": 148521,
+            "ID": 883377,
             "Items": []
           },
           {
             "Name": "EResKeyVehicleSkin",
-            "ID": 733797,
+            "ID": 286727,
             "Items": []
           },
           {
             "Name": "EResKeyEmote",
-            "ID": 31839,
+            "ID": 640269,
             "Items": []
           },
           {
             "Name": "EResKeyCSV",
-            "ID": 523896,
+            "ID": 327534,
             "Items": []
           },
           {
             "Name": "EResKeyInternalHud",
-            "ID": 829758,
+            "ID": 200723,
             "Items": []
           },
           {
             "Name": "EResKeyTexture",
-            "ID": 172586,
+            "ID": 102527,
             "Items": []
           },
           {
             "Name": "EResKeyMesh",
-            "ID": 913611,
+            "ID": 156812,
             "Items": []
           },
           {
             "Name": "EResKeyMaterial",
-            "ID": 907687,
+            "ID": 49654,
             "Items": []
           },
           {
             "Name": "EResKeyAnimationController",
-            "ID": 52978,
+            "ID": 931372,
             "Items": []
           },
           {
             "Name": "EResKeyParticles",
-            "ID": 492944,
+            "ID": 837245,
             "Items": []
           },
           {
             "Name": "EResKeyPlayerData",
-            "ID": 147566,
+            "ID": 977695,
             "Items": []
           },
           {
             "Name": "EResKeyBehaviorTree",
-            "ID": 87410,
+            "ID": 666846,
             "Items": []
           },
           {
             "Name": "EResKeyPerformance",
-            "ID": 865982,
+            "ID": 164150,
             "Items": []
           },
           {
             "Name": "EResKeyBermuda",
-            "ID": 307148,
+            "ID": 988086,
             "Items": []
           },
           {
             "Name": "EResKeyRoundResult",
-            "ID": 995802,
+            "ID": 780434,
             "Items": []
           },
           {
             "Name": "EResKeyTEAM_SCORE_HUD",
-            "ID": 687611,
+            "ID": 886544,
             "Items": []
           },
           {
             "Name": "EResKeyREMINDER",
-            "ID": 581227,
+            "ID": 849742,
             "Items": []
           },
           {
             "Name": "EResKeyFIRST_BLOOD",
-            "ID": 275255,
+            "ID": 68593,
             "Items": []
           },
           {

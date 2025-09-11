@@ -558,9 +558,6 @@ declare graph __AssetsA3ECAA3GlobalGunComboneca__ {
     // initRoundGunCombo()
     func initRoundGunCombo() 
 
-    // calculateVote()
-    func calculateVote() 
-
     // SetRandomCombo()
     func SetRandomCombo() object
 
