@@ -1,14 +1,14 @@
 ÿ
-HbH7wBDEhLi9Bc3NldHMvU2NyaXB0L1VJL0J1aWx0SW4vUGxheWVyRGVmYXVsdEhVRC5mY2c=C
-4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:18:4	walletHUD`G
-4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:22:4objectiveHUDþG
-4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:20:4statHUDentityH
+HbH7wBDEhLi9Bc3NldHMvU2NyaXB0L1VJL0J1aWx0SW4vUGxheWVyRGVmYXVsdEhVRC5mY2c=H
 4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:12:4scoreboardHUDÿG
 4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:13:4countDownHUDýH
 4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:14:4roundStartHUDúG
 4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:15:4roundInfoHUDóI
-4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:16:4roundResultHUDûL
-4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:17:4borderReminderHUD‡B
+4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:16:4roundResultHUDûG
+4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:20:4statHUDentityL
+4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:17:4borderReminderHUD‡C
+4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:18:4	walletHUD`B
 4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:19:4statHUDµE
 4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:21:4
-statHUDNew¶*PlayerDefaultHUD0
+statHUDNew¶G
+4./Assets/Script/UI/BuiltIn/PlayerDefaultHUD.fcg:22:4objectiveHUDþ*PlayerDefaultHUD0
