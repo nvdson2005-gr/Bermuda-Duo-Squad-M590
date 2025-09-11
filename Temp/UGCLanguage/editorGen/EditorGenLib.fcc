@@ -537,15 +537,6 @@ declare graph __AssetsA3ECAA3GlobalGunComboneca__ {
     // chosenGunCombos
     chosenGunCombos object
 
-    // 1stComboCount
-    __1stComboCount__ int
-
-    // 2ndComboCount
-    __2ndComboCount__ int
-
-    // 3rdComboCount
-    __3rdComboCount__ int
-
     // chosenCombo
     chosenCombo object
 
@@ -567,26 +558,8 @@ declare graph __AssetsA3ECAA3GlobalGunComboneca__ {
     // initRoundGunCombo()
     func initRoundGunCombo() 
 
-    // vote1st()
-    func vote1st() 
-
-    // vote2nd()
-    func vote2nd() 
-
-    // vote3rd()
-    func vote3rd() 
-
     // calculateVote()
     func calculateVote() 
-
-    // decreaseCombo1()
-    func decreaseCombo1() 
-
-    // decreaseCombo2()
-    func decreaseCombo2() 
-
-    // decreaseCombo3()
-    func decreaseCombo3() 
 
     // SetRandomCombo()
     func SetRandomCombo() object
@@ -1108,8 +1081,8 @@ declare graph __AssetsA3ECAA3PlayerVoteGunneca__ {
     // chooseCombo3
     chooseCombo3 bool
 
-    // gunVote
-    gunVote entity<CustomUI>
+    // gunVoteUI
+    gunVoteUI entity<CustomUI>
 
     // calculated
     calculated bool
@@ -1140,12 +1113,6 @@ declare graph __AssetsA3ECAA3PlayerVoteGunneca__ {
 
     // setGunVote()
     func setGunVote() 
-
-    // updateVote()
-    func updateVote() 
-
-    // disableVote()
-    func disableVote() 
 
     // updateTimer(time any)
     func updateTimer( time object) 
