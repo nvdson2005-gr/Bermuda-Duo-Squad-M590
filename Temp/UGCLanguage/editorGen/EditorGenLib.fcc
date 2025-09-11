@@ -391,9 +391,6 @@ declare graph __AssetsA3ECAA3Globalneca__ {
     // teamMap
     teamMap Map<object, object>
 
-    // keyList
-    keyList object
-
     // canUpdate
     canUpdate bool
 
@@ -420,9 +417,6 @@ declare graph __AssetsA3ECAA3Globalneca__ {
 
     // updateTeamMap()
     func updateTeamMap() 
-
-    // MyFunction4513()
-    func MyFunction4513() 
 
     // checkEndRound2()
     func checkEndRound2() 
